@@ -1,0 +1,9 @@
+{
+	"env": {
+		"jest": true
+	},
+	"extends": "@tulipjs",
+	"rules": {
+		"semi": [2, "never"]
+	}
+}
