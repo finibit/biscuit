@@ -18,6 +18,7 @@ const HeadingStyled = styled.h1`
 	font-style: ${(props) => props.$italic ? 'italic' : 'normal'};
 	color: ${(props) => themeColor(props.theme, props.$color)};
 
+	text-align: ${(props) => props.$align};
 	text-decoration: ${(props) => props.$decoration};
 	text-transform: ${(props) => props.$transform};
 
@@ -51,6 +52,7 @@ const Heading = (props) => {
 	const {
 		level,
 		color,
+		align,
 		weight,
 		italic,
 		transform,
@@ -73,6 +75,7 @@ const Heading = (props) => {
 			as={`h${level}`}
 			$level={level}
 			$color={color}
+			$align={align}
 			$weight={weight}
 			$italic={italic}
 			$transform={transform}
@@ -91,6 +94,8 @@ Heading.propTypes = {
 	level: PropTypes.oneOf([1, 2, 3, 4, 5, 6]).isRequired,
 	/** Custom color value or theme color identifier of the heading color. */
 	color: PropTypes.string,
+	/** Text alignment. */
+	align: PropTypes.oneOf(['left', 'right', 'center']),
 	/** Font weight. */
 	weight: PropTypes.oneOfType([PropTypes.oneOf(['normal', 'bold']), PropTypes.number]),
 	/** Use italic version of the font. */
@@ -111,6 +116,7 @@ Heading.propTypes = {
 
 Heading.defaultProps = {
 	color: 'dark-0',
+	align: 'left',
 	weight: 'normal',
 	italic: false,
 	transform: 'none',

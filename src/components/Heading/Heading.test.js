@@ -30,6 +30,17 @@ describe('Heading', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
+	test('align', () => {
+		const component = renderer.create((
+			<Theme>
+				<Heading level={1} align="left" />
+				<Heading level={1} align="right" />
+				<Heading level={1} align="center" />
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
+	})
+
 	test('weight', () => {
 		const component = renderer.create((
 			<Theme>

@@ -24,6 +24,13 @@ storiesOf('Heading', module)
 			<Heading level={6} color="light-0">H6 heading</Heading>
 		</Theme>
 	))
+	.add('align', () => (
+		<Theme>
+			<Heading level={1} align="left">H1 heading aligned to left</Heading>
+			<Heading level={1} align="right">H1 heading on right</Heading>
+			<Heading level={1} align="center">H1 heading centered</Heading>
+		</Theme>
+	))
 	.add('weight', () => (
 		<Theme>
 			<Heading level={1} weight="bold">H1 heading</Heading>
