@@ -95,6 +95,32 @@ const baseTheme = {
 			// xl: '',
 		},
 	},
+
+	paragraph: {
+		size: {
+			xs: -2,
+			sm: -1,
+			md: 0,
+			lg: 1,
+			xl: 2,
+		},
+
+		margin: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+
+		padding: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
 }
 
 export default baseTheme
