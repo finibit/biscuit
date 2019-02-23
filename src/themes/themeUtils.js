@@ -9,6 +9,10 @@ export const themeSpacing = (theme, elem, prop, size) => {
 		return '0'
 	}
 
+	if (typeof size === 'number') {
+		return `${scaleValue(theme, size)}rem`
+	}
+
 	if (typeof size === 'string') {
 		if (typeof theme[elem][prop][size] !== 'string' && theme[elem][prop][size] !== undefined) {
 			return `${scaleValue(theme, theme[elem][prop][size])}rem`
@@ -32,12 +36,20 @@ export const themePadding = (theme, elem, size) => (
 	themeSpacing(theme, elem, 'padding', size)
 )
 
+export const themeSize = (theme, elem, size) => (
+	themeSpacing(theme, elem, 'size', size)
+)
+
 export const responsiveArray = (size) => {
 	if (size === null || size === undefined) {
 		return ['none', 'none', 'none', 'none']
 	}
 
 	if (typeof size === 'string') {
+		return [size, size, size, size]
+	}
+
+	if (typeof size === 'number') {
 		return [size, size, size, size]
 	}
 

@@ -27,6 +27,14 @@ const baseTheme = {
 			lg: '75rem',
 		},
 
+		size: {
+			xs: -2,
+			sm: -1,
+			md: 0,
+			lg: 1,
+			xl: 2,
+		},
+
 		margin: {
 			xs: -5,
 			sm: -2,
@@ -45,6 +53,32 @@ const baseTheme = {
 	},
 
 	box: {
+		margin: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+
+		padding: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
+
+	heading: {
+		size: {
+			xs: 1,
+			sm: 2,
+			md: 3,
+			lg: 4,
+			xl: 5,
+		},
+
 		margin: {
 			// xs: '',
 			// sm: '',
