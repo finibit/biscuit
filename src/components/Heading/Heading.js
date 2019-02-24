@@ -90,6 +90,8 @@ const Heading = (props) => {
 }
 
 Heading.propTypes = {
+	/** Any number of renderable nodes. */
+	children: PropTypes.node,
 	/** Level of the heading. Corresponds to h1, h2, h3, h4, h5, h6 DOM elements. */
 	level: PropTypes.oneOf([1, 2, 3, 4, 5, 6]).isRequired,
 	/** Custom color value or theme color identifier of the heading color. */
@@ -106,15 +108,16 @@ Heading.propTypes = {
 	decoration: PropTypes.oneOf(['none', 'underline', 'overline', 'line-through']),
 	/** Size of the heading. */
 	size: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
-	/** The amount of margin around the box. */
+	/** The amount of margin around the heading. */
 	margin: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
-	/** The amount of padding around the box. */
+	/** The amount of padding around the heading. */
 	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
 	/** Custom styles passed to styled-components. */
 	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 }
 
 Heading.defaultProps = {
+	children: null,
 	color: 'dark-0',
 	align: 'left',
 	weight: 'normal',
