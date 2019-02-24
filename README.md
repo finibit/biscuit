@@ -1,26 +1,26 @@
 # Biscuit
 
-Biscuit is a library of [styled components](https://www.styled-components.com) for [React](https://reactjs.org).
+Biscuit is a library of themeable and responsive UI components for [React](https://reactjs.org).
 
 ## Installation
 
 ```bash
-npm install -i @finibit/biscuit
+npm i @finibit/biscuit
 ```
 
 ## Usage
 
 ```javascript
-import { Theme, Box } from 'biscuit'
+import { Theme, Heading } from '@finibit/biscuit'
 
 <Theme>
-  <Box>Hello, yummy!</Box>
+  <Heading level={1}>Hello, yummy!</Heading>
 </Theme>
 ```
 
 ## Documentation
 
-The source code of the components is fully documented. You can see the components in action and play around with them using [Storybook](https://storybook.js.org/). Clone the repository and execute the following command
+Individual components and their properties are documented in the corresponding source code. There are also examples in [Storybook](https://storybook.js.org). In order to run them, clone the repository and execute the following command:
 
 ```bash
 npm install && npm run storybook

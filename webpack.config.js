@@ -2,6 +2,16 @@ const path = require('path')
 
 module.exports = {
 	entry: './src/index.js',
+	devtool: 'hidden-source-map',
+
+	output: {
+		path: path.resolve(__dirname, 'lib/'),
+		publicPath: '',
+		filename: 'index.js',
+		libraryTarget: 'commonjs2',
+		library: 'Biscuit',
+	},
+
 	module: {
 		rules: [
 			{
@@ -13,22 +23,13 @@ module.exports = {
 			},
 		],
 	},
-	resolve: {
-		extensions: ['.js'],
-	},
-	output: {
-		path: path.resolve(__dirname, 'dist/'),
-		publicPath: '',
-		filename: 'index.js',
-		libraryTarget: 'umd',
-	},
-	devtool: 'hidden-source-map',
+
 	externals: {
+		react: 'commonjs react',
 		'styled-components': {
 			commonjs: 'styled-components',
 			commonjs2: 'styled-components',
 			amd: 'styled-components',
 		},
-		react: 'React',
 	},
 }
