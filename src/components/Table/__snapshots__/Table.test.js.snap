@@ -1,0 +1,536 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table body is rendered 1`] = `
+.c1 {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  >
+    <tbody
+      className="c1"
+    />
+  </table>
+</div>
+`;
+
+exports[`Table body with rows is rendered 1`] = `
+.c1 {
+  margin: 0;
+  padding: 0;
+}
+
+.c3 {
+  font-weight: normal;
+  text-align: left;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  >
+    <tbody
+      className="c1"
+    >
+      <tr
+        className="c2"
+      >
+        <td
+          className="c3"
+          scope="body"
+        />
+        <td
+          className="c3"
+          scope="body"
+        />
+      </tr>
+      <tr
+        className="c2"
+      >
+        <td
+          className="c3"
+          scope="body"
+        />
+        <td
+          className="c3"
+          scope="body"
+        />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table caption is rendered 1`] = `
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  >
+    <caption
+      className="c1"
+    >
+      Caption
+    </caption>
+  </table>
+</div>
+`;
+
+exports[`Table footer is rendered 1`] = `
+.c1 {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  >
+    <tfoot
+      className="c1"
+    />
+  </table>
+</div>
+`;
+
+exports[`Table footer with rows is rendered 1`] = `
+.c3 {
+  font-weight: normal;
+  text-align: left;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  >
+    <tfoot
+      className="c1"
+    >
+      <tr
+        className="c2"
+      >
+        <td
+          className="c3"
+          scope="footer"
+        />
+        <td
+          className="c3"
+          scope="footer"
+        />
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
+
+exports[`Table header is rendered 1`] = `
+.c1 {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  >
+    <thead
+      className="c1"
+    />
+  </table>
+</div>
+`;
+
+exports[`Table header with rows is rendered 1`] = `
+.c3 {
+  font-weight: normal;
+  text-align: left;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  >
+    <thead
+      className="c1"
+    >
+      <tr
+        className="c2"
+      >
+        <td
+          className="c3"
+          scope="header"
+        />
+        <td
+          className="c3"
+          scope="header"
+        />
+      </tr>
+      <tr
+        className="c2"
+      >
+        <td
+          className="c3"
+          scope="header"
+        />
+        <td
+          className="c3"
+          scope="header"
+        />
+      </tr>
+    </thead>
+  </table>
+</div>
+`;
+
+exports[`Table is rendered 1`] = `
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  />
+</div>
+`;
+
+exports[`Table table is rendered with custom css 1`] = `
+.c0 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.c1 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+}
+
+.c2 {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c2 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c2 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c2 {
+    margin: 0;
+  }
+}
+
+<div>
+  <table
+    className="c0"
+  />
+  <table
+    className="c1"
+  />
+  <table
+    className="c2"
+  />
+</div>
+`;
