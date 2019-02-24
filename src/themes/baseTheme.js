@@ -98,11 +98,37 @@ const baseTheme = {
 
 	paragraph: {
 		size: {
-			xs: -2,
-			sm: -1,
-			md: 0,
-			lg: 1,
-			xl: 2,
+			// xs:,
+			// sm:,
+			// md:,
+			// lg:,
+			// xl:,
+		},
+
+		margin: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+
+		padding: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
+
+	text: {
+		size: {
+			// xs:,
+			// sm:,
+			// md:,
+			// lg:,
+			// xl:,
 		},
 
 		margin: {
