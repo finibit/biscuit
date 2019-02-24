@@ -204,3 +204,8 @@ storiesOf('Box', module)
 			</Box>
 		</Theme>
 	))
+	.add('css', () => (
+		<Theme>
+			<Box width="100px" height="100px" css="border: 1px solid #000;" />
+		</Theme>
+	))

@@ -70,6 +70,8 @@ const BoxStyled = styled.div`
 		margin: ${(props) => themeMargin(props.theme, 'box', props.$margin[3])};
 		padding: ${(props) => themePadding(props.theme, 'box', props.$padding[3])};
 	}
+
+	${(props) => props.$css};
 `
 /** A flexbox container. */
 const Box = (props) => {
@@ -87,6 +89,7 @@ const Box = (props) => {
 		align,
 		alignSelf,
 		alignContent,
+		css,
 		...rest
 	} = props
 
@@ -105,6 +108,7 @@ const Box = (props) => {
 			$align={align}
 			$alignSelf={alignSelf}
 			$alignContent={alignContent}
+			$css={css}
 			{...rest}
 		/>
 	)
@@ -141,6 +145,8 @@ Box.propTypes = {
 	alignSelf: PropTypes.oneOf(['auto', 'start', 'end', 'center', 'stretch']),
 	/** How the contents will be aligned when there is extra space on the cross axis. */
 	alignContent: PropTypes.oneOf(['start', 'end', 'center', 'stretch', 'between', 'around']),
+	/** Custom styles passed to styled-components. */
+	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 }
 
 Box.defaultProps = {
@@ -159,6 +165,7 @@ Box.defaultProps = {
 	align: 'stretch',
 	alignSelf: 'auto',
 	alignContent: 'stretch',
+	css: null,
 }
 
 export default Box

@@ -7,35 +7,35 @@ import Box from './Box'
 
 describe('Box', () => {
 	test('default', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('as', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box as="section" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('theme', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme theme={{ global: { colors: { brand: '#aabbcc' } } }}>
 				<Box color="brand" />
 				<Box color="#cafeee" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('margin', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box margin="xs" />
 				<Box margin={{ vertical: 'xs', horizontal: 'sm' }} />
@@ -54,11 +54,11 @@ describe('Box', () => {
 				<Box margin={['xs', 'sm', 'lg', 'xl']} />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('padding', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box padding="xs" />
 				<Box padding={{ vertical: 'xs', horizontal: 'sm' }} />
@@ -77,29 +77,29 @@ describe('Box', () => {
 				<Box padding={['xs', 'sm', 'lg', 'xl']} />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('width', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box width="100px" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('height', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box height="100px" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('overflow', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box overflow="auto" />
 				<Box overflow="scroll" />
@@ -107,11 +107,11 @@ describe('Box', () => {
 				<Box overflow="visible" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('direction', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box direction="row" />
 				<Box direction="row-reverse" />
@@ -119,29 +119,29 @@ describe('Box', () => {
 				<Box direction="col-reverse" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('wrap', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box wrap />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('order', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box order={1} />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('justify', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box justify="start" />
 				<Box justify="end" />
@@ -151,11 +151,11 @@ describe('Box', () => {
 				<Box justify="evenly" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('align', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box align="start" />
 				<Box align="end" />
@@ -163,11 +163,11 @@ describe('Box', () => {
 				<Box align="stretch" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('alignSelf', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box alignSelf="auto" />
 				<Box alignSelf="start" />
@@ -176,11 +176,11 @@ describe('Box', () => {
 				<Box alignSelf="stretch" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 
 	test('alignContent', () => {
-		const box = renderer.create((
+		const component = renderer.create((
 			<Theme>
 				<Box alignContent="start" />
 				<Box alignContent="end" />
@@ -190,6 +190,15 @@ describe('Box', () => {
 				<Box alignContent="around" />
 			</Theme>
 		))
-		expect(box.toJSON()).toMatchSnapshot()
+		expect(component.toJSON()).toMatchSnapshot()
+	})
+
+	test('css', () => {
+		const component = renderer.create((
+			<Theme>
+				<Box css="border: 1px solid #000;" />
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
 	})
 })
