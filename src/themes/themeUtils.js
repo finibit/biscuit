@@ -40,6 +40,10 @@ export const themeSize = (theme, elem, size) => (
 	themeSpacing(theme, elem, 'size', size)
 )
 
+export const themeRounding = (theme) => (
+	scaleValue(theme, -2)
+)
+
 export const responsiveArray = (size) => {
 	if (size === null || size === undefined) {
 		return ['none', 'none', 'none', 'none']

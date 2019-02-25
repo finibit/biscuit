@@ -20,7 +20,7 @@ const TabsNavStyled = styled.ul`
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flext-start;
-	border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-0')};
+	border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-2')};
 	box-sizing: border-box;
 `
 
@@ -35,7 +35,7 @@ const inactiveStyles = css`
 	border-bottom: 2px solid transparent;
 
 	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-4')};
+		border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-5')};
 	}
 `
 
@@ -51,7 +51,7 @@ const disabledStyles = css`
 	border-bottom: 2px solid transparent;
 
 	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-0')};
+		border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-2')};
 	}
 
 	color: ${(props) => themeColor(props.theme, 'light-4')} !important;
@@ -196,7 +196,7 @@ Tabs.propTypes = {
 }
 
 Tabs.defaultProps = {
-	padding: 'md',
+	padding: { horizontal: 'sm', vertical: 'xs' },
 }
 
 Tabs.Item = TabsItem

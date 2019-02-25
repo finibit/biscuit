@@ -2,7 +2,7 @@
 
 exports[`Paragraph align 1`] = `
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -16,7 +16,7 @@ exports[`Paragraph align 1`] = `
 }
 
 .c1 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -30,7 +30,7 @@ exports[`Paragraph align 1`] = `
 }
 
 .c2 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -130,7 +130,7 @@ exports[`Paragraph align 1`] = `
 
 exports[`Paragraph color 1`] = `
 .c0 {
-  color: #e8e7ec;
+  color: #ffffff;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -217,7 +217,7 @@ exports[`Paragraph color 1`] = `
 
 exports[`Paragraph css 1`] = `
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -267,7 +267,7 @@ exports[`Paragraph css 1`] = `
 
 exports[`Paragraph default 1`] = `
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -313,7 +313,7 @@ exports[`Paragraph default 1`] = `
 
 exports[`Paragraph margin 1`] = `
 .c4 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -327,7 +327,7 @@ exports[`Paragraph margin 1`] = `
 }
 
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -341,7 +341,7 @@ exports[`Paragraph margin 1`] = `
 }
 
 .c1 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -355,7 +355,7 @@ exports[`Paragraph margin 1`] = `
 }
 
 .c2 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -369,7 +369,7 @@ exports[`Paragraph margin 1`] = `
 }
 
 .c3 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -383,7 +383,7 @@ exports[`Paragraph margin 1`] = `
 }
 
 .c5 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -397,7 +397,7 @@ exports[`Paragraph margin 1`] = `
 }
 
 .c6 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -411,7 +411,7 @@ exports[`Paragraph margin 1`] = `
 }
 
 .c7 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -646,7 +646,7 @@ exports[`Paragraph margin 1`] = `
 
 exports[`Paragraph margin responsive 1`] = `
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -695,7 +695,7 @@ exports[`Paragraph margin responsive 1`] = `
 
 exports[`Paragraph padding 1`] = `
 .c1 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -709,7 +709,7 @@ exports[`Paragraph padding 1`] = `
 }
 
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -723,7 +723,7 @@ exports[`Paragraph padding 1`] = `
 }
 
 .c2 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -737,7 +737,7 @@ exports[`Paragraph padding 1`] = `
 }
 
 .c3 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -751,7 +751,7 @@ exports[`Paragraph padding 1`] = `
 }
 
 .c4 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -765,7 +765,7 @@ exports[`Paragraph padding 1`] = `
 }
 
 .c5 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -779,7 +779,7 @@ exports[`Paragraph padding 1`] = `
 }
 
 .c6 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -793,7 +793,7 @@ exports[`Paragraph padding 1`] = `
 }
 
 .c7 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -1028,7 +1028,7 @@ exports[`Paragraph padding 1`] = `
 
 exports[`Paragraph padding responsive 1`] = `
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -1077,7 +1077,7 @@ exports[`Paragraph padding responsive 1`] = `
 
 exports[`Paragraph size 1`] = `
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 0.6944444444444444rem;
   font-style: normal;
@@ -1123,7 +1123,7 @@ exports[`Paragraph size 1`] = `
 
 exports[`Paragraph size responsive 1`] = `
 .c0 {
-  color: #171813;
+  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 0.6944444444444444rem;
   font-style: normal;

@@ -3,22 +3,27 @@ const baseTheme = {
 		baseSize: 16,
 		typeScale: 1.2,
 		fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
+		rounding: `${1.2 ** -5}rem`,
 
 		colors: {
 			info: '#3498db',
 			danger: '#f22613',
 			success: '#26a65b',
 			warning: '#f9690e',
-			'light-0': '#e8e7ec',
-			'light-1': '#dfdee3',
-			'light-2': '#d6d5da',
-			'light-3': '#cecdd1',
-			'light-4': '#c6c5c9',
-			'dark-0': '#171813',
-			'dark-1': '#20211c',
-			'dark-2': '#292a25',
-			'dark-3': '#31322e',
-			'dark-4': '#393a36',
+			'light-0': '#ffffff',
+			'light-1': '#f5f5f5',
+			'light-2': '#ebebeb',
+			'light-3': '#e1e1e1',
+			'light-4': '#d7d7d7',
+			'light-5': '#cdcdcd',
+			'light-6': '#c3c3c3',
+			'dark-0': '#0a0a0a',
+			'dark-1': '#1e1e1e',
+			'dark-2': '#323232',
+			'dark-3': '#464646',
+			'dark-4': '#5a5a5a',
+			'dark-5': '#6e6e6e',
+			'dark-6': '#7d7d7d',
 		},
 
 		breakpoints: {
@@ -149,6 +154,42 @@ const baseTheme = {
 	},
 
 	tabs: {
+		padding: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
+
+	select: {
+		margin: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+
+		padding: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
+
+	icon: {
+		margin: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+
 		padding: {
 			// xs: '',
 			// sm: '',

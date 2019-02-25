@@ -5,7 +5,7 @@ exports[`Text align 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -19,7 +19,7 @@ exports[`Text align 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: right;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -33,7 +33,7 @@ exports[`Text align 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -133,7 +133,7 @@ exports[`Text as 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -179,7 +179,7 @@ exports[`Text color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #e8e7ec;
+  color: #ffffff;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -266,7 +266,7 @@ exports[`Text css 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -316,7 +316,7 @@ exports[`Text decoration 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -330,7 +330,7 @@ exports[`Text decoration 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: underline;
   text-decoration: underline;
@@ -344,7 +344,7 @@ exports[`Text decoration 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: overline;
   text-decoration: overline;
@@ -358,7 +358,7 @@ exports[`Text decoration 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: line-through;
   text-decoration: line-through;
@@ -485,7 +485,7 @@ exports[`Text default 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -531,7 +531,7 @@ exports[`Text italic 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: italic;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -577,7 +577,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -591,7 +591,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -605,7 +605,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -619,7 +619,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -633,7 +633,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -647,7 +647,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -661,7 +661,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -675,7 +675,7 @@ exports[`Text margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -910,7 +910,7 @@ exports[`Text margin responsive 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -959,7 +959,7 @@ exports[`Text nowrap 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1008,7 +1008,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1022,7 +1022,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1036,7 +1036,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1050,7 +1050,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1064,7 +1064,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1078,7 +1078,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1092,7 +1092,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1106,7 +1106,7 @@ exports[`Text padding 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1341,7 +1341,7 @@ exports[`Text padding responsive 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1390,7 +1390,7 @@ exports[`Text size 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1436,7 +1436,7 @@ exports[`Text size responsive 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1485,7 +1485,7 @@ exports[`Text transform 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1499,7 +1499,7 @@ exports[`Text transform 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1513,7 +1513,7 @@ exports[`Text transform 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1527,7 +1527,7 @@ exports[`Text transform 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1541,7 +1541,7 @@ exports[`Text transform 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1695,7 +1695,7 @@ exports[`Text weight 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1709,7 +1709,7 @@ exports[`Text weight 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1723,7 +1723,7 @@ exports[`Text weight 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: #171813;
+  color: #0a0a0a;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;

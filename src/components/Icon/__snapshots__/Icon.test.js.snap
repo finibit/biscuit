@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon is rendered 1`] = `
+.c0 {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #0a0a0a;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #0a0a0a;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #0a0a0a;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c3 {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #0a0a0a;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c4 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.c4:after {
+  content: '';
+  display: block;
+  width: 3px;
+  height: 6px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c2 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c2 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c2 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  />
+  <div
+    className="c1"
+  />
+  <div
+    className="c2"
+  />
+  <div
+    className="c3"
+  />
+  <div
+    className="c4"
+  />
+</div>
+`;

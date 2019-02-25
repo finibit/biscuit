@@ -16,12 +16,12 @@ storiesOf('Heading', module)
 	))
 	.add('color', () => (
 		<Theme>
-			<Heading level={1} color="light-4">H1 heading</Heading>
-			<Heading level={2} color="light-3">H2 heading</Heading>
-			<Heading level={3} color="light-2">H3 heading</Heading>
-			<Heading level={4} color="light-1">H4 heading</Heading>
-			<Heading level={5} color="light-0">H5 heading</Heading>
-			<Heading level={6} color="light-0">H6 heading</Heading>
+			<Heading level={1} color="light-6">H1 heading</Heading>
+			<Heading level={2} color="light-5">H2 heading</Heading>
+			<Heading level={3} color="light-4">H3 heading</Heading>
+			<Heading level={4} color="light-3">H4 heading</Heading>
+			<Heading level={5} color="light-2">H5 heading</Heading>
+			<Heading level={6} color="light-1">H6 heading</Heading>
 		</Theme>
 	))
 	.add('align', () => (
