@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs disabled navigation item is rendered 1`] = `
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: flext-start;
+  -webkit-justify-content: flext-start;
+  -ms-flex-pack: flext-start;
+  justify-content: flext-start;
+  border-bottom: 2px solid #e8e7ec;
+  box-sizing: border-box;
+}
+
+.c2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.c3 {
+  display: inline-block;
+  cursor: pointer;
+  color: #171813;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0 0 -2px 0;
+  padding: 1rem;
+  border-bottom: 2px solid #171813;
+}
+
+.c3:hover,
+.c3:active {
+  border-bottom: 2px solid #171813;
+}
+
+.c4 {
+  display: inline-block;
+  cursor: pointer;
+  color: #171813;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0 0 -2px 0;
+  padding: 1rem;
+  border-bottom: 2px solid transparent;
+  color: #c6c5c9 !important;
+}
+
+.c4:hover,
+.c4:active {
+  border-bottom: 2px solid #e8e7ec;
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <ul
+      className="c1"
+    >
+      <li
+        className="c2"
+      >
+        <a
+          className="c3"
+          onClick={[Function]}
+        >
+          
+        </a>
+      </li>
+      <li
+        className="c2"
+      >
+        <a
+          className="c4"
+          onClick={[Function]}
+        >
+          
+        </a>
+      </li>
+    </ul>
+    <div
+      className="c5"
+      disabled={false}
+      title=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs navigation is rendered 1`] = `
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: flext-start;
+  -webkit-justify-content: flext-start;
+  -ms-flex-pack: flext-start;
+  justify-content: flext-start;
+  border-bottom: 2px solid #e8e7ec;
+  box-sizing: border-box;
+}
+
+.c2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.c3 {
+  display: inline-block;
+  cursor: pointer;
+  color: #171813;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0 0 -2px 0;
+  padding: 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+.c3:hover,
+.c3:active {
+  border-bottom: 2px solid #c6c5c9;
+}
+
+.c4 {
+  display: inline-block;
+  cursor: pointer;
+  color: #171813;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0 0 -2px 0;
+  padding: 1rem;
+  border-bottom: 2px solid #171813;
+}
+
+.c4:hover,
+.c4:active {
+  border-bottom: 2px solid #171813;
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <ul
+      className="c1"
+    >
+      <li
+        className="c2"
+      >
+        <a
+          className="c3"
+          onClick={[Function]}
+        >
+          
+        </a>
+      </li>
+      <li
+        className="c2"
+      >
+        <a
+          className="c4"
+          onClick={[Function]}
+        >
+          
+        </a>
+      </li>
+    </ul>
+    <div
+      className="c5"
+      disabled={false}
+      title=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Tabs navigation is rendered with custom padding 1`] = `
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: flext-start;
+  -webkit-justify-content: flext-start;
+  -ms-flex-pack: flext-start;
+  justify-content: flext-start;
+  border-bottom: 2px solid #e8e7ec;
+  box-sizing: border-box;
+}
+
+.c2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.c3 {
+  display: inline-block;
+  cursor: pointer;
+  color: #171813;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0 0 -2px 0;
+  padding: 2.48832rem;
+  border-bottom: 2px solid #171813;
+}
+
+.c3:hover,
+.c3:active {
+  border-bottom: 2px solid #171813;
+}
+
+@media only screen and (min-width:48rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c4 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    padding: 2.48832rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    padding: 2.48832rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    padding: 2.48832rem;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <ul
+      className="c1"
+    >
+      <li
+        className="c2"
+      >
+        <a
+          className="c3"
+          onClick={[Function]}
+        >
+          
+        </a>
+      </li>
+    </ul>
+    <div
+      className="c4"
+      disabled={false}
+      title=""
+    />
+  </div>
+</div>
+`;
+
+exports[`TabsItem is rendered 1`] = `
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    padding: 1rem;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+    disabled={false}
+    title="Item"
+  />
+</div>
+`;
+
+exports[`TabsItem is rendered with custom padding 1`] = `
+.c1 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.4018775720164609rem;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.4018775720164609rem;
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c2 {
+    padding: 0.4018775720164609rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c2 {
+    padding: 0.4018775720164609rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c2 {
+    padding: 0.4018775720164609rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    padding: 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    padding: 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    padding: 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c4 {
+    padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c4 {
+    padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c4 {
+    padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 2.48832rem;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+    disabled={false}
+    title="Item"
+  />
+  <div
+    className="c1"
+    disabled={false}
+    title="Item"
+  />
+  <div
+    className="c2"
+    disabled={false}
+    title="Item"
+  />
+  <div
+    className="c3"
+    disabled={false}
+    title="Item"
+  />
+  <div
+    className="c4"
+    disabled={false}
+    title="Item"
+  />
+  <div
+    className="c5"
+    disabled={false}
+    title="Item"
+  />
+</div>
+`;

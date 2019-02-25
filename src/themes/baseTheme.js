@@ -147,6 +147,16 @@ const baseTheme = {
 			// xl: '',
 		},
 	},
+
+	tabs: {
+		padding: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
 }
 
 export default baseTheme
