@@ -181,6 +181,26 @@ const baseTheme = {
 		},
 	},
 
+	popover: {
+		padding: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
+
+	image: {
+		margin: {
+			// xs: '',
+			// sm: '',
+			// md: '',
+			// lg: '',
+			// xl: '',
+		},
+	},
+
 	icon: {
 		margin: {
 			// xs: '',
