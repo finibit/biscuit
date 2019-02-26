@@ -103,10 +103,14 @@ exports[`Table body with rows is rendered 1`] = `
       >
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="body"
         />
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="body"
         />
       </tr>
@@ -115,10 +119,14 @@ exports[`Table body with rows is rendered 1`] = `
       >
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="body"
         />
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="body"
         />
       </tr>
@@ -278,10 +286,14 @@ exports[`Table footer with rows is rendered 1`] = `
       >
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="footer"
         />
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="footer"
         />
       </tr>
@@ -393,10 +405,14 @@ exports[`Table header with rows is rendered 1`] = `
       >
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="header"
         />
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="header"
         />
       </tr>
@@ -405,10 +421,14 @@ exports[`Table header with rows is rendered 1`] = `
       >
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="header"
         />
         <td
           className="c3"
+          colSpan={1}
+          rowSpan={1}
           scope="header"
         />
       </tr>

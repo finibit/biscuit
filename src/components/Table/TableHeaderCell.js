@@ -13,8 +13,6 @@ const TableHeaderCellStyled = styled.th`
 
 const TableHeaderCell = (props) => {
 	const {
-		colSpan,
-		rowSpan,
 		width,
 		css,
 		...rest
@@ -22,8 +20,6 @@ const TableHeaderCell = (props) => {
 
 	return (
 		<TableHeaderCellStyled
-			colspan={colSpan}
-			rowspan={rowSpan}
 			$width={width}
 			$css={css}
 			{...rest}

@@ -13,8 +13,6 @@ const TableCellStyled = styled.td`
 
 const TableCell = (props) => {
 	const {
-		colSpan,
-		rowSpan,
 		width,
 		css,
 		...rest
@@ -22,8 +20,6 @@ const TableCell = (props) => {
 
 	return (
 		<TableCellStyled
-			colspan={colSpan}
-			rowspan={rowSpan}
 			$width={width}
 			$css={css}
 			{...rest}
