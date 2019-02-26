@@ -3,13 +3,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { themeColor, themeMargin, themePadding, responsiveArray } from '../../themes/themeUtils'
 
-const directionMap = {
-	row: 'row',
-	'row-reverse': 'row-reverse',
-	col: 'column',
-	'col-reverse': 'column-reverse',
-}
-
 const justifyMap = {
 	start: 'flex-start',
 	end: 'flex-end',
@@ -40,7 +33,7 @@ const BoxStyled = styled.div`
 	box-sizing: border-box;
 	overflow: ${(props) => props.$overflow};
 	display: flex;
-	flex-direction: ${(props) => directionMap[props.$direction]};
+	flex-direction: ${(props) => props.$direction};
 	flex-wrap: ${(props) => props.$wrap ? 'wrap' : 'nowrap'};
 	order: ${(props) => props.$order};
 	justify-content: ${(props) => justifyMap[props.$justify]};
@@ -132,7 +125,7 @@ Box.propTypes = {
 	/** What to do when children do not fit in the box. */
 	overflow: PropTypes.oneOf(['auto', 'scroll', 'hidden', 'visible']),
 	/** The direction in which children will be laid out. */
-	direction: PropTypes.oneOf(['row', 'row-reverse', 'col', 'col-reverse']),
+	direction: PropTypes.oneOf(['row', 'row-reverse', 'column', 'column-reverse']),
 	/** Whether children elements should wrap if they cannot fit inside the parent box. */
 	wrap: PropTypes.bool,
 	/** The order of the box as it is laid out in the parent box. */

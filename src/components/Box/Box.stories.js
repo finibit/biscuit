@@ -102,7 +102,7 @@ storiesOf('Box', module)
 					Second box in reversed row direction
 				</Box>
 			</Box>
-			<Box direction="col" padding="md" color="light-0">
+			<Box direction="column" padding="md" color="light-0">
 				<Box color="light-1" padding="md">
 					First box in column direction
 				</Box>
@@ -110,7 +110,7 @@ storiesOf('Box', module)
 					Second box in column direction
 				</Box>
 			</Box>
-			<Box direction="col-reverse" padding="md" color="light-0">
+			<Box direction="column-reverse" padding="md" color="light-0">
 				<Box color="light-1" padding="md">
 					First box in reversed column direction
 				</Box>

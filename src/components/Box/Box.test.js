@@ -115,8 +115,8 @@ describe('Box', () => {
 			<Theme>
 				<Box direction="row" />
 				<Box direction="row-reverse" />
-				<Box direction="col" />
-				<Box direction="col-reverse" />
+				<Box direction="column" />
+				<Box direction="column-reverse" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
