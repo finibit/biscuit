@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
+// eslint-disable-next-line
 import { storiesOf } from '@storybook/react'
-
 import { Theme, Multiselect } from '../../../src'
 
 const colors = [
@@ -17,7 +17,7 @@ const colors = [
 	{
 		title: 'Blue',
 		value: '#0000ff',
-		selected: false,
+		selected: true,
 	},
 	{
 		title: 'Cyan',
@@ -84,9 +84,9 @@ storiesOf('Multiselect', module)
 			<Multiselect
 				placeholder="Colors"
 				items={colors}
-				isOpen={false}
+				isOpen
 				onOpen={() => {}}
-				onSelect={(value, title) => {}}
+				onSelect={() => {}}
 			/>
 		</Theme>
 	))

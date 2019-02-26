@@ -5,6 +5,10 @@ import baseTheme from '../../themes/baseTheme'
 import mergeTheme from '../../themes/themeUtils'
 
 const GlobalStyle = createGlobalStyle`
+	html {
+		box-sizing: border-box;
+	}
+
 	html, body {
 		width: 100%;
 		height: 100%;
@@ -12,6 +16,10 @@ const GlobalStyle = createGlobalStyle`
 		padding: 0;
 		font-size: ${(props) => props.theme.global.baseSize}px;
 		font-family: ${(props) => props.theme.global.fontFamily};
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
 	}
 `
 

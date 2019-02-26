@@ -3,7 +3,7 @@
 exports[`Box align 1`] = `
 .c3 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -39,7 +39,7 @@ exports[`Box align 1`] = `
 
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -75,7 +75,7 @@ exports[`Box align 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -111,7 +111,7 @@ exports[`Box align 1`] = `
 
 .c2 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -248,7 +248,7 @@ exports[`Box align 1`] = `
 exports[`Box alignContent 1`] = `
 .c3 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -284,7 +284,7 @@ exports[`Box alignContent 1`] = `
 
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -320,7 +320,7 @@ exports[`Box alignContent 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -356,7 +356,7 @@ exports[`Box alignContent 1`] = `
 
 .c2 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -392,7 +392,7 @@ exports[`Box alignContent 1`] = `
 
 .c4 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -428,7 +428,7 @@ exports[`Box alignContent 1`] = `
 
 .c5 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -613,7 +613,7 @@ exports[`Box alignContent 1`] = `
 exports[`Box alignSelf 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -649,7 +649,7 @@ exports[`Box alignSelf 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -688,7 +688,7 @@ exports[`Box alignSelf 1`] = `
 
 .c2 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -727,7 +727,7 @@ exports[`Box alignSelf 1`] = `
 
 .c3 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -766,7 +766,7 @@ exports[`Box alignSelf 1`] = `
 
 .c4 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -930,7 +930,7 @@ exports[`Box alignSelf 1`] = `
 exports[`Box as 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -995,7 +995,7 @@ exports[`Box as 1`] = `
 exports[`Box css 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1061,7 +1061,7 @@ exports[`Box css 1`] = `
 exports[`Box default 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1126,7 +1126,7 @@ exports[`Box default 1`] = `
 exports[`Box direction 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1162,7 +1162,7 @@ exports[`Box direction 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1198,7 +1198,7 @@ exports[`Box direction 1`] = `
 
 .c2 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1234,7 +1234,7 @@ exports[`Box direction 1`] = `
 
 .c3 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1371,7 +1371,7 @@ exports[`Box direction 1`] = `
 exports[`Box height 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1436,7 +1436,7 @@ exports[`Box height 1`] = `
 exports[`Box justify 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1472,7 +1472,7 @@ exports[`Box justify 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1508,7 +1508,7 @@ exports[`Box justify 1`] = `
 
 .c2 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1544,7 +1544,7 @@ exports[`Box justify 1`] = `
 
 .c3 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1580,7 +1580,7 @@ exports[`Box justify 1`] = `
 
 .c4 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1616,7 +1616,7 @@ exports[`Box justify 1`] = `
 
 .c5 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1801,7 +1801,7 @@ exports[`Box justify 1`] = `
 exports[`Box margin 1`] = `
 .c10 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1837,7 +1837,7 @@ exports[`Box margin 1`] = `
 
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1873,7 +1873,7 @@ exports[`Box margin 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1909,7 +1909,7 @@ exports[`Box margin 1`] = `
 
 .c2 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1945,7 +1945,7 @@ exports[`Box margin 1`] = `
 
 .c3 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1981,7 +1981,7 @@ exports[`Box margin 1`] = `
 
 .c4 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2017,7 +2017,7 @@ exports[`Box margin 1`] = `
 
 .c5 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2053,7 +2053,7 @@ exports[`Box margin 1`] = `
 
 .c6 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2089,7 +2089,7 @@ exports[`Box margin 1`] = `
 
 .c7 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2125,7 +2125,7 @@ exports[`Box margin 1`] = `
 
 .c8 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2161,7 +2161,7 @@ exports[`Box margin 1`] = `
 
 .c9 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2197,7 +2197,7 @@ exports[`Box margin 1`] = `
 
 .c11 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2233,7 +2233,7 @@ exports[`Box margin 1`] = `
 
 .c12 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2269,7 +2269,7 @@ exports[`Box margin 1`] = `
 
 .c13 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2649,7 +2649,7 @@ exports[`Box margin 1`] = `
 exports[`Box order 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2712,6 +2712,42 @@ exports[`Box order 1`] = `
 `;
 
 exports[`Box overflow 1`] = `
+.c3 {
+  box-sizing: border-box;
+  overflow: visible;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  background-color: none;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+}
+
 .c0 {
   box-sizing: border-box;
   overflow: auto;
@@ -2820,7 +2856,108 @@ exports[`Box overflow 1`] = `
   padding: 0;
 }
 
-.c3 {
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c2 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c2 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c2 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  />
+  <div
+    className="c1"
+  />
+  <div
+    className="c2"
+  />
+  <div
+    className="c3"
+  />
+</div>
+`;
+
+exports[`Box padding 1`] = `
+.c10 {
   box-sizing: border-box;
   overflow: visible;
   display: -webkit-box;
@@ -2856,146 +2993,9 @@ exports[`Box overflow 1`] = `
   padding: 0;
 }
 
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-<div>
-  <div
-    className="c0"
-  />
-  <div
-    className="c1"
-  />
-  <div
-    className="c2"
-  />
-  <div
-    className="c3"
-  />
-</div>
-`;
-
-exports[`Box padding 1`] = `
-.c10 {
-  box-sizing: border-box;
-  overflow: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-  background-color: none;
-  width: auto;
-  max-width: auto;
-  height: auto;
-  max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3031,7 +3031,7 @@ exports[`Box padding 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3067,7 +3067,7 @@ exports[`Box padding 1`] = `
 
 .c2 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3103,7 +3103,7 @@ exports[`Box padding 1`] = `
 
 .c3 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3139,7 +3139,7 @@ exports[`Box padding 1`] = `
 
 .c4 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3175,7 +3175,7 @@ exports[`Box padding 1`] = `
 
 .c5 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3211,7 +3211,7 @@ exports[`Box padding 1`] = `
 
 .c6 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3247,7 +3247,7 @@ exports[`Box padding 1`] = `
 
 .c7 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3283,7 +3283,7 @@ exports[`Box padding 1`] = `
 
 .c8 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3319,7 +3319,7 @@ exports[`Box padding 1`] = `
 
 .c9 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3355,7 +3355,7 @@ exports[`Box padding 1`] = `
 
 .c11 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3391,7 +3391,7 @@ exports[`Box padding 1`] = `
 
 .c12 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3427,7 +3427,7 @@ exports[`Box padding 1`] = `
 
 .c13 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3807,7 +3807,7 @@ exports[`Box padding 1`] = `
 exports[`Box theme 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3843,7 +3843,7 @@ exports[`Box theme 1`] = `
 
 .c1 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3932,7 +3932,7 @@ exports[`Box theme 1`] = `
 exports[`Box width 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3997,7 +3997,7 @@ exports[`Box width 1`] = `
 exports[`Box wrap 1`] = `
 .c0 {
   box-sizing: border-box;
-  overflow: auto;
+  overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

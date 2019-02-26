@@ -4,21 +4,27 @@ exports[`Multiselect renders closed 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -30,6 +36,12 @@ exports[`Multiselect renders closed 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -47,18 +59,6 @@ exports[`Multiselect renders closed 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  maxWidth: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -81,38 +81,38 @@ exports[`Multiselect renders closed 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
@@ -143,25 +143,25 @@ exports[`Multiselect renders opened 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6 {
+.c8 {
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6:after {
+.c8:after {
   content: '';
   display: block;
-  width: 3px;
-  height: 6px;
+  width: 4px;
+  height: 9px;
   border: solid #0a0a0a;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -169,13 +169,19 @@ exports[`Multiselect renders opened 1`] = `
   transform: rotate(45deg);
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -187,6 +193,12 @@ exports[`Multiselect renders opened 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -204,44 +216,33 @@ exports[`Multiselect renders opened 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  maxWidth: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .c4 {
-  z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   width: 100%;
-  maxWidth: 100%;
+  min-width: 100%;
+  max-width: 100%;
   height: auto;
-  maxHeight: auto;
-  box-sizing: border-box;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .c5 {
   width: 100%;
+  height: auto;
   font-weight: normal;
-  line-height: 1rem;
-  cursor: default;
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -260,12 +261,9 @@ exports[`Multiselect renders opened 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -274,6 +272,55 @@ exports[`Multiselect renders opened 1`] = `
   background-color: #f5f5f5;
 }
 
+.c5:last-child {
+  border-bottom: none;
+}
+
+.c7 {
+  width: 100%;
+  height: auto;
+  font-weight: normal;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c7:hover {
+  background-color: #f5f5f5;
+}
+
+.c7:last-child {
+  border-bottom: none;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -296,41 +343,23 @@ exports[`Multiselect renders opened 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
@@ -353,6 +382,24 @@ exports[`Multiselect renders opened 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
   .c5 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
@@ -366,6 +413,24 @@ exports[`Multiselect renders opened 1`] = `
 
 @media only screen and (min-width:75rem) {
   .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -397,17 +462,23 @@ exports[`Multiselect renders opened 1`] = `
         className="c5"
         onClick={[Function]}
       >
-        Item 1
-         
-      </li>
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        Item 2
-         
         <div
           className="c6"
+        >
+          Item 1
+        </div>
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+      >
+        <div
+          className="c6"
+        >
+          Item 2
+        </div>
+        <div
+          className="c8"
         />
       </li>
     </ul>
@@ -419,25 +490,25 @@ exports[`Multiselect renders selected items 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6 {
+.c8 {
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6:after {
+.c8:after {
   content: '';
   display: block;
-  width: 3px;
-  height: 6px;
+  width: 4px;
+  height: 9px;
   border: solid #0a0a0a;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -445,13 +516,19 @@ exports[`Multiselect renders selected items 1`] = `
   transform: rotate(45deg);
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -463,6 +540,12 @@ exports[`Multiselect renders selected items 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -480,44 +563,33 @@ exports[`Multiselect renders selected items 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  maxWidth: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .c4 {
-  z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   width: 100%;
-  maxWidth: 100%;
+  min-width: 100%;
+  max-width: 100%;
   height: auto;
-  maxHeight: auto;
-  box-sizing: border-box;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .c5 {
   width: 100%;
+  height: auto;
   font-weight: normal;
-  line-height: 1rem;
-  cursor: default;
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -536,12 +608,9 @@ exports[`Multiselect renders selected items 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -550,6 +619,55 @@ exports[`Multiselect renders selected items 1`] = `
   background-color: #f5f5f5;
 }
 
+.c5:last-child {
+  border-bottom: none;
+}
+
+.c7 {
+  width: 100%;
+  height: auto;
+  font-weight: normal;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c7:hover {
+  background-color: #f5f5f5;
+}
+
+.c7:last-child {
+  border-bottom: none;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -572,41 +690,23 @@ exports[`Multiselect renders selected items 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
@@ -629,6 +729,24 @@ exports[`Multiselect renders selected items 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
   .c5 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
@@ -642,6 +760,24 @@ exports[`Multiselect renders selected items 1`] = `
 
 @media only screen and (min-width:75rem) {
   .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -673,17 +809,23 @@ exports[`Multiselect renders selected items 1`] = `
         className="c5"
         onClick={[Function]}
       >
-        Item 1
-         
-      </li>
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        Item 2
-         
         <div
           className="c6"
+        >
+          Item 1
+        </div>
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+      >
+        <div
+          className="c6"
+        >
+          Item 2
+        </div>
+        <div
+          className="c8"
         />
       </li>
     </ul>
@@ -695,25 +837,25 @@ exports[`Multiselect renders selected items count 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6 {
+.c8 {
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6:after {
+.c8:after {
   content: '';
   display: block;
-  width: 3px;
-  height: 6px;
+  width: 4px;
+  height: 9px;
   border: solid #0a0a0a;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -721,13 +863,19 @@ exports[`Multiselect renders selected items count 1`] = `
   transform: rotate(45deg);
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -739,6 +887,12 @@ exports[`Multiselect renders selected items count 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -756,44 +910,33 @@ exports[`Multiselect renders selected items count 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  maxWidth: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .c4 {
-  z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   width: 100%;
-  maxWidth: 100%;
+  min-width: 100%;
+  max-width: 100%;
   height: auto;
-  maxHeight: auto;
-  box-sizing: border-box;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .c5 {
   width: 100%;
+  height: auto;
   font-weight: normal;
-  line-height: 1rem;
-  cursor: default;
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -812,12 +955,9 @@ exports[`Multiselect renders selected items count 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -826,6 +966,55 @@ exports[`Multiselect renders selected items count 1`] = `
   background-color: #f5f5f5;
 }
 
+.c5:last-child {
+  border-bottom: none;
+}
+
+.c7 {
+  width: 100%;
+  height: auto;
+  font-weight: normal;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c7:hover {
+  background-color: #f5f5f5;
+}
+
+.c7:last-child {
+  border-bottom: none;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -848,41 +1037,23 @@ exports[`Multiselect renders selected items count 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
@@ -905,6 +1076,24 @@ exports[`Multiselect renders selected items count 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
   .c5 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
@@ -918,6 +1107,24 @@ exports[`Multiselect renders selected items count 1`] = `
 
 @media only screen and (min-width:75rem) {
   .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -949,17 +1156,23 @@ exports[`Multiselect renders selected items count 1`] = `
         className="c5"
         onClick={[Function]}
       >
-        Item 1
-         
-      </li>
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        Item 2
-         
         <div
           className="c6"
+        >
+          Item 1
+        </div>
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+      >
+        <div
+          className="c6"
+        >
+          Item 2
+        </div>
+        <div
+          className="c8"
         />
       </li>
     </ul>
@@ -971,25 +1184,25 @@ exports[`Multiselect renders with fixed height 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6 {
+.c8 {
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6:after {
+.c8:after {
   content: '';
   display: block;
-  width: 3px;
-  height: 6px;
+  width: 4px;
+  height: 9px;
   border: solid #0a0a0a;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -997,13 +1210,19 @@ exports[`Multiselect renders with fixed height 1`] = `
   transform: rotate(45deg);
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100px;
+  max-width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1015,6 +1234,12 @@ exports[`Multiselect renders with fixed height 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -1032,44 +1257,33 @@ exports[`Multiselect renders with fixed height 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100px;
-  maxWidth: 100px;
-  margin: 0;
-  padding: 0;
-}
-
 .c4 {
-  z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   width: 100px;
-  maxWidth: 100px;
+  min-width: 100%;
+  max-width: 100px;
   height: auto;
-  maxHeight: auto;
-  box-sizing: border-box;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .c5 {
   width: 100%;
+  height: auto;
   font-weight: normal;
-  line-height: 1rem;
-  cursor: default;
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1088,12 +1302,9 @@ exports[`Multiselect renders with fixed height 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -1102,6 +1313,55 @@ exports[`Multiselect renders with fixed height 1`] = `
   background-color: #f5f5f5;
 }
 
+.c5:last-child {
+  border-bottom: none;
+}
+
+.c7 {
+  width: 100%;
+  height: auto;
+  font-weight: normal;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c7:hover {
+  background-color: #f5f5f5;
+}
+
+.c7:last-child {
+  border-bottom: none;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -1124,41 +1384,23 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
@@ -1181,6 +1423,24 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
   .c5 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
@@ -1194,6 +1454,24 @@ exports[`Multiselect renders with fixed height 1`] = `
 
 @media only screen and (min-width:75rem) {
   .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -1225,17 +1503,23 @@ exports[`Multiselect renders with fixed height 1`] = `
         className="c5"
         onClick={[Function]}
       >
-        Item 1
-         
-      </li>
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        Item 2
-         
         <div
           className="c6"
+        >
+          Item 1
+        </div>
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+      >
+        <div
+          className="c6"
+        >
+          Item 2
+        </div>
+        <div
+          className="c8"
         />
       </li>
     </ul>
@@ -1247,25 +1531,25 @@ exports[`Multiselect renders with fixed width 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6 {
+.c8 {
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6:after {
+.c8:after {
   content: '';
   display: block;
-  width: 3px;
-  height: 6px;
+  width: 4px;
+  height: 9px;
   border: solid #0a0a0a;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -1273,13 +1557,19 @@ exports[`Multiselect renders with fixed width 1`] = `
   transform: rotate(45deg);
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100px;
+  max-width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1291,6 +1581,12 @@ exports[`Multiselect renders with fixed width 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -1308,44 +1604,33 @@ exports[`Multiselect renders with fixed width 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100px;
-  maxWidth: 100px;
-  margin: 0;
-  padding: 0;
-}
-
 .c4 {
-  z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   width: 100px;
-  maxWidth: 100px;
+  min-width: 100%;
+  max-width: 100px;
   height: auto;
-  maxHeight: auto;
-  box-sizing: border-box;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .c5 {
   width: 100%;
+  height: auto;
   font-weight: normal;
-  line-height: 1rem;
-  cursor: default;
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1364,12 +1649,9 @@ exports[`Multiselect renders with fixed width 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -1378,6 +1660,55 @@ exports[`Multiselect renders with fixed width 1`] = `
   background-color: #f5f5f5;
 }
 
+.c5:last-child {
+  border-bottom: none;
+}
+
+.c7 {
+  width: 100%;
+  height: auto;
+  font-weight: normal;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c7:hover {
+  background-color: #f5f5f5;
+}
+
+.c7:last-child {
+  border-bottom: none;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -1400,41 +1731,23 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
@@ -1457,6 +1770,24 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
   .c5 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
@@ -1470,6 +1801,24 @@ exports[`Multiselect renders with fixed width 1`] = `
 
 @media only screen and (min-width:75rem) {
   .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -1501,17 +1850,23 @@ exports[`Multiselect renders with fixed width 1`] = `
         className="c5"
         onClick={[Function]}
       >
-        Item 1
-         
-      </li>
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        Item 2
-         
         <div
           className="c6"
+        >
+          Item 1
+        </div>
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+      >
+        <div
+          className="c6"
+        >
+          Item 2
+        </div>
+        <div
+          className="c8"
         />
       </li>
     </ul>
@@ -1523,25 +1878,25 @@ exports[`Multiselect renders with margin 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6 {
+.c8 {
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6:after {
+.c8:after {
   content: '';
   display: block;
-  width: 3px;
-  height: 6px;
+  width: 4px;
+  height: 9px;
   border: solid #0a0a0a;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -1549,13 +1904,19 @@ exports[`Multiselect renders with margin 1`] = `
   transform: rotate(45deg);
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.44rem;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1567,6 +1928,12 @@ exports[`Multiselect renders with margin 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -1584,44 +1951,33 @@ exports[`Multiselect renders with margin 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  maxWidth: 100%;
-  margin: 1.44rem;
-  padding: 0;
-}
-
 .c4 {
-  z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   width: 100%;
-  maxWidth: 100%;
+  min-width: 100%;
+  max-width: 100%;
   height: auto;
-  maxHeight: auto;
-  box-sizing: border-box;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .c5 {
   width: 100%;
+  height: auto;
   font-weight: normal;
-  line-height: 1rem;
-  cursor: default;
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1640,12 +1996,9 @@ exports[`Multiselect renders with margin 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -1654,6 +2007,55 @@ exports[`Multiselect renders with margin 1`] = `
   background-color: #f5f5f5;
 }
 
+.c5:last-child {
+  border-bottom: none;
+}
+
+.c7 {
+  width: 100%;
+  height: auto;
+  font-weight: normal;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c7:hover {
+  background-color: #f5f5f5;
+}
+
+.c7:last-child {
+  border-bottom: none;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -1676,41 +2078,23 @@ exports[`Multiselect renders with margin 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
@@ -1733,6 +2117,24 @@ exports[`Multiselect renders with margin 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
   .c5 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
@@ -1746,6 +2148,24 @@ exports[`Multiselect renders with margin 1`] = `
 
 @media only screen and (min-width:75rem) {
   .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -1777,17 +2197,23 @@ exports[`Multiselect renders with margin 1`] = `
         className="c5"
         onClick={[Function]}
       >
-        Item 1
-         
-      </li>
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        Item 2
-         
         <div
           className="c6"
+        >
+          Item 1
+        </div>
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+      >
+        <div
+          className="c6"
+        >
+          Item 2
+        </div>
+        <div
+          className="c8"
         />
       </li>
     </ul>
@@ -1799,25 +2225,25 @@ exports[`Multiselect renders with padding 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6 {
+.c8 {
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c6:after {
+.c8:after {
   content: '';
   display: block;
-  width: 3px;
-  height: 6px;
+  width: 4px;
+  height: 9px;
   border: solid #0a0a0a;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
@@ -1825,13 +2251,19 @@ exports[`Multiselect renders with padding 1`] = `
   transform: rotate(45deg);
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1843,6 +2275,12 @@ exports[`Multiselect renders with padding 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 1.44rem;
@@ -1860,44 +2298,33 @@ exports[`Multiselect renders with padding 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  maxWidth: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .c4 {
-  z-index: 10;
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   width: 100%;
-  maxWidth: 100%;
+  min-width: 100%;
+  max-width: 100%;
   height: auto;
-  maxHeight: auto;
-  box-sizing: border-box;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
-  padding: 0;
-  margin: 0;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .c5 {
   width: 100%;
+  height: auto;
   font-weight: normal;
-  line-height: 1rem;
-  cursor: default;
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1916,12 +2343,9 @@ exports[`Multiselect renders with padding 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   padding: 1.44rem;
   border-bottom: 1px solid #f5f5f5;
 }
@@ -1930,6 +2354,55 @@ exports[`Multiselect renders with padding 1`] = `
   background-color: #f5f5f5;
 }
 
+.c5:last-child {
+  border-bottom: none;
+}
+
+.c7 {
+  width: 100%;
+  height: auto;
+  font-weight: normal;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 1.44rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c7:hover {
+  background-color: #f5f5f5;
+}
+
+.c7:last-child {
+  border-bottom: none;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -1952,41 +2425,23 @@ exports[`Multiselect renders with padding 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c6 {
+  .c8 {
     margin: 0 0 0 0.4018775720164609rem;
     padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 1.44rem;
   }
 }
 
@@ -2009,6 +2464,24 @@ exports[`Multiselect renders with padding 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
   .c5 {
     padding: 1.44rem;
   }
@@ -2022,6 +2495,24 @@ exports[`Multiselect renders with padding 1`] = `
 
 @media only screen and (min-width:75rem) {
   .c5 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
     padding: 1.44rem;
   }
 }
@@ -2053,17 +2544,23 @@ exports[`Multiselect renders with padding 1`] = `
         className="c5"
         onClick={[Function]}
       >
-        Item 1
-         
-      </li>
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        Item 2
-         
         <div
           className="c6"
+        >
+          Item 1
+        </div>
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+      >
+        <div
+          className="c6"
+        >
+          Item 2
+        </div>
+        <div
+          className="c8"
         />
       </li>
     </ul>
@@ -2075,21 +2572,27 @@ exports[`Multiselect renders without items 1`] = `
 .c3 {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #0a0a0a;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #0a0a0a;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2101,6 +2604,12 @@ exports[`Multiselect renders without items 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
   border: 1px solid #d7d7d7;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
@@ -2118,18 +2627,6 @@ exports[`Multiselect renders without items 1`] = `
   text-overflow: ellipsis;
 }
 
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  maxWidth: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 @media only screen and (min-width:48rem) {
   .c3 {
     margin: 0 0 0 0.4018775720164609rem;
@@ -2152,38 +2649,38 @@ exports[`Multiselect renders without items 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 

@@ -1,6 +1,6 @@
 const baseTheme = {
 	global: {
-		baseSize: 16,
+		baseSize: 14,
 		typeScale: 1.2,
 		fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
 		rounding: `${1.2 ** -5}rem`,

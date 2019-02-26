@@ -6,41 +6,41 @@ import { themeColor, themeMargin, themePadding, responsiveArray } from '../../th
 const upArrowStyles = css`
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid ${(props) => themeColor(props.theme, props.$color)};
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid ${(props) => themeColor(props.theme, props.$color)};
 `
 
 const downArrowStyles = css`
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid ${(props) => themeColor(props.theme, props.$color)};
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid ${(props) => themeColor(props.theme, props.$color)};
 `
 
 const rightArrowStyles = css`
   width: 0;
   height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid ${(props) => themeColor(props.theme, props.$color)};
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid ${(props) => themeColor(props.theme, props.$color)};
 `
 
 const leftArrowStyles = css`
   width: 0;
   height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-right: 5px solid ${(props) => themeColor(props.theme, props.$color)};
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 4px solid ${(props) => themeColor(props.theme, props.$color)};
 `
 
 const checkMarkStyles = css`
 	&:after {
 		content: '';
 		display: block;
-		width: 3px;
-		height: 6px;
+		width: 4px;
+		height: 9px;
 		border: solid ${(props) => themeColor(props.theme, props.$color)};
 		border-width: 0 2px 2px 0;
 		transform: rotate(45deg);
