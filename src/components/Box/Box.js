@@ -157,7 +157,7 @@ Box.defaultProps = {
 	padding: 'none',
 	width: 'auto',
 	height: 'auto',
-	overflow: 'auto',
+	overflow: 'visible',
 	direction: 'row',
 	wrap: false,
 	order: 0,
