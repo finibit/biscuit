@@ -53,7 +53,7 @@ TabsItem.propTypes = {
 TabsItem.defaultProps = {
 	children: null,
 	disabled: false,
-	padding: 'md',
+	padding: { horizontal: 'none', vertical: 'md' },
 }
 
 export default TabsItem
