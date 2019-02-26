@@ -170,6 +170,10 @@ const SelectBoxTitle = (props) => {
 	)
 }
 
+const hiddenCheckMarkStyles = css`
+	visibility: hidden;
+`
+
 SelectBoxTitle.propTypes = {
 	placeholder: PropTypes.string.isRequired,
 	display: PropTypes.string.isRequired,
@@ -228,7 +232,7 @@ const Multiselect = (props) => {
 							<ListItemTitleStyled>
 								{item.title}
 							</ListItemTitleStyled>
-							{item.selected && <Icon type="check-mark" margin={{ left: 'xs' }} /> }
+							<Icon type="check-mark" margin={{ left: 'md' }} css={!item.selected && hiddenCheckMarkStyles} />
 						</SelectListItemStyled>
 					))}
 				</SelectListStyled>}

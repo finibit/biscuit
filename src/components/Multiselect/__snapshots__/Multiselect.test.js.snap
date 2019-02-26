@@ -151,13 +151,32 @@ exports[`Multiselect renders opened 1`] = `
   padding: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 
-.c8:after {
+.c9:after {
   content: '';
   display: block;
   width: 4px;
@@ -276,7 +295,7 @@ exports[`Multiselect renders opened 1`] = `
   border-bottom: none;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   height: auto;
   font-weight: normal;
@@ -307,11 +326,11 @@ exports[`Multiselect renders opened 1`] = `
   border-bottom: 1px solid #f5f5f5;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #f5f5f5;
 }
 
-.c7:last-child {
+.c8:last-child {
   border-bottom: none;
 }
 
@@ -343,22 +362,43 @@ exports[`Multiselect renders opened 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
@@ -418,19 +458,19 @@ exports[`Multiselect renders opened 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -467,9 +507,12 @@ exports[`Multiselect renders opened 1`] = `
         >
           Item 1
         </div>
+        <div
+          className="c7"
+        />
       </li>
       <li
-        className="c7"
+        className="c8"
         onClick={[Function]}
       >
         <div
@@ -478,7 +521,7 @@ exports[`Multiselect renders opened 1`] = `
           Item 2
         </div>
         <div
-          className="c8"
+          className="c9"
         />
       </li>
     </ul>
@@ -498,13 +541,32 @@ exports[`Multiselect renders selected items 1`] = `
   padding: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 
-.c8:after {
+.c9:after {
   content: '';
   display: block;
   width: 4px;
@@ -623,7 +685,7 @@ exports[`Multiselect renders selected items 1`] = `
   border-bottom: none;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   height: auto;
   font-weight: normal;
@@ -654,11 +716,11 @@ exports[`Multiselect renders selected items 1`] = `
   border-bottom: 1px solid #f5f5f5;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #f5f5f5;
 }
 
-.c7:last-child {
+.c8:last-child {
   border-bottom: none;
 }
 
@@ -690,22 +752,43 @@ exports[`Multiselect renders selected items 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
@@ -765,19 +848,19 @@ exports[`Multiselect renders selected items 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -814,9 +897,12 @@ exports[`Multiselect renders selected items 1`] = `
         >
           Item 1
         </div>
+        <div
+          className="c7"
+        />
       </li>
       <li
-        className="c7"
+        className="c8"
         onClick={[Function]}
       >
         <div
@@ -825,7 +911,7 @@ exports[`Multiselect renders selected items 1`] = `
           Item 2
         </div>
         <div
-          className="c8"
+          className="c9"
         />
       </li>
     </ul>
@@ -845,13 +931,32 @@ exports[`Multiselect renders selected items count 1`] = `
   padding: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 
-.c8:after {
+.c9:after {
   content: '';
   display: block;
   width: 4px;
@@ -970,7 +1075,7 @@ exports[`Multiselect renders selected items count 1`] = `
   border-bottom: none;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   height: auto;
   font-weight: normal;
@@ -1001,11 +1106,11 @@ exports[`Multiselect renders selected items count 1`] = `
   border-bottom: 1px solid #f5f5f5;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #f5f5f5;
 }
 
-.c7:last-child {
+.c8:last-child {
   border-bottom: none;
 }
 
@@ -1037,22 +1142,43 @@ exports[`Multiselect renders selected items count 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
@@ -1112,19 +1238,19 @@ exports[`Multiselect renders selected items count 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -1161,9 +1287,12 @@ exports[`Multiselect renders selected items count 1`] = `
         >
           Item 1
         </div>
+        <div
+          className="c7"
+        />
       </li>
       <li
-        className="c7"
+        className="c8"
         onClick={[Function]}
       >
         <div
@@ -1172,7 +1301,7 @@ exports[`Multiselect renders selected items count 1`] = `
           Item 2
         </div>
         <div
-          className="c8"
+          className="c9"
         />
       </li>
     </ul>
@@ -1192,13 +1321,32 @@ exports[`Multiselect renders with fixed height 1`] = `
   padding: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 
-.c8:after {
+.c9:after {
   content: '';
   display: block;
   width: 4px;
@@ -1317,7 +1465,7 @@ exports[`Multiselect renders with fixed height 1`] = `
   border-bottom: none;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   height: auto;
   font-weight: normal;
@@ -1348,11 +1496,11 @@ exports[`Multiselect renders with fixed height 1`] = `
   border-bottom: 1px solid #f5f5f5;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #f5f5f5;
 }
 
-.c7:last-child {
+.c8:last-child {
   border-bottom: none;
 }
 
@@ -1384,22 +1532,43 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
@@ -1459,19 +1628,19 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -1508,9 +1677,12 @@ exports[`Multiselect renders with fixed height 1`] = `
         >
           Item 1
         </div>
+        <div
+          className="c7"
+        />
       </li>
       <li
-        className="c7"
+        className="c8"
         onClick={[Function]}
       >
         <div
@@ -1519,7 +1691,7 @@ exports[`Multiselect renders with fixed height 1`] = `
           Item 2
         </div>
         <div
-          className="c8"
+          className="c9"
         />
       </li>
     </ul>
@@ -1539,13 +1711,32 @@ exports[`Multiselect renders with fixed width 1`] = `
   padding: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 
-.c8:after {
+.c9:after {
   content: '';
   display: block;
   width: 4px;
@@ -1664,7 +1855,7 @@ exports[`Multiselect renders with fixed width 1`] = `
   border-bottom: none;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   height: auto;
   font-weight: normal;
@@ -1695,11 +1886,11 @@ exports[`Multiselect renders with fixed width 1`] = `
   border-bottom: 1px solid #f5f5f5;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #f5f5f5;
 }
 
-.c7:last-child {
+.c8:last-child {
   border-bottom: none;
 }
 
@@ -1731,22 +1922,43 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
@@ -1806,19 +2018,19 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -1855,9 +2067,12 @@ exports[`Multiselect renders with fixed width 1`] = `
         >
           Item 1
         </div>
+        <div
+          className="c7"
+        />
       </li>
       <li
-        className="c7"
+        className="c8"
         onClick={[Function]}
       >
         <div
@@ -1866,7 +2081,7 @@ exports[`Multiselect renders with fixed width 1`] = `
           Item 2
         </div>
         <div
-          className="c8"
+          className="c9"
         />
       </li>
     </ul>
@@ -1886,13 +2101,32 @@ exports[`Multiselect renders with margin 1`] = `
   padding: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 
-.c8:after {
+.c9:after {
   content: '';
   display: block;
   width: 4px;
@@ -2011,7 +2245,7 @@ exports[`Multiselect renders with margin 1`] = `
   border-bottom: none;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   height: auto;
   font-weight: normal;
@@ -2042,11 +2276,11 @@ exports[`Multiselect renders with margin 1`] = `
   border-bottom: 1px solid #f5f5f5;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #f5f5f5;
 }
 
-.c7:last-child {
+.c8:last-child {
   border-bottom: none;
 }
 
@@ -2078,22 +2312,43 @@ exports[`Multiselect renders with margin 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
@@ -2153,19 +2408,19 @@ exports[`Multiselect renders with margin 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c7 {
+  .c8 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
 }
@@ -2202,9 +2457,12 @@ exports[`Multiselect renders with margin 1`] = `
         >
           Item 1
         </div>
+        <div
+          className="c7"
+        />
       </li>
       <li
-        className="c7"
+        className="c8"
         onClick={[Function]}
       >
         <div
@@ -2213,7 +2471,7 @@ exports[`Multiselect renders with margin 1`] = `
           Item 2
         </div>
         <div
-          className="c8"
+          className="c9"
         />
       </li>
     </ul>
@@ -2233,13 +2491,32 @@ exports[`Multiselect renders with padding 1`] = `
   padding: 0;
 }
 
-.c8 {
+.c7 {
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #0a0a0a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0 0 1rem;
   padding: 0;
 }
 
-.c8:after {
+.c9:after {
   content: '';
   display: block;
   width: 4px;
@@ -2358,7 +2635,7 @@ exports[`Multiselect renders with padding 1`] = `
   border-bottom: none;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   height: auto;
   font-weight: normal;
@@ -2389,11 +2666,11 @@ exports[`Multiselect renders with padding 1`] = `
   border-bottom: 1px solid #f5f5f5;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #f5f5f5;
 }
 
-.c7:last-child {
+.c8:last-child {
   border-bottom: none;
 }
 
@@ -2425,22 +2702,43 @@ exports[`Multiselect renders with padding 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0 0 0 0.4018775720164609rem;
+  .c7 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0 0 0 1rem;
     padding: 0;
   }
 }
@@ -2500,19 +2798,19 @@ exports[`Multiselect renders with padding 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
+  .c8 {
     padding: 1.44rem;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c7 {
+  .c8 {
     padding: 1.44rem;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c7 {
+  .c8 {
     padding: 1.44rem;
   }
 }
@@ -2549,9 +2847,12 @@ exports[`Multiselect renders with padding 1`] = `
         >
           Item 1
         </div>
+        <div
+          className="c7"
+        />
       </li>
       <li
-        className="c7"
+        className="c8"
         onClick={[Function]}
       >
         <div
@@ -2560,7 +2861,7 @@ exports[`Multiselect renders with padding 1`] = `
           Item 2
         </div>
         <div
-          className="c8"
+          className="c9"
         />
       </li>
     </ul>

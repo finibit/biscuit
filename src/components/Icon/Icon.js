@@ -84,6 +84,8 @@ const IconStyled = styled.div`
 		margin: ${(props) => themeMargin(props.theme, 'icon', props.$margin[3])};
 		padding: ${(props) => themePadding(props.theme, 'icon', props.$padding[3])};
 	}
+
+	${(props) => props.$css};
 `
 
 /** Semantic CSS graphics. */
@@ -93,6 +95,7 @@ const Icon = (props) => {
 		color,
 		margin,
 		padding,
+		css,
 		...rest
 	} = props
 
@@ -102,6 +105,7 @@ const Icon = (props) => {
 			$color={color}
 			$margin={responsiveArray(margin)}
 			$padding={responsiveArray(padding)}
+			$css={css}
 			{...rest}
 		/>
 	)
@@ -117,7 +121,7 @@ Icon.propTypes = {
 		'check-mark',
 	]).isRequired,
 
-	/** Color of the icon */
+	/** Color of the icon. */
 	color: PropTypes.string,
 
 	/** The amount of margin around the icon. */
@@ -125,12 +129,16 @@ Icon.propTypes = {
 
 	/** The amount of padding around the icon. */
 	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+
+	/** Custom styles passed to styled-components. */
+	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 }
 
 Icon.defaultProps = {
 	color: 'dark-0',
 	margin: 'none',
 	padding: 'none',
+	css: null,
 }
 
 export default Icon

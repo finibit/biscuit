@@ -30,7 +30,7 @@ const colors = [
 		selected: false,
 	},
 	{
-		title: 'Orange',
+		title: 'Very Orange',
 		value: '#ff8000',
 		selected: false,
 	},
@@ -73,6 +73,8 @@ class ColorsMultiselect extends Component {
 				isOpen={this.state.isOpen}
 				onOpen={this.onOpen}
 				onSelect={this.onSelect}
+				display="selected-count"
+				width="initial"
 			/>
 		)
 	}

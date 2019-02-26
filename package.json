@@ -1,6 +1,6 @@
 {
   "name": "@finibit/biscuit",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "A library of themeable and responsive UI components for React.",
   "main": "lib/index.js",
   "scripts": {
