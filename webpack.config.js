@@ -1,11 +1,14 @@
 const path = require('path')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+
+const outputPath = path.resolve(__dirname, 'lib/')
 
 module.exports = {
 	entry: './src/index.js',
 	devtool: 'hidden-source-map',
 
 	output: {
-		path: path.resolve(__dirname, 'lib/'),
+		path: outputPath,
 		publicPath: '',
 		filename: 'index.js',
 		libraryTarget: 'commonjs2',
@@ -32,4 +35,8 @@ module.exports = {
 			amd: 'styled-components',
 		},
 	},
+
+	plugins: [
+		new CleanWebpackPlugin(outputPath),
+	],
 }
