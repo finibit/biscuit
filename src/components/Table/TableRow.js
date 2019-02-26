@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const TableRowStyled = styled.tr`
 	margin: 0;
 	padding: 0;
+
 	${(props) => props.$css};
 `
 
@@ -25,6 +26,7 @@ const TableRow = (props) => {
 TableRow.propTypes = {
 	/** Any number of renderable nodes. */
 	children: PropTypes.node,
+
 	/** Custom styles passed to styled-components. */
 	css: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
 }
