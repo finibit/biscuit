@@ -19,6 +19,9 @@ const TableStyled = styled.table`
 	table-layout: fixed;
 	border-collapse: collapse;
 	border: none;
+	font-family: ${(props) => props.theme.fontFamily};
+	font-weight: normal;
+	width: ${(props) => props.$width};
 
 	margin: ${(props) => themeMargin(props.theme, 'heading', props.$margin[0])};
 	padding: 0;
@@ -42,6 +45,7 @@ const TableStyled = styled.table`
 const Table = (props) => {
 	const {
 		caption,
+		width,
 		margin,
 		css,
 		children,
@@ -50,6 +54,7 @@ const Table = (props) => {
 
 	return (
 		<TableStyled
+			$width={width}
 			$margin={responsiveArray(margin)}
 			$css={css}
 			{...rest}
@@ -65,10 +70,16 @@ const Table = (props) => {
 Table.propTypes = {
 	/** Any number of renderable nodes. */
 	children: PropTypes.node,
+
 	/** Description of the table. */
 	caption: PropTypes.string,
+
+	/** Fixed width of the table. */
+	width: PropTypes.string,
+
 	/** The amount of margin around the table. */
 	margin: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+
 	/** Custom styles passed to styled-components. */
 	css: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
 }
@@ -76,6 +87,7 @@ Table.propTypes = {
 Table.defaultProps = {
 	children: null,
 	caption: '',
+	width: 'initial',
 	margin: 'none',
 	css: null,
 }
