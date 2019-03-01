@@ -14,18 +14,42 @@ const items = [
 	{
 		title: 'Item 2',
 		value: 2,
+		selected: false,
+	},
+	{
+		title: 'Item 3',
+		value: 3,
+		selected: false,
+	},
+]
+
+const selectedItems = [
+	{
+		title: 'Item 1',
+		value: 1,
+		selected: false,
+	},
+	{
+		title: 'Item 2',
+		value: 2,
+		selected: true,
+	},
+	{
+		title: 'Item 3',
+		value: 3,
 		selected: true,
 	},
 ]
 
 describe('Multiselect', () => {
-	test('renders without items', () => {
+	test('renders empty closed', () => {
 		const component = renderer.create((
 			<Theme>
 				<Multiselect
 					items={[]}
 					isOpen={false}
 					onOpen={() => {}}
+					onClose={() => {}}
 					onSelect={() => {}}
 				/>
 			</Theme>
@@ -33,13 +57,14 @@ describe('Multiselect', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('renders closed', () => {
+	test('renders empty opened', () => {
 		const component = renderer.create((
 			<Theme>
 				<Multiselect
-					items={items}
-					isOpen={false}
+					items={[]}
+					isOpen
 					onOpen={() => {}}
+					onClose={() => {}}
 					onSelect={() => {}}
 				/>
 			</Theme>
@@ -47,13 +72,31 @@ describe('Multiselect', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('renders opened', () => {
+	test('renders empty with custom placeholders', () => {
+		const component = renderer.create((
+			<Theme>
+				<Multiselect
+					items={[]}
+					placeholder="Custom placeholder"
+					emptyPlaceholder="Custom empty placeholder"
+					isOpen
+					onOpen={() => {}}
+					onClose={() => {}}
+					onSelect={() => {}}
+				/>
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
+	})
+
+	test('renders with no items selected', () => {
 		const component = renderer.create((
 			<Theme>
 				<Multiselect
 					items={items}
 					isOpen
 					onOpen={() => {}}
+					onClose={() => {}}
 					onSelect={() => {}}
 				/>
 			</Theme>
@@ -61,60 +104,15 @@ describe('Multiselect', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('renders selected items count', () => {
+	test('renders with some items selected', () => {
 		const component = renderer.create((
 			<Theme>
 				<Multiselect
-					items={items}
-					display="selected-count"
+					items={selectedItems}
 					isOpen
 					onOpen={() => {}}
+					onClose={() => {}}
 					onSelect={() => {}}
-				/>
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
-	test('renders selected items', () => {
-		const component = renderer.create((
-			<Theme>
-				<Multiselect
-					items={items}
-					display="selected-items"
-					isOpen
-					onOpen={() => {}}
-					onSelect={() => {}}
-				/>
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
-	test('renders with padding', () => {
-		const component = renderer.create((
-			<Theme>
-				<Multiselect
-					items={items}
-					isOpen
-					onOpen={() => {}}
-					onSelect={() => {}}
-					padding="lg"
-				/>
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
-	test('renders with margin', () => {
-		const component = renderer.create((
-			<Theme>
-				<Multiselect
-					items={items}
-					isOpen
-					onOpen={() => {}}
-					onSelect={() => {}}
-					margin="lg"
 				/>
 			</Theme>
 		))
@@ -128,8 +126,9 @@ describe('Multiselect', () => {
 					items={items}
 					isOpen
 					onOpen={() => {}}
+					onClose={() => {}}
 					onSelect={() => {}}
-					width="100px"
+					width="400px"
 				/>
 			</Theme>
 		))
@@ -143,8 +142,75 @@ describe('Multiselect', () => {
 					items={items}
 					isOpen
 					onOpen={() => {}}
+					onClose={() => {}}
 					onSelect={() => {}}
-					width="100px"
+					height="400px"
+				/>
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
+	})
+
+	test('renders selected items in select box', () => {
+		const component = renderer.create((
+			<Theme>
+				<Multiselect
+					items={selectedItems}
+					isOpen={false}
+					onOpen={() => {}}
+					onClose={() => {}}
+					onSelect={() => {}}
+					display="selected-items"
+				/>
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
+	})
+
+	test('renders selected items count in select box', () => {
+		const component = renderer.create((
+			<Theme>
+				<Multiselect
+					items={selectedItems}
+					isOpen={false}
+					onOpen={() => {}}
+					onClose={() => {}}
+					onSelect={() => {}}
+					display="selected-count"
+				/>
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
+	})
+
+	test('renders with spacing', () => {
+		const component = renderer.create((
+			<Theme>
+				<Multiselect
+					items={selectedItems}
+					isOpen
+					onOpen={() => {}}
+					onClose={() => {}}
+					onSelect={() => {}}
+					padding="md"
+					margin="xl"
+				/>
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
+	})
+
+	test('renders with responsive spacing', () => {
+		const component = renderer.create((
+			<Theme>
+				<Multiselect
+					items={selectedItems}
+					isOpen
+					onOpen={() => {}}
+					onClose={() => {}}
+					onSelect={() => {}}
+					padding={['xs', 'sm', 'md', 'lg']}
+					margin={['xs', 'sm', 'md', 'lg']}
 				/>
 			</Theme>
 		))

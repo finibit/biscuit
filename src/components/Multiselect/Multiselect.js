@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled, { css } from 'styled-components'
-import { themeColor, themeMargin, themePadding, responsiveArray } from '../../themes/themeUtils'
-import Icon from '../Icon'
+import styled from 'styled-components'
+import { themeMargin, responsiveArray } from '../../themes/themeUtils'
+import MultiselectBox from './MultiselectBox'
+import MultiselectList from './MultiselectList'
 
 const MultiselectStyled = styled.div`
 	user-select: none;
@@ -27,224 +28,93 @@ const MultiselectStyled = styled.div`
 	}
 `
 
-const SelectBoxStyled = styled.div`
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-
-	cursor: default;
-	border: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
-
-	margin: 0;
-	padding: ${(props) => themePadding(props.theme, 'select', props.$padding[0])};
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[1])};
+/** Multiple options select box. */
+class Multiselect extends React.PureComponent {
+	constructor(props) {
+		super(props)
+		this.onClose = this.onClose.bind(this)
 	}
 
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[2])};
+	componentDidUpdate() {
+		setTimeout(() => {
+			if (this.props.isOpen) {
+				window.addEventListener('click', this.onClose)
+			}
+			else {
+				window.removeEventListener('click', this.onClose)
+			}
+		})
 	}
 
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[3])};
+	componentWillUnmount() {
+		window.removeEventListener('click', this.onClose)
 	}
 
-	border-top-left-radius: ${(props) => props.theme.global.rounding};
-	border-top-right-radius: ${(props) => props.theme.global.rounding};
-	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding};
-	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding};
-`
-
-const SelectBoxTextStyled = styled.div`
-	font-weight: normal;
-	margin: 0;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-`
-
-const SelectListStyled = styled.ul`
-	position: absolute;
-	top: 100%;
-	left: 0;
-	z-index: 1;
-
-	width: ${(props) => props.$width};
-	min-width: 100%;
-	max-width: ${(props) => props.$width};
-	height: ${(props) => props.$height};
-	max-height: ${(props) => props.$height};
-
-	margin: 0;
-	padding: 0;
-
-	overflow: hidden;
-	overflow-y: ${(props) => props.$height === 'auto' ? 'hidden' : 'scroll'};
-	-webkit-overflow-scrolling: touch;
-
-	border-left: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
-	border-right: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
-	border-bottom: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
-	background-color: ${(props) => themeColor(props.theme, 'light-0')};
-	box-shadow: 0 2px 5px -1px ${(props) => themeColor(props.theme, 'light-3')};
-`
-
-const selectedListItemStyles = css`
-	background-color: ${(props) => themeColor(props.theme, 'light-1')};
-`
-
-const SelectListItemStyled = styled.li`
-	width: 100%;
-	height: auto;
-	font-weight: normal;
-	cursor: pointer;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	overflow: hidden;
-
-	background-color: ${(props) => themeColor(props.theme, 'light-0')};
-
-	&:hover {
-		background-color: ${(props) => themeColor(props.theme, 'light-1')};
+	onClose() {
+		if (this.props.isOpen) {
+			this.props.onClose()
+		}
 	}
 
-	${(props) => props.$selected && selectedListItemStyles};
+	render() {
+		const {
+			placeholder,
+			emptyPlaceholder,
+			display,
+			items,
+			isOpen,
+			onOpen,
+			onClose,
+			onSelect,
+			margin,
+			padding,
+			width,
+			height,
+			...rest
+		} = this.props
 
-	margin: 0;
-	padding: ${(props) => themePadding(props.theme, 'select', props.$padding[0])};
+		const selectedItems = items
+			.filter((item) => item.selected)
+			.map((item) => item.title)
 
-	border-bottom: 1px solid ${(props) => themeColor(props.theme, 'light-1')};
-
-	&:last-child {
-		border-bottom: none;
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[3])};
-	}
-`
-
-const ListItemTitleStyled = styled.div`
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-`
-
-const SelectBoxTitle = (props) => {
-	const {
-		placeholder,
-		display,
-		selectedItems,
-	} = props
-
-	if (display === 'selected-items') {
 		return (
-			<SelectBoxTextStyled>
-				{selectedItems.length === 0 ? (
-					`${placeholder}`
-				) : (selectedItems.map((item, index) => (
-					<span key={item.title}>{`${item.title}${index === (selectedItems.length - 1) ? '' : ', '}`}</span>
-				)))}
-			</SelectBoxTextStyled>
-		)
-	}
-
-	return (
-		<SelectBoxTextStyled>
-			{placeholder} {`(${selectedItems.length})`}
-		</SelectBoxTextStyled>
-	)
-}
-
-const hiddenCheckMarkStyles = css`
-	visibility: hidden;
-`
-
-SelectBoxTitle.propTypes = {
-	placeholder: PropTypes.string.isRequired,
-	display: PropTypes.string.isRequired,
-	selectedItems: PropTypes.oneOfType([PropTypes.array]).isRequired,
-}
-
-/** Multiple options selector. */
-const Multiselect = (props) => {
-	const {
-		placeholder,
-		display,
-		items,
-		isOpen,
-		onOpen,
-		onSelect,
-		margin,
-		padding,
-		width,
-		height,
-		...rest
-	} = props
-
-	const selectedItems = items.filter((item) => item.selected)
-
-	return (
-		<MultiselectStyled
-			$margin={responsiveArray(margin)}
-			$width={width}
-			{...rest}
-		>
-			<SelectBoxStyled
-				$padding={responsiveArray(padding)}
-				$isOpen={isOpen}
-				onClick={onOpen}
+			<MultiselectStyled
+				$margin={responsiveArray(margin)}
+				$width={width}
+				{...rest}
 			>
-				<SelectBoxTitle
-					display={display}
+				<MultiselectBox
 					placeholder={placeholder}
 					selectedItems={selectedItems}
+					display={display}
+					width={width}
+					padding={responsiveArray(padding)}
+					isOpen={isOpen}
+					onOpen={onOpen}
+					onClose={onClose}
 				/>
-				<Icon type={isOpen ? 'arrow-up' : 'arrow-down'} margin={{ left: 'xs' }} />
-			</SelectBoxStyled>
-			{isOpen &&
-				<SelectListStyled
-					onClick={(event) => event.stopPropagation()}
-					$width={width}
-					$height={height}
-				>
-					{items.map((item) => (
-						<SelectListItemStyled
-							key={item.title}
-							onClick={() => onSelect(item.value, item.title, !item.selected)}
-							$padding={responsiveArray(padding)}
-							$selected={item.selected}
-						>
-							<ListItemTitleStyled>
-								{item.title}
-							</ListItemTitleStyled>
-							<Icon type="check-mark" margin={{ left: 'md' }} css={!item.selected && hiddenCheckMarkStyles} />
-						</SelectListItemStyled>
-					))}
-				</SelectListStyled>}
-		</MultiselectStyled>
-	)
+				<MultiselectList
+					items={items}
+					placeholder={emptyPlaceholder}
+					isOpen={isOpen}
+					width={width}
+					height={height}
+					padding={padding}
+					onSelect={onSelect}
+				/>
+			</MultiselectStyled>
+		)
+	}
 }
 
 Multiselect.propTypes = {
-	/** Text to display when no item is selected. */
+	/** What to display in the select box when no item is selected. */
 	placeholder: PropTypes.string,
 
-	/** What should be displayed in the select box. */
+	/** What to display on the list when there are no items. */
+	emptyPlaceholder: PropTypes.string,
+
+	/** How to display selected items in the select box. */
 	display: PropTypes.oneOf(['selected-items', 'selected-count']),
 
 	/** List of items. */
@@ -262,27 +132,31 @@ Multiselect.propTypes = {
 	/** Is the select list open? */
 	isOpen: PropTypes.bool.isRequired,
 
-	/** Called when opening the list was requested. */
+	/** Called when the select list should be opened. */
 	onOpen: PropTypes.func.isRequired,
 
-	/** Called when an item is selected. */
+	/** Called when the select list should be closed. */
+	onClose: PropTypes.func.isRequired,
+
+	/** Called when an item should be selected. */
 	onSelect: PropTypes.func.isRequired,
 
 	/** The amount of margin around the select box. */
 	margin: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
 
-	/** The amount of padding around the select box. */
+	/** The amount of padding around the select box and the select list. */
 	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
 
-	/** Fixed width of the select box and the items list. */
+	/** Fixed width of the select box and the select list. */
 	width: PropTypes.string,
 
-	/** Fixed height of the items list. */
+	/** Fixed height of the select list. */
 	height: PropTypes.string,
 }
 
 Multiselect.defaultProps = {
-	placeholder: '',
+	placeholder: 'Select an item',
+	emptyPlaceholder: 'No items',
 	display: 'selected-items',
 	margin: 'none',
 	padding: { horizontal: 'sm', vertical: 'xs' },

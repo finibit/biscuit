@@ -1,26 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Multiselect renders closed 1`] = `
+exports[`Multiselect renders empty closed 1`] = `
 .c3 {
   width: 0;
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #0a0a0a;
+  border-top: 4px solid #c3c3c3;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
-  padding: 0;
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
   padding: 0;
 }
 
@@ -52,140 +40,10 @@ exports[`Multiselect renders closed 1`] = `
 }
 
 .c2 {
-  font-weight: normal;
-  margin: 0;
+  color: #c3c3c3;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <div
-        className="c2"
-      >
-        <span>
-          Item 2
-        </span>
-      </div>
-      <div
-        className="c3"
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders opened 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
-  display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
-  padding: 0;
-}
-
-.c7 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: hidden;
-}
-
-.c7:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 .c0 {
@@ -197,6 +55,96 @@ exports[`Multiselect renders opened 1`] = `
   width: 100%;
   max-width: 100%;
   margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        Select an item
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders empty opened 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
@@ -228,8 +176,7 @@ exports[`Multiselect renders opened 1`] = `
 }
 
 .c2 {
-  font-weight: normal;
-  margin: 0;
+  color: #c3c3c3;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -253,329 +200,17 @@ exports[`Multiselect renders opened 1`] = `
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c5 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
+  text-align: center;
+  color: #c3c3c3;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c5:hover {
-  background-color: #f5f5f5;
-}
-
-.c5:last-child {
-  border-bottom: none;
-}
-
-.c8 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c8:hover {
-  background-color: #f5f5f5;
-}
-
-.c8:last-child {
-  border-bottom: none;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <div
-        className="c2"
-      >
-        <span>
-          Item 2
-        </span>
-      </div>
-      <div
-        className="c3"
-      />
-    </div>
-    <ul
-      className="c4"
-      onClick={[Function]}
-    >
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 1
-        </div>
-        <div
-          className="c7"
-        />
-      </li>
-      <li
-        className="c8"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 2
-        </div>
-        <div
-          className="c9"
-        />
-      </li>
-    </ul>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders selected items 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
-  display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
-  padding: 0;
-}
-
-.c7 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: hidden;
-}
-
-.c7:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 .c0 {
@@ -587,6 +222,124 @@ exports[`Multiselect renders selected items 1`] = `
   width: 100%;
   max-width: 100%;
   margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        Select an item
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+      >
+        No items
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders empty with custom placeholders 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
@@ -618,8 +371,7 @@ exports[`Multiselect renders selected items 1`] = `
 }
 
 .c2 {
-  font-weight: normal;
-  margin: 0;
+  color: #c3c3c3;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -643,329 +395,17 @@ exports[`Multiselect renders selected items 1`] = `
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c5 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
+  text-align: center;
+  color: #c3c3c3;
   margin: 0;
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c5:hover {
-  background-color: #f5f5f5;
-}
-
-.c5:last-child {
-  border-bottom: none;
-}
-
-.c8 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c8:hover {
-  background-color: #f5f5f5;
-}
-
-.c8:last-child {
-  border-bottom: none;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <div
-        className="c2"
-      >
-        <span>
-          Item 2
-        </span>
-      </div>
-      <div
-        className="c3"
-      />
-    </div>
-    <ul
-      className="c4"
-      onClick={[Function]}
-    >
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 1
-        </div>
-        <div
-          className="c7"
-        />
-      </li>
-      <li
-        className="c8"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 2
-        </div>
-        <div
-          className="c9"
-        />
-      </li>
-    </ul>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders selected items count 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
-  display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
-  padding: 0;
-}
-
-.c7 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: hidden;
-}
-
-.c7:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 .c0 {
@@ -977,6 +417,124 @@ exports[`Multiselect renders selected items count 1`] = `
   width: 100%;
   max-width: 100%;
   margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        Custom placeholder
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+      >
+        Custom empty placeholder
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders selected items count in select box 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
 }
 
@@ -1003,121 +561,26 @@ exports[`Multiselect renders selected items count 1`] = `
   padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c2 {
-  font-weight: normal;
-  margin: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.c4 {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
   width: 100%;
-  min-width: 100%;
   max-width: 100%;
-  height: auto;
-  max-height: auto;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
-}
-
-.c5 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c5:hover {
-  background-color: #f5f5f5;
-}
-
-.c5:last-child {
-  border-bottom: none;
-}
-
-.c8 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c8:hover {
-  background-color: #f5f5f5;
-}
-
-.c8:last-child {
-  border-bottom: none;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 @media only screen and (min-width:48rem) {
@@ -1142,66 +605,6 @@ exports[`Multiselect renders selected items count 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
   .c1 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
   }
@@ -1220,38 +623,20 @@ exports[`Multiselect renders selected items count 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
@@ -1263,48 +648,157 @@ exports[`Multiselect renders selected items count 1`] = `
       className="c1"
       onClick={[Function]}
     >
-      <div
+      <span
         className="c2"
       >
-        
-         
-        (1)
-      </div>
+        <span>
+          Select an item (2)
+        </span>
+      </span>
       <div
         className="c3"
       />
     </div>
-    <ul
-      className="c4"
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders selected items in select box 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
+  padding: 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
       onClick={[Function]}
     >
-      <li
-        className="c5"
-        onClick={[Function]}
+      <span
+        className="c2"
       >
-        <div
-          className="c6"
-        >
-          Item 1
-        </div>
-        <div
-          className="c7"
-        />
-      </li>
-      <li
-        className="c8"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 2
-        </div>
-        <div
-          className="c9"
-        />
-      </li>
-    </ul>
+        <span>
+          Item 2, 
+        </span>
+        <span>
+          Item 3
+        </span>
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
   </div>
 </div>
 `;
@@ -1315,7 +809,7 @@ exports[`Multiselect renders with fixed height 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
+  border-bottom: 4px solid #c3c3c3;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
@@ -1323,7 +817,7 @@ exports[`Multiselect renders with fixed height 1`] = `
 
 .c7 {
   display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0;
   padding: 0;
   visibility: hidden;
 }
@@ -1333,41 +827,11 @@ exports[`Multiselect renders with fixed height 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #0a0a0a;
+  border: solid #c3c3c3;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100px;
-  max-width: 100px;
-  margin: 0;
-  padding: 0;
 }
 
 .c1 {
@@ -1398,8 +862,41 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 .c2 {
-  font-weight: normal;
+  color: #c3c3c3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+}
+
+.c5:hover {
+  background-color: #f5f5f5;
+}
+
+.c6 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1410,104 +907,35 @@ exports[`Multiselect renders with fixed height 1`] = `
   top: 100%;
   left: 0;
   z-index: 1;
-  width: 100px;
+  width: 100%;
   min-width: 100%;
-  max-width: 100px;
-  height: auto;
-  max-height: auto;
+  max-width: 100%;
+  height: 400px;
+  max-height: 400px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
-.c5 {
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
   width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
+  max-width: 100%;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c5:hover {
-  background-color: #f5f5f5;
-}
-
-.c5:last-child {
-  border-bottom: none;
-}
-
-.c8 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c8:hover {
-  background-color: #f5f5f5;
-}
-
-.c8:last-child {
-  border-bottom: none;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  padding: 0;
 }
 
 @media only screen and (min-width:48rem) {
@@ -1533,61 +961,22 @@ exports[`Multiselect renders with fixed height 1`] = `
 
 @media only screen and (min-width:48rem) {
   .c7 {
-    margin: 0 0 0 1rem;
+    margin: 0;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c7 {
-    margin: 0 0 0 1rem;
+    margin: 0;
     padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
     margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
+    padding: 0;
   }
 }
 
@@ -1628,20 +1017,20 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  .c0 {
+    margin: 0;
   }
 }
 
@@ -1653,48 +1042,59 @@ exports[`Multiselect renders with fixed height 1`] = `
       className="c1"
       onClick={[Function]}
     >
-      <div
+      <span
         className="c2"
       >
-        <span>
-          Item 2
-        </span>
-      </div>
+        Select an item
+      </span>
       <div
         className="c3"
       />
     </div>
-    <ul
+    <div
       className="c4"
       onClick={[Function]}
     >
-      <li
+      <div
         className="c5"
         onClick={[Function]}
       >
-        <div
+        <span
           className="c6"
         >
           Item 1
-        </div>
+        </span>
         <div
           className="c7"
         />
-      </li>
-      <li
-        className="c8"
+      </div>
+      <div
+        className="c5"
         onClick={[Function]}
       >
-        <div
+        <span
           className="c6"
         >
           Item 2
-        </div>
+        </span>
         <div
-          className="c9"
+          className="c7"
         />
-      </li>
-    </ul>
+      </div>
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -1705,7 +1105,7 @@ exports[`Multiselect renders with fixed width 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
+  border-bottom: 4px solid #c3c3c3;
   display: inline-block;
   margin: 0 0 0 0.4018775720164609rem;
   padding: 0;
@@ -1713,7 +1113,7 @@ exports[`Multiselect renders with fixed width 1`] = `
 
 .c7 {
   display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0;
   padding: 0;
   visibility: hidden;
 }
@@ -1723,41 +1123,11 @@ exports[`Multiselect renders with fixed width 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #0a0a0a;
+  border: solid #c3c3c3;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100px;
-  max-width: 100px;
-  margin: 0;
-  padding: 0;
 }
 
 .c1 {
@@ -1788,8 +1158,41 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 .c2 {
-  font-weight: normal;
+  color: #c3c3c3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+}
+
+.c5:hover {
+  background-color: #f5f5f5;
+}
+
+.c6 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1800,9 +1203,9 @@ exports[`Multiselect renders with fixed width 1`] = `
   top: 100%;
   left: 0;
   z-index: 1;
-  width: 100px;
+  width: 400px;
   min-width: 100%;
-  max-width: 100px;
+  max-width: 400px;
   height: auto;
   max-height: auto;
   margin: 0;
@@ -1813,1119 +1216,22 @@ exports[`Multiselect renders with fixed width 1`] = `
   border-left: 1px solid #d7d7d7;
   border-right: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
-}
-
-.c5 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c5:hover {
-  background-color: #f5f5f5;
-}
-
-.c5:last-child {
-  border-bottom: none;
-}
-
-.c8 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c8:hover {
-  background-color: #f5f5f5;
-}
-
-.c8:last-child {
-  border-bottom: none;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <div
-        className="c2"
-      >
-        <span>
-          Item 2
-        </span>
-      </div>
-      <div
-        className="c3"
-      />
-    </div>
-    <ul
-      className="c4"
-      onClick={[Function]}
-    >
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 1
-        </div>
-        <div
-          className="c7"
-        />
-      </li>
-      <li
-        className="c8"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 2
-        </div>
-        <div
-          className="c9"
-        />
-      </li>
-    </ul>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders with margin 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
-  display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
-  padding: 0;
-}
-
-.c7 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: hidden;
-}
-
-.c7:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin: 1.44rem;
-  padding: 0;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  cursor: default;
-  border: 1px solid #d7d7d7;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c2 {
-  font-weight: normal;
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.c4 {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  max-height: auto;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
-}
-
-.c5 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c5:hover {
-  background-color: #f5f5f5;
-}
-
-.c5:last-child {
-  border-bottom: none;
-}
-
-.c8 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c8:hover {
-  background-color: #f5f5f5;
-}
-
-.c8:last-child {
-  border-bottom: none;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <div
-        className="c2"
-      >
-        <span>
-          Item 2
-        </span>
-      </div>
-      <div
-        className="c3"
-      />
-    </div>
-    <ul
-      className="c4"
-      onClick={[Function]}
-    >
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 1
-        </div>
-        <div
-          className="c7"
-        />
-      </li>
-      <li
-        className="c8"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 2
-        </div>
-        <div
-          className="c9"
-        />
-      </li>
-    </ul>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders with padding 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
-  display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
-  padding: 0;
-}
-
-.c7 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: hidden;
-}
-
-.c7:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #0a0a0a;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  cursor: default;
-  border: 1px solid #d7d7d7;
-  margin: 0;
-  padding: 1.44rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c2 {
-  font-weight: normal;
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.c4 {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  max-height: auto;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
-}
-
-.c5 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 1.44rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c5:hover {
-  background-color: #f5f5f5;
-}
-
-.c5:last-child {
-  border-bottom: none;
-}
-
-.c8 {
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #ffffff;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 1.44rem;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.c8:hover {
-  background-color: #f5f5f5;
-}
-
-.c8:last-child {
-  border-bottom: none;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0 0 0 1rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 1.44rem;
-  }
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <div
-        className="c2"
-      >
-        <span>
-          Item 2
-        </span>
-      </div>
-      <div
-        className="c3"
-      />
-    </div>
-    <ul
-      className="c4"
-      onClick={[Function]}
-    >
-      <li
-        className="c5"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 1
-        </div>
-        <div
-          className="c7"
-        />
-      </li>
-      <li
-        className="c8"
-        onClick={[Function]}
-      >
-        <div
-          className="c6"
-        >
-          Item 2
-        </div>
-        <div
-          className="c9"
-        />
-      </li>
-    </ul>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders without items 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-top: 4px solid #0a0a0a;
-  display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
-  padding: 0;
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  cursor: default;
-  border: 1px solid #d7d7d7;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
   border-bottom-right-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
-.c2 {
-  font-weight: normal;
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 400px;
+  max-width: 400px;
   margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  padding: 0;
 }
 
 @media only screen and (min-width:48rem) {
@@ -2950,20 +1256,23 @@ exports[`Multiselect renders without items 1`] = `
 }
 
 @media only screen and (min-width:48rem) {
-  .c0 {
+  .c7 {
     margin: 0;
+    padding: 0;
   }
 }
 
 @media only screen and (min-width:64rem) {
-  .c0 {
+  .c7 {
     margin: 0;
+    padding: 0;
   }
 }
 
 @media only screen and (min-width:75rem) {
-  .c0 {
+  .c7 {
     margin: 0;
+    padding: 0;
   }
 }
 
@@ -2982,6 +1291,42 @@ exports[`Multiselect renders without items 1`] = `
 @media only screen and (min-width:75rem) {
   .c1 {
     padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
   }
 }
 
@@ -2993,14 +1338,1515 @@ exports[`Multiselect renders without items 1`] = `
       className="c1"
       onClick={[Function]}
     >
-      <div
+      <span
         className="c2"
       >
-        
-      </div>
+        Select an item
+      </span>
       <div
         className="c3"
       />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders with no items selected 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
+  padding: 0;
+}
+
+.c7 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #c3c3c3;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c2 {
+  color: #c3c3c3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+}
+
+.c5:hover {
+  background-color: #f5f5f5;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px -1px #e1e1e1;
+}
+
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        Select an item
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders with responsive spacing 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
+  padding: 0;
+}
+
+.c7 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #c3c3c3;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  visibility: visible;
+}
+
+.c9:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #c3c3c3;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+  padding: 0.4018775720164609rem;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0.4018775720164609rem;
+}
+
+.c5:hover {
+  background-color: #f5f5f5;
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem;
+}
+
+.c8:hover {
+  background-color: #f5f5f5;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px -1px #e1e1e1;
+}
+
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0.4018775720164609rem;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c8 {
+    padding: 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c8 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c8 {
+    padding: 1.44rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 1.44rem;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        <span>
+          Item 2, 
+        </span>
+        <span>
+          Item 3
+        </span>
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders with some items selected 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
+  padding: 0;
+}
+
+.c7 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #c3c3c3;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  visibility: visible;
+}
+
+.c9:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #c3c3c3;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+}
+
+.c5:hover {
+  background-color: #f5f5f5;
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+}
+
+.c8:hover {
+  background-color: #f5f5f5;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px -1px #e1e1e1;
+}
+
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c8 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c8 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c8 {
+    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        <span>
+          Item 2, 
+        </span>
+        <span>
+          Item 3
+        </span>
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders with spacing 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #c3c3c3;
+  display: inline-block;
+  margin: 0 0 0 0.4018775720164609rem;
+  padding: 0;
+}
+
+.c7 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #c3c3c3;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  visibility: visible;
+}
+
+.c9:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #c3c3c3;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+  padding: 1rem;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.c2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.c5:hover {
+  background-color: #f5f5f5;
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 1rem;
+}
+
+.c8:hover {
+  background-color: #f5f5f5;
+}
+
+.c6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px -1px #e1e1e1;
+}
+
+.c0 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 2.48832rem;
+  padding: 0;
+}
+
+@media only screen and (min-width:48rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c3 {
+    margin: 0 0 0 0.4018775720164609rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c7 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c9 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c1 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c5 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c8 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c8 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c8 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width:48rem) {
+  .c0 {
+    margin: 2.48832rem;
+  }
+}
+
+@media only screen and (min-width:64rem) {
+  .c0 {
+    margin: 2.48832rem;
+  }
+}
+
+@media only screen and (min-width:75rem) {
+  .c0 {
+    margin: 2.48832rem;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        <span>
+          Item 2, 
+        </span>
+        <span>
+          Item 3
+        </span>
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
     </div>
   </div>
 </div>
