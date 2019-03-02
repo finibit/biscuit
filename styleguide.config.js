@@ -31,7 +31,7 @@ module.exports = {
 		'**/*.d.ts',
 	],
 	styleguideComponents: {
-		Wrapper: path.join(__dirname, 'src/components/Theme/Theme'),
+		Wrapper: path.join(__dirname, 'src/Wrapper'),
 	},
 	getComponentPathLine: (componentPath) => {
 		const name = path.basename(componentPath, '.js')
