@@ -23,23 +23,37 @@ const GlobalStyle = createGlobalStyle`
 	}
 `
 
-const Theme = (props) => (
-	<ThemeProvider theme={mergeTheme(baseTheme, props.theme)}>
-		<div>
-			<GlobalStyle />
-			{props.children}
-		</div>
-	</ThemeProvider>
-)
+const Theme = (props) => {
+	const {
+		theme,
+		global,
+	} = props
+
+	return (
+		<ThemeProvider theme={mergeTheme(baseTheme, theme)}>
+			<div>
+				{ global && <GlobalStyle /> }
+				{props.children}
+			</div>
+		</ThemeProvider>
+	)
+}
 
 Theme.propTypes = {
+	/** Any number of renderable nodes. */
 	children: PropTypes.node,
+
+	/** A custom theme object. */
 	theme: PropTypes.oneOfType([PropTypes.object]),
+
+	/** Should some styles like font-size, font-family be applied globally? */
+	global: PropTypes.bool,
 }
 
 Theme.defaultProps = {
 	children: null,
 	theme: baseTheme,
+	global: true,
 }
 
 export default Theme
