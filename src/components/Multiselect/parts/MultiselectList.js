@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import MultiselectListItem from './MultiselectListItem'
-import { themeColor, themePadding, responsiveArray } from '../../themes/themeUtils'
+import { themeColor, themePadding, responsiveArray } from '../../../themes/themeUtils'
 
 const MultiselectListStyled = styled.div`
 	position: absolute;

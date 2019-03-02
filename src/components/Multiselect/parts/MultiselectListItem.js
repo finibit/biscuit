@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
-import Icon from '../Icon'
-import { themePadding, themeColor, responsiveArray } from '../../themes/themeUtils'
+import Icon from '../../Icon'
+import { themePadding, themeColor, responsiveArray } from '../../../themes/themeUtils'
 
 const hoverStyles = css`
 	background-color: ${(props) => themeColor(props.theme, 'light-1')};

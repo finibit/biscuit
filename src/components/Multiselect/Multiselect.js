@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { themeMargin, responsiveArray } from '../../themes/themeUtils'
-import MultiselectBox from './MultiselectBox'
-import MultiselectList from './MultiselectList'
+import MultiselectBox from './parts/MultiselectBox'
+import MultiselectList from './parts/MultiselectList'
 
 const MultiselectStyled = styled.div`
 	user-select: none;

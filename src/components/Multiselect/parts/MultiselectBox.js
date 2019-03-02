@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
-import Icon from '../Icon'
-import { themeColor, themePadding, responsiveArray } from '../../themes/themeUtils'
+import Icon from '../../Icon'
+import { themeColor, themePadding, responsiveArray } from '../../../themes/themeUtils'
 
 const textWrapStyles = css`
 	white-space: nowrap;

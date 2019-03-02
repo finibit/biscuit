@@ -20,8 +20,10 @@ import { Theme, Heading } from '@finibit/biscuit'
 
 ## Documentation
 
-Individual components and their properties are documented in the corresponding source code. There are also examples in [Storybook](https://storybook.js.org). In order to run them, clone the repository and execute the following command:
+You can view the documentation by downloading the repository and executing the following commands:
 
 ```bash
-npm install && npm run storybook
+npm install && npm run styleguide
 ```
+
+After completion open your browser and navigate to http://localhost:6060
