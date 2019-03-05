@@ -1,12 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import Icon from '../../Icon'
-import { themePadding, themeColor, responsiveArray } from '../../../themes/themeUtils'
-
-const hoverStyles = css`
-	background-color: ${(props) => themeColor(props.theme, 'light-1')};
-`
+import styles from '../../../themes'
 
 const MultiselectListItemStyled = styled.div`
 	cursor: pointer;
@@ -18,25 +14,12 @@ const MultiselectListItemStyled = styled.div`
 	align-items: center;
 
 	&:hover {
-		${hoverStyles}
+		${styles.bgColor}
 	}
 
-	${(props) => props.$selected && hoverStyles};
-
-	margin: 0;
-	padding: ${(props) => themePadding(props.theme, 'select', props.$padding[0])};
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[3])};
-	}
+	${(props) => props.$selected && styles.bgColor}
+	${styles.fontFamily}
+	${styles.spacing}
 `
 
 const MultiselectListItemTitleStyled = styled.span`
@@ -49,12 +32,16 @@ const MultiselectListItem = (props) => {
 	const {
 		item,
 		padding,
+		themeElement,
 		...rest
 	} = props
 
 	return (
 		<MultiselectListItemStyled
-			$padding={responsiveArray(padding)}
+			$element={themeElement}
+			$bgColor="listItemBackground"
+			$margin="none"
+			$padding={padding}
 			$selected={item.selected}
 			{...rest}
 		>
@@ -63,8 +50,10 @@ const MultiselectListItem = (props) => {
 			</MultiselectListItemTitleStyled>
 			<Icon
 				type="check-mark"
-				color="light-6"
+				color="listPlaceholder"
+				margin={{ left: 0 }}
 				css={{ visibility: item.selected ? 'visible' : 'hidden' }}
+				themeElement={themeElement}
 			/>
 		</MultiselectListItemStyled>
 	)
@@ -73,6 +62,7 @@ const MultiselectListItem = (props) => {
 MultiselectListItem.propTypes = {
 	item: PropTypes.oneOfType([PropTypes.object]).isRequired,
 	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]).isRequired,
+	themeElement: PropTypes.string.isRequired,
 }
 
 export default MultiselectListItem

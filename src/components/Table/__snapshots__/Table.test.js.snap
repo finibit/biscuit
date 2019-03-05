@@ -4,34 +4,17 @@ exports[`Table body is rendered 1`] = `
 .c1 {
   margin: 0;
   padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -49,6 +32,7 @@ exports[`Table body with rows is rendered 1`] = `
 .c1 {
   margin: 0;
   padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 .c3 {
@@ -64,31 +48,13 @@ exports[`Table body with rows is rendered 1`] = `
 }
 
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -143,31 +109,13 @@ exports[`Table caption is rendered 1`] = `
 }
 
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -187,34 +135,17 @@ exports[`Table footer is rendered 1`] = `
 .c1 {
   margin: 0;
   padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -239,6 +170,7 @@ exports[`Table footer with rows is rendered 1`] = `
 .c1 {
   margin: 0;
   padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 .c2 {
@@ -247,31 +179,13 @@ exports[`Table footer with rows is rendered 1`] = `
 }
 
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -306,34 +220,17 @@ exports[`Table header is rendered 1`] = `
 .c1 {
   margin: 0;
   padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -358,6 +255,7 @@ exports[`Table header with rows is rendered 1`] = `
 .c1 {
   margin: 0;
   padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 .c2 {
@@ -366,31 +264,13 @@ exports[`Table header with rows is rendered 1`] = `
 }
 
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -439,31 +319,13 @@ exports[`Table header with rows is rendered 1`] = `
 
 exports[`Table is rendered 1`] = `
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -475,90 +337,36 @@ exports[`Table is rendered 1`] = `
 
 exports[`Table table is rendered with custom css 1`] = `
 .c0 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
   background-color: #000;
 }
 
 .c1 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
   background-color: #111;
 }
 
 .c2 {
+  margin: 0;
   table-layout: fixed;
   border-collapse: collapse;
   border: none;
   font-weight: normal;
   width: initial;
-  margin: 0;
   padding: 0;
   background-color: #222;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-  }
 }
 
 <div>

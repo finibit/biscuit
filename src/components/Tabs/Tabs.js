@@ -2,7 +2,7 @@ import React, { Children } from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 import TabsItem from './TabsItem'
-import { themeColor, themePadding, responsiveArray } from '../../themes/themeUtils'
+import styles, { utils } from '../../themes'
 
 const TabsStyled = styled.div`
 	width: 100%;
@@ -20,7 +20,7 @@ const TabsNavStyled = styled.ul`
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flext-start;
-	border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-2')};
+	border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'inactiveTabBorder')};
 	box-sizing: border-box;
 `
 
@@ -35,15 +35,15 @@ const inactiveStyles = css`
 	border-bottom: 2px solid transparent;
 
 	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-5')};
+		border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'hoverTabBorder')};
 	}
 `
 
 const activeStyles = css`
-	border-bottom: 2px solid ${(props) => themeColor(props.theme, 'dark-0')};
+	border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'activeTabBorder')};
 
 	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => themeColor(props.theme, 'dark-0')};
+		border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'activeTabBorder')};
 	}
 `
 
@@ -51,17 +51,20 @@ const disabledStyles = css`
 	border-bottom: 2px solid transparent;
 
 	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => themeColor(props.theme, 'light-2')};
+		border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'disabledTabBorder')};
 	}
 
-	color: ${(props) => themeColor(props.theme, 'light-4')} !important;
+	color: ${(props) => utils.resolveColor(props.theme, props.$element, 'disabledTabTitle')} !important;
 `
 
 const TabsButtonStyled = styled.a`
+	${styles.fontFamily}
+	${styles.padding}
+
+	color: ${(props) => props.theme.global.colors['dark-0']};
 	display: inline-block;
 	cursor: pointer;
-	color: ${(props) => themeColor(props.theme, 'dark-0')};
-	font-family: ${(props) => props.theme.global.fontFamily};
+	font-size: 1rem;
 	font-weight: normal;
 	text-decoration: none;
 	box-sizing: border-box;
@@ -69,19 +72,6 @@ const TabsButtonStyled = styled.a`
 	vertical-align: middle;
 
 	margin: 0 0 -2px 0;
-	padding: ${(props) => themePadding(props.theme, 'tabs', props.$padding[0])};
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		padding: ${(props) => themePadding(props.theme, 'tabs', props.$padding[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		padding: ${(props) => themePadding(props.theme, 'tabs', props.$padding[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		padding: ${(props) => themePadding(props.theme, 'tabs', props.$padding[3])};
-	}
 
 	${(props) => {
 		if (props.$disabled) {
@@ -109,9 +99,10 @@ const TabsButton = (props) => {
 
 	return (
 		<TabsButtonStyled
+			$element="Tabs"
 			$active={active}
 			$disabled={disabled}
-			$padding={responsiveArray(padding)}
+			$padding={padding}
 			{...rest}
 			onClick={(event) => {
 				if (!disabled) {
@@ -130,7 +121,12 @@ TabsButton.propTypes = {
 	index: PropTypes.number.isRequired,
 	active: PropTypes.bool.isRequired,
 	disabled: PropTypes.bool.isRequired,
-	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+	padding: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
 	onClick: PropTypes.func,
 }
 
@@ -145,19 +141,25 @@ const Tabs = (props) => {
 		padding,
 		activeIndex,
 		onTabChange,
+		themeElement,
 		...rest
 	} = props
 
 	return (
 		<TabsStyled
+			$element={themeElement}
 			{...rest}
 		>
-			<TabsNavStyled>
+			<TabsNavStyled
+				$element={themeElement}
+			>
 				{Children.map(children, (child, index) => (
 					<TabsNavItemStyled
 						key={child.props.title}
+						$element={themeElement}
 					>
 						<TabsButton
+							$element={themeElement}
 							index={index}
 							active={index === activeIndex}
 							disabled={child.props.disabled}
@@ -181,7 +183,12 @@ Tabs.propTypes = {
 	children: PropTypes.node.isRequired,
 
 	/** The amount of padding around the tab navigation. */
-	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+	padding: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
 
 	/** Active item index. */
 	activeIndex: PropTypes.number.isRequired,
@@ -193,10 +200,14 @@ Tabs.propTypes = {
 	 * @param {number} index - Proposed new activeIndex
 	 */
 	onTabChange: PropTypes.func.isRequired,
+
+	/** Theme element. */
+	themeElement: PropTypes.string,
 }
 
 Tabs.defaultProps = {
-	padding: { horizontal: 'sm', vertical: 'xs' },
+	padding: { horizontal: 2, vertical: 1 },
+	themeElement: 'Tabs',
 }
 
 Tabs.Item = TabsItem

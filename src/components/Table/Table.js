@@ -7,15 +7,17 @@ import TableFooter from './TableFooter'
 import TableHeader from './TableHeader'
 import TableHeaderCell from './TableHeaderCell'
 import TableRow from './TableRow'
-import { responsiveArray, themeMargin } from '../../themes/themeUtils'
+import styles from '../../themes'
 
 const CaptionStyled = styled.caption`
-	font-family: ${(props) => props.theme.global.fontFamily};
+	${styles.fontFamily}
 	font-weight: normal;
 	text-align: left;
 `
 
 const TableStyled = styled.table`
+	${styles.margin}
+
 	table-layout: fixed;
 	border-collapse: collapse;
 	border: none;
@@ -23,22 +25,9 @@ const TableStyled = styled.table`
 	font-weight: normal;
 	width: ${(props) => props.$width};
 
-	margin: ${(props) => themeMargin(props.theme, 'heading', props.$margin[0])};
 	padding: 0;
 
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		margin: ${(props) => themeMargin(props.theme, 'heading', props.$margin[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		margin: ${(props) => themeMargin(props.theme, 'heading', props.$margin[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		margin: ${(props) => themeMargin(props.theme, 'heading', props.$margin[3])};
-	}
-
-	${(props) => props.$css};
+	${(props) => props.$css}
 `
 
 /** A table of data. */
@@ -54,8 +43,9 @@ const Table = (props) => {
 
 	return (
 		<TableStyled
+			$element="Table"
 			$width={width}
-			$margin={responsiveArray(margin)}
+			$margin={margin}
 			$css={css}
 			{...rest}
 		>
@@ -78,7 +68,12 @@ Table.propTypes = {
 	width: PropTypes.string,
 
 	/** The amount of margin around the table. */
-	margin: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+	margin: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
 
 	/** Custom styles passed to styled-components. */
 	css: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),

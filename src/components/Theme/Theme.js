@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ThemeProvider, createGlobalStyle } from 'styled-components'
 import baseTheme from '../../themes/baseTheme'
-import mergeTheme from '../../themes/themeUtils'
+import { mergeTheme } from '../../themes/themeUtils'
 
 const GlobalStyle = createGlobalStyle`
 	html {

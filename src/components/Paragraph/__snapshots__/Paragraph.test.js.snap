@@ -2,117 +2,33 @@
 
 exports[`Paragraph align 1`] = `
 .c0 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c1 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: right;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c2 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: center;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
+  font-weight: normal;
 }
 
 <div>
@@ -130,79 +46,23 @@ exports[`Paragraph align 1`] = `
 
 exports[`Paragraph color 1`] = `
 .c0 {
-  color: #ffffff;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: light-0;
+  font-weight: normal;
 }
 
 .c1 {
-  color: #aabbcc;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #aabbcc;
+  font-weight: normal;
 }
 
 <div>
@@ -217,42 +77,14 @@ exports[`Paragraph color 1`] = `
 
 exports[`Paragraph css 1`] = `
 .c0 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
   background-color: #000;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
 }
 
 <div>
@@ -267,41 +99,13 @@ exports[`Paragraph css 1`] = `
 
 exports[`Paragraph default 1`] = `
 .c0 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
+  font-weight: normal;
 }
 
 <div>
@@ -312,308 +116,84 @@ exports[`Paragraph default 1`] = `
 `;
 
 exports[`Paragraph margin 1`] = `
-.c4 {
-  color: #0a0a0a;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0;
-}
-
 .c0 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0.4018775720164609rem;
+  margin: xs;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c1 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0;
+  margin: initial;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c2 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0.4018775720164609rem 0 0 0;
+  margin: xsrem 0 0 0;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c3 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0.4018775720164609rem 0 0;
+  margin: 0 xsrem 0 0;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
+}
+
+.c4 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  margin: 0 0 xsrem 0;
+  padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c5 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 xsrem;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c6 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
+  margin: 0 xsrem 0 xsrem;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c7 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
+  margin: xsrem 0 xsrem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem 0 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem 0 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem 0 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    font-size: 1rem;
-    margin: 0 0.4018775720164609rem 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    font-size: 1rem;
-    margin: 0 0.4018775720164609rem 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    font-size: 1rem;
-    margin: 0 0.4018775720164609rem 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c6 {
-    font-size: 1rem;
-    margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c6 {
-    font-size: 1rem;
-    margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c6 {
-    font-size: 1rem;
-    margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    font-size: 1rem;
-    margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
+  font-weight: normal;
 }
 
 <div>
@@ -645,41 +225,41 @@ exports[`Paragraph margin 1`] = `
 `;
 
 exports[`Paragraph margin responsive 1`] = `
-.c0 {
-  color: #0a0a0a;
+.c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0.4018775720164609rem;
+  margin: initial;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
+}
+
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  margin: xs;
+  padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 @media only screen and (min-width:48rem) {
   .c0 {
-    font-size: 1rem;
-    margin: 0.6944444444444444rem;
-    padding: 0;
+    margin: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c0 {
-    font-size: 1rem;
-    margin: 1rem;
-    padding: 0;
+    margin: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c0 {
-    font-size: 1rem;
-    margin: 1.44rem;
-    padding: 0;
+    margin: lg;
   }
 }
 
@@ -688,314 +268,90 @@ exports[`Paragraph margin responsive 1`] = `
     className="c0"
   />
   <p
-    className="c0"
+    className="c1"
   />
 </div>
 `;
 
 exports[`Paragraph padding 1`] = `
-.c1 {
-  color: #0a0a0a;
+.c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0;
+  margin: 0 0 0.402rem 0;
+  padding: xs;
+  color: #000000;
+  font-weight: normal;
 }
 
-.c0 {
-  color: #0a0a0a;
+.c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: initial;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c2 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem 0 0 0;
+  margin: 0 0 0.402rem 0;
+  padding: xsrem 0 0 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c3 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0.4018775720164609rem 0 0;
+  margin: 0 0 0.402rem 0;
+  padding: 0 xsrem 0 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c4 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
+  padding: 0 0 xsrem 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c5 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: 0 0 0 xsrem;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c6 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: 0 xsrem 0 xsrem;
+  color: #000000;
+  font-weight: normal;
 }
 
 .c7 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c6 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c6 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c6 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-  }
+  margin: 0 0 0.402rem 0;
+  padding: xsrem 0 xsrem 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 <div>
@@ -1027,41 +383,41 @@ exports[`Paragraph padding 1`] = `
 `;
 
 exports[`Paragraph padding responsive 1`] = `
-.c0 {
-  color: #0a0a0a;
+.c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: initial;
+  color: #000000;
+  font-weight: normal;
+}
+
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  margin: 0 0 0.402rem 0;
+  padding: xs;
+  color: #000000;
+  font-weight: normal;
 }
 
 @media only screen and (min-width:48rem) {
   .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 1rem;
+    padding: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 1.44rem;
+    padding: lg;
   }
 }
 
@@ -1070,48 +426,20 @@ exports[`Paragraph padding responsive 1`] = `
     className="c0"
   />
   <p
-    className="c0"
+    className="c1"
   />
 </div>
 `;
 
 exports[`Paragraph size 1`] = `
 .c0 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 0.6944444444444444rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
+  font-size: xs;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 0.6944444444444444rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 0.6944444444444444rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 0.6944444444444444rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
+  font-weight: normal;
 }
 
 <div>
@@ -1123,40 +451,40 @@ exports[`Paragraph size 1`] = `
 
 exports[`Paragraph size responsive 1`] = `
 .c0 {
-  color: #0a0a0a;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 0.6944444444444444rem;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
+  font-size: xs;
   text-align: left;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
+  font-weight: normal;
+}
+
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: initial;
+  text-align: left;
+  margin: 0 0 0.402rem 0;
+  padding: 0;
+  color: #000000;
+  font-weight: normal;
 }
 
 @media only screen and (min-width:48rem) {
   .c0 {
-    font-size: 0.8333333333333334rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
+    font-size: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c0 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
+    font-size: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c0 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
+    font-size: lg;
   }
 }
 
@@ -1165,7 +493,7 @@ exports[`Paragraph size responsive 1`] = `
     className="c0"
   />
   <p
-    className="c0"
+    className="c1"
   />
 </div>
 `;

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 import Icon from '../../Icon'
-import { themeColor, themePadding, responsiveArray } from '../../../themes/themeUtils'
+import styles from '../../../themes'
 
 const textWrapStyles = css`
 	white-space: nowrap;
@@ -11,38 +11,27 @@ const textWrapStyles = css`
 `
 
 const MultiselectBoxStyled = styled.div`
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-
 	cursor: default;
-	border: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
 
-	margin: 0;
-	padding: ${(props) => themePadding(props.theme, 'select', props.$padding[0])};
+	${styles.border}
+	${styles.bgColor}
+	${styles.spacing}
+	${styles.fontFamily}
 
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[3])};
-	}
-
-	border-top-left-radius: ${(props) => props.theme.global.rounding};
-	border-top-right-radius: ${(props) => props.theme.global.rounding};
-	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding};
-	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding};
+	border-top-left-radius: ${(props) => props.theme.global.rounding} !important;
+	border-top-right-radius: ${(props) => props.theme.global.rounding} !important;
+	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding} !important;
+	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding} !important;
 `
 
 const PlaceholderStyled = styled.span`
-	color: ${(props) => themeColor(props.theme, 'light-6')};
+	${styles.color}
 	${textWrapStyles}
 `
 
@@ -60,13 +49,18 @@ const MultiselectBox = (props) => {
 		onClose,
 		display,
 		padding,
+		themeElement,
 		...rest
 	} = props
 
 	return (
 		<MultiselectBoxStyled
+			$element={themeElement}
+			$bgColor="boxBackground"
+			$border={0}
 			$width={width}
-			$padding={responsiveArray(padding)}
+			$margin="none"
+			$padding={padding}
 			$isOpen={isOpen}
 			{...rest}
 			onClick={() => {
@@ -79,7 +73,10 @@ const MultiselectBox = (props) => {
 			}}
 		>
 			{(selectedItems.length === 0) ? (
-				<PlaceholderStyled>
+				<PlaceholderStyled
+					$element="Select"
+					$color="boxPlaceholder"
+				>
 					{(display === 'selected-count') ? (
 						`${placeholder} (${selectedItems.length})`
 					) : (
@@ -103,8 +100,9 @@ const MultiselectBox = (props) => {
 			)}
 			<Icon
 				type={isOpen ? 'arrow-up' : 'arrow-down'}
-				color="light-6"
-				margin={{ left: 'xs' }}
+				color="boxPlaceholder"
+				margin={{ left: 0 }}
+				themeElement={themeElement}
 			/>
 		</MultiselectBoxStyled>
 	)
@@ -118,7 +116,13 @@ MultiselectBox.propTypes = {
 	onOpen: PropTypes.func.isRequired,
 	onClose: PropTypes.func.isRequired,
 	display: PropTypes.oneOf(['selected-items', 'selected-count']).isRequired,
-	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]).isRequired,
+	padding: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]).isRequired,
+	themeElement: PropTypes.string.isRequired,
 }
 
 export default MultiselectBox

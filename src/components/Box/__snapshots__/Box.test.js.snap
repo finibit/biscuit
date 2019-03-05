@@ -2,8 +2,10 @@
 
 exports[`Box align 1`] = `
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -28,18 +30,18 @@ exports[`Box align 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -64,18 +66,18 @@ exports[`Box align 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -100,18 +102,18 @@ exports[`Box align 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -136,97 +138,11 @@ exports[`Box align 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -247,8 +163,10 @@ exports[`Box align 1`] = `
 
 exports[`Box alignContent 1`] = `
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -273,18 +191,18 @@ exports[`Box alignContent 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -309,18 +227,18 @@ exports[`Box alignContent 1`] = `
   -webkit-align-content: flex-start;
   -ms-flex-line-pack: start;
   align-content: flex-start;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -345,18 +263,18 @@ exports[`Box alignContent 1`] = `
   -webkit-align-content: flex-end;
   -ms-flex-line-pack: end;
   align-content: flex-end;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -381,18 +299,18 @@ exports[`Box alignContent 1`] = `
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c4 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -417,18 +335,18 @@ exports[`Box alignContent 1`] = `
   -webkit-align-content: space-between;
   -ms-flex-line-pack: space-between;
   align-content: space-between;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c5 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -453,139 +371,11 @@ exports[`Box alignContent 1`] = `
   -webkit-align-content: space-around;
   -ms-flex-line-pack: space-around;
   align-content: space-around;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -612,8 +402,10 @@ exports[`Box alignContent 1`] = `
 
 exports[`Box alignSelf 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -638,18 +430,18 @@ exports[`Box alignSelf 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -677,18 +469,18 @@ exports[`Box alignSelf 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -716,18 +508,18 @@ exports[`Box alignSelf 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -755,18 +547,18 @@ exports[`Box alignSelf 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c4 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -794,118 +586,11 @@ exports[`Box alignSelf 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -929,8 +614,10 @@ exports[`Box alignSelf 1`] = `
 
 exports[`Box as 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -955,34 +642,11 @@ exports[`Box as 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -994,8 +658,10 @@ exports[`Box as 1`] = `
 
 exports[`Box css 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1020,35 +686,12 @@ exports[`Box css 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
   border: 1px solid #000;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
 }
 
 <div>
@@ -1060,8 +703,10 @@ exports[`Box css 1`] = `
 
 exports[`Box default 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1086,34 +731,11 @@ exports[`Box default 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -1125,8 +747,10 @@ exports[`Box default 1`] = `
 
 exports[`Box direction 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1151,18 +775,18 @@ exports[`Box direction 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1187,18 +811,18 @@ exports[`Box direction 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1223,18 +847,18 @@ exports[`Box direction 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1259,97 +883,11 @@ exports[`Box direction 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -1370,8 +908,10 @@ exports[`Box direction 1`] = `
 
 exports[`Box height 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1396,34 +936,11 @@ exports[`Box height 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: 100px;
   max-height: 100px;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -1435,8 +952,10 @@ exports[`Box height 1`] = `
 
 exports[`Box justify 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1461,18 +980,18 @@ exports[`Box justify 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1497,18 +1016,18 @@ exports[`Box justify 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1533,18 +1052,18 @@ exports[`Box justify 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1569,18 +1088,18 @@ exports[`Box justify 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c4 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1605,18 +1124,18 @@ exports[`Box justify 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c5 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1641,139 +1160,11 @@ exports[`Box justify 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -1799,45 +1190,11 @@ exports[`Box justify 1`] = `
 `;
 
 exports[`Box margin 1`] = `
-.c10 {
-  box-sizing: border-box;
-  overflow: visible;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-  background-color: none;
-  width: auto;
-  max-width: auto;
-  height: auto;
-  max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: xs;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1862,18 +1219,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.4018775720164609rem;
-  padding: 0;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: xsrem smrem xsrem smrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1898,18 +1255,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  padding: 0;
+  overflow: visible;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: xsrem xlrem lgrem smrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1934,18 +1291,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
-  padding: 0;
+  overflow: visible;
 }
 
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: xsrem lgrem xsrem smrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1970,18 +1327,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
-  padding: 0;
+  overflow: visible;
 }
 
 .c4 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: smrem xsrem lgrem xsrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2006,18 +1363,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
-  padding: 0;
+  overflow: visible;
 }
 
 .c5 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 1em;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2042,18 +1399,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 1em;
-  padding: 0;
+  overflow: visible;
 }
 
 .c6 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 1emrem 2emrem 1emrem 2emrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2078,18 +1435,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 1em 2em 1em 2em;
-  padding: 0;
+  overflow: visible;
 }
 
 .c7 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 1emrem 4emrem 3emrem 2emrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2114,18 +1471,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 1em 4em 3em 2em;
-  padding: 0;
+  overflow: visible;
 }
 
 .c8 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 1emrem 3emrem 1emrem 2emrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2150,18 +1507,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 1em 3em 1em 2em;
-  padding: 0;
+  overflow: visible;
 }
 
 .c9 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 2emrem 1emrem 3emrem 1emrem;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2186,18 +1543,53 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 2em 1em 3em 1em;
+  overflow: visible;
+}
+
+.c10 {
+  background-color: initial;
+  border: none;
   padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  overflow: visible;
 }
 
 .c11 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: xs;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2222,18 +1614,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.4018775720164609rem;
-  padding: 0;
+  overflow: visible;
 }
 
 .c12 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: xs;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2258,18 +1650,18 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.4018775720164609rem;
-  padding: 0;
+  overflow: visible;
 }
 
 .c13 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: xs;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2294,306 +1686,46 @@ exports[`Box margin 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0.4018775720164609rem;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c10 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c10 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c10 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    margin: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    margin: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    margin: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    margin: 1em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    margin: 1em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    margin: 1em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c6 {
-    margin: 1em 2em 1em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c6 {
-    margin: 1em 2em 1em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c6 {
-    margin: 1em 2em 1em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 1em 4em 3em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 1em 4em 3em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 1em 4em 3em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 1em 3em 1em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 1em 3em 1em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 1em 3em 1em 2em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 2em 1em 3em 1em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 2em 1em 3em 1em;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 2em 1em 3em 1em;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 @media only screen and (min-width:48rem) {
   .c11 {
-    margin: 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c11 {
-    margin: 0.6944444444444444rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c11 {
-    margin: 0.6944444444444444rem;
-    padding: 0;
+    margin: sm;
   }
 }
 
 @media only screen and (min-width:48rem) {
   .c12 {
-    margin: 0.6944444444444444rem;
-    padding: 0;
+    margin: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c12 {
-    margin: 1.44rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c12 {
-    margin: 1.44rem;
-    padding: 0;
+    margin: lg;
   }
 }
 
 @media only screen and (min-width:48rem) {
   .c13 {
-    margin: 0.6944444444444444rem;
-    padding: 0;
+    margin: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c13 {
-    margin: 1.44rem;
-    padding: 0;
+    margin: lg;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c13 {
-    margin: 2.48832rem;
-    padding: 0;
+    margin: xl;
   }
 }
 
@@ -2648,8 +1780,10 @@ exports[`Box margin 1`] = `
 
 exports[`Box order 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2674,34 +1808,11 @@ exports[`Box order 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -2713,8 +1824,10 @@ exports[`Box order 1`] = `
 
 exports[`Box overflow 1`] = `
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2739,18 +1852,18 @@ exports[`Box overflow 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c0 {
-  box-sizing: border-box;
-  overflow: auto;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2775,18 +1888,18 @@ exports[`Box overflow 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: auto;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: scroll;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2811,18 +1924,18 @@ exports[`Box overflow 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: scroll;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: hidden;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2847,97 +1960,11 @@ exports[`Box overflow 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: hidden;
 }
 
 <div>
@@ -2957,45 +1984,11 @@ exports[`Box overflow 1`] = `
 `;
 
 exports[`Box padding 1`] = `
-.c10 {
-  box-sizing: border-box;
-  overflow: visible;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-  background-color: none;
-  width: auto;
-  max-width: auto;
-  height: auto;
-  max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: xs;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3020,18 +2013,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.4018775720164609rem;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: xsrem smrem xsrem smrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3056,18 +2049,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  overflow: visible;
 }
 
 .c2 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: xsrem xlrem lgrem smrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3092,18 +2085,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
+  overflow: visible;
 }
 
 .c3 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: xsrem lgrem xsrem smrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3128,18 +2121,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
+  overflow: visible;
 }
 
 .c4 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: smrem xsrem lgrem xsrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3164,18 +2157,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
+  overflow: visible;
 }
 
 .c5 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 1em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3200,18 +2193,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 1em;
+  overflow: visible;
 }
 
 .c6 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 1emrem 2emrem 1emrem 2emrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3236,18 +2229,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 1em 2em 1em 2em;
+  overflow: visible;
 }
 
 .c7 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 1emrem 4emrem 3emrem 2emrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3272,18 +2265,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 1em 4em 3em 2em;
+  overflow: visible;
 }
 
 .c8 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 1emrem 3emrem 1emrem 2emrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3308,18 +2301,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 1em 3em 1em 2em;
+  overflow: visible;
 }
 
 .c9 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 2emrem 1emrem 3emrem 1emrem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3344,18 +2337,53 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
+  overflow: visible;
+}
+
+.c10 {
+  background-color: initial;
+  border: none;
   margin: 0;
-  padding: 2em 1em 3em 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  overflow: visible;
 }
 
 .c11 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: xs;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3380,18 +2408,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.4018775720164609rem;
+  overflow: visible;
 }
 
 .c12 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: xs;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3416,18 +2444,18 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.4018775720164609rem;
+  overflow: visible;
 }
 
 .c13 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: xs;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3452,306 +2480,46 @@ exports[`Box padding 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0.4018775720164609rem;
-}
-
-@media only screen and (min-width:48rem) {
-  .c10 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c10 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c10 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0.4018775720164609rem 2.48832rem 1.44rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0.4018775720164609rem 1.44rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    margin: 0;
-    padding: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    margin: 0;
-    padding: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    margin: 0;
-    padding: 0.6944444444444444rem 0.4018775720164609rem 1.44rem 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    margin: 0;
-    padding: 1em;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    margin: 0;
-    padding: 1em;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    margin: 0;
-    padding: 1em;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c6 {
-    margin: 0;
-    padding: 1em 2em 1em 2em;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c6 {
-    margin: 0;
-    padding: 1em 2em 1em 2em;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c6 {
-    margin: 0;
-    padding: 1em 2em 1em 2em;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0;
-    padding: 1em 4em 3em 2em;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0;
-    padding: 1em 4em 3em 2em;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0;
-    padding: 1em 4em 3em 2em;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    margin: 0;
-    padding: 1em 3em 1em 2em;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    margin: 0;
-    padding: 1em 3em 1em 2em;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    margin: 0;
-    padding: 1em 3em 1em 2em;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0;
-    padding: 2em 1em 3em 1em;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0;
-    padding: 2em 1em 3em 1em;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0;
-    padding: 2em 1em 3em 1em;
-  }
+  overflow: visible;
 }
 
 @media only screen and (min-width:48rem) {
   .c11 {
-    margin: 0;
-    padding: 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c11 {
-    margin: 0;
-    padding: 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c11 {
-    margin: 0;
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:48rem) {
   .c12 {
-    margin: 0;
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c12 {
-    margin: 0;
-    padding: 1.44rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c12 {
-    margin: 0;
-    padding: 1.44rem;
+    padding: lg;
   }
 }
 
 @media only screen and (min-width:48rem) {
   .c13 {
-    margin: 0;
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c13 {
-    margin: 0;
-    padding: 1.44rem;
+    padding: lg;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c13 {
-    margin: 0;
-    padding: 2.48832rem;
+    padding: xl;
   }
 }
 
@@ -3806,8 +2574,10 @@ exports[`Box padding 1`] = `
 
 exports[`Box theme 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: #aabbcc;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3832,18 +2602,18 @@ exports[`Box theme 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: #aabbcc;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
+  overflow: visible;
 }
 
 .c1 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: #cafeee;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3868,55 +2638,11 @@ exports[`Box theme 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: #cafeee;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -3931,8 +2657,10 @@ exports[`Box theme 1`] = `
 
 exports[`Box width 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3957,34 +2685,11 @@ exports[`Box width 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: 100px;
   max-width: 100px;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>
@@ -3996,8 +2701,10 @@ exports[`Box width 1`] = `
 
 exports[`Box wrap 1`] = `
 .c0 {
-  box-sizing: border-box;
-  overflow: visible;
+  background-color: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4022,34 +2729,11 @@ exports[`Box wrap 1`] = `
   -webkit-align-content: stretch;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
-  background-color: none;
   width: auto;
   max-width: auto;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
+  overflow: visible;
 }
 
 <div>

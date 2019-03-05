@@ -1,8 +1,8 @@
 const biscuitTheme = {
 	global: {
-		colors: {
-			brand: '#d0a06d',
-		},
+		colors: [
+			'#ffd179',
+		],
 	},
 }
 

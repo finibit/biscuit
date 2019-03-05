@@ -3,220 +3,87 @@ const baseTheme = {
 		baseSize: 14,
 		typeScale: 1.2,
 		fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
-		rounding: `${1.2 ** -5}rem`,
 
+		colors: [
+			'#000000', // black
+			'#ffffff', // white
+			'#3498db', // info
+			'#f22613', // danger
+			'#26a65b', // success
+			'#f9690e', // warning
+		],
+
+		borders: [
+			{
+				color: { value: 1, shade: 0.15 },
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			},
+		],
+
+		breakpoints: ['0', '48rem', '64rem', '75rem'],
+		size: [-2, -1, 0, 1, 2],
+		spacing: [-5, -2, 0, 2, 5],
+	},
+
+	Box: {
+		spacing: [],
+	},
+
+	Heading: {
+		size: [0, 1, 2, 3, 4, 5],
+		spacing: [],
+	},
+
+	Paragraph: {
+		size: [],
+		spacing: [],
+	},
+
+	Text: {
+		size: [],
+		spacing: [],
+	},
+
+	Image: {
+		spacing: [],
+	},
+
+	Icon: {
+		spacing: [],
+	},
+
+	Popover: {
+		spacing: [],
+	},
+
+	Select: {
+		spacing: [],
 		colors: {
-			info: '#3498db',
-			danger: '#f22613',
-			success: '#26a65b',
-			warning: '#f9690e',
-			'light-0': '#ffffff',
-			'light-1': '#f5f5f5',
-			'light-2': '#ebebeb',
-			'light-3': '#e1e1e1',
-			'light-4': '#d7d7d7',
-			'light-5': '#cdcdcd',
-			'light-6': '#c3c3c3',
-			'dark-0': '#0a0a0a',
-			'dark-1': '#1e1e1e',
-			'dark-2': '#323232',
-			'dark-3': '#464646',
-			'dark-4': '#5a5a5a',
-			'dark-5': '#6e6e6e',
-			'dark-6': '#7d7d7d',
-		},
-
-		breakpoints: {
-			sm: '48rem',
-			md: '64rem',
-			lg: '75rem',
-		},
-
-		size: {
-			xs: -2,
-			sm: -1,
-			md: 0,
-			lg: 1,
-			xl: 2,
-		},
-
-		margin: {
-			xs: -5,
-			sm: -2,
-			md: 0,
-			lg: 2,
-			xl: 5,
-		},
-
-		padding: {
-			xs: -5,
-			sm: -2,
-			md: 0,
-			lg: 2,
-			xl: 5,
+			boxBackground: 1,
+			boxPlaceholder: { value: 1, shade: 0.2 },
+			listBackground: 1,
+			listPlaceholder: { value: 1, shade: 0.2 },
+			listItemBackground: { value: 1, shade: 0.03 },
 		},
 	},
 
-	box: {
-		margin: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
+	Tabs: {
+		spacing: [],
+		colors: {
+			activeTabBorder: { value: 0 },
+			activeTabTitle: { value: 0 },
+			inactiveTabBorder: { value: 1, shade: 0.1 },
+			inactiveTabTitle: { value: 1 },
+			disabledTabBorder: { value: 1, shade: 0.1 },
+			disabledTabTitle: { value: 1, shade: 0.2 },
+			hoverTabBorder: { value: 1, shade: 0.2 },
 		},
 	},
 
-	heading: {
-		size: {
-			xs: 1,
-			sm: 2,
-			md: 3,
-			lg: 4,
-			xl: 5,
-		},
-
-		margin: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-	},
-
-	paragraph: {
-		size: {
-			// xs:,
-			// sm:,
-			// md:,
-			// lg:,
-			// xl:,
-		},
-
-		margin: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-	},
-
-	text: {
-		size: {
-			// xs:,
-			// sm:,
-			// md:,
-			// lg:,
-			// xl:,
-		},
-
-		margin: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-	},
-
-	tabs: {
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-	},
-
-	select: {
-		margin: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-	},
-
-	popover: {
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-	},
-
-	image: {
-		margin: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-	},
-
-	icon: {
-		margin: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
-
-		padding: {
-			// xs: '',
-			// sm: '',
-			// md: '',
-			// lg: '',
-			// xl: '',
-		},
+	Table: {
+		spacing: [],
 	},
 }
 

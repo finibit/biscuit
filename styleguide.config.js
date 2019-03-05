@@ -16,8 +16,8 @@ module.exports = {
 					name: 'Components',
 					content: 'src/components/README.md',
 					components: 'src/components/**/[A-Z]*.js',
-					exampleMode: 'expand', // 'hide' | 'collapse' | 'expand'
-					usageMode: 'expand', // 'hide' | 'collapse' | 'expand'
+					exampleMode: 'expand',
+					usageMode: 'collapse',
 				},
 			],
 			sectionDepth: 2,

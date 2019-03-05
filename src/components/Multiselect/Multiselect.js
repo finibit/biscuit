@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { themeMargin, responsiveArray } from '../../themes/themeUtils'
+import styles from '../../themes'
 import MultiselectBox from './parts/MultiselectBox'
 import MultiselectList from './parts/MultiselectList'
 
@@ -12,48 +12,25 @@ const MultiselectStyled = styled.div`
 	width: ${(props) => props.$width};
 	max-width: ${(props) => props.$width};
 
-	margin: ${(props) => themeMargin(props.theme, 'select', props.$margin[0])};
-	padding: 0;
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		margin: ${(props) => themeMargin(props.theme, 'select', props.$margin[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		margin: ${(props) => themeMargin(props.theme, 'select', props.$margin[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		margin: ${(props) => themeMargin(props.theme, 'select', props.$margin[3])};
-	}
+	${styles.spacing}
 `
 
 /** Multiple options select box. */
 class Multiselect extends React.PureComponent {
-	constructor(props) {
-		super(props)
-		this.onClose = this.onClose.bind(this)
-	}
-
-	componentDidUpdate() {
-		setTimeout(() => {
-			if (this.props.isOpen) {
-				window.addEventListener('click', this.onClose)
-			}
-			else {
-				window.removeEventListener('click', this.onClose)
-			}
-		})
+	componentWillMount() {
+		window.addEventListener('click', this.onClickOutside, false)
 	}
 
 	componentWillUnmount() {
-		window.removeEventListener('click', this.onClose)
+		window.removeEventListener('click', this.onClickOutside, false)
 	}
 
-	onClose() {
-		if (this.props.isOpen) {
-			this.props.onClose()
+	onClickOutside = (e) => {
+		if (this.node.contains(e.target)) {
+			return
 		}
+
+		this.props.onClose()
 	}
 
 	render() {
@@ -70,6 +47,7 @@ class Multiselect extends React.PureComponent {
 			padding,
 			width,
 			height,
+			themeElement,
 			...rest
 		} = this.props
 
@@ -79,7 +57,13 @@ class Multiselect extends React.PureComponent {
 
 		return (
 			<MultiselectStyled
-				$margin={responsiveArray(margin)}
+				ref={(node) => {
+					this.node = node
+					return this.node
+				}}
+				$element={themeElement}
+				$margin={margin}
+				$padding="none"
 				$width={width}
 				{...rest}
 			>
@@ -88,10 +72,11 @@ class Multiselect extends React.PureComponent {
 					selectedItems={selectedItems}
 					display={display}
 					width={width}
-					padding={responsiveArray(padding)}
+					padding={padding}
 					isOpen={isOpen}
 					onOpen={onOpen}
 					onClose={onClose}
+					themeElement={themeElement}
 				/>
 				<MultiselectList
 					items={items}
@@ -101,6 +86,7 @@ class Multiselect extends React.PureComponent {
 					height={height}
 					padding={padding}
 					onSelect={onSelect}
+					themeElement={themeElement}
 				/>
 			</MultiselectStyled>
 		)
@@ -142,16 +128,29 @@ Multiselect.propTypes = {
 	onSelect: PropTypes.func.isRequired,
 
 	/** The amount of margin around the select box. */
-	margin: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+	margin: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
 
 	/** The amount of padding around the select box and the select list. */
-	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+	padding: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
 
 	/** Fixed width of the select box and the select list. */
 	width: PropTypes.string,
 
 	/** Fixed height of the select list. */
 	height: PropTypes.string,
+
+	/** Theme element. */
+	themeElement: PropTypes.string,
 }
 
 Multiselect.defaultProps = {
@@ -159,9 +158,10 @@ Multiselect.defaultProps = {
 	emptyPlaceholder: 'No items',
 	display: 'selected-items',
 	margin: 'none',
-	padding: { horizontal: 'sm', vertical: 'xs' },
+	padding: { horizontal: 1, vertical: 0 },
 	width: '100%',
 	height: 'auto',
+	themeElement: 'Select',
 }
 
 export default Multiselect

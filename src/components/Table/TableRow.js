@@ -6,7 +6,7 @@ const TableRowStyled = styled.tr`
 	margin: 0;
 	padding: 0;
 
-	${(props) => props.$css};
+	${(props) => props.$css}
 `
 
 const TableRow = (props) => {

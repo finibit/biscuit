@@ -5,114 +5,42 @@ exports[`Heading align 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: right;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c2 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>
@@ -133,76 +61,28 @@ exports[`Heading color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #ffffff;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: light-0;
 }
 
 .c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #aabbcc;
+  font-size: 2.074rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.0736rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #aabbcc;
 }
 
 <div>
@@ -220,14 +100,14 @@ exports[`Heading css 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
   background-color: #000;
 }
 
@@ -235,63 +115,15 @@ exports[`Heading css 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.074rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.0736rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
   background-color: #000;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
 }
 
 <div>
@@ -309,152 +141,56 @@ exports[`Heading decoration 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.074rem;
   text-align: left;
   -webkit-text-decoration: underline;
   text-decoration: underline;
   text-transform: none;
-  font-size: 2.0736rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c2 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.728rem;
   text-align: left;
   -webkit-text-decoration: overline;
   text-decoration: overline;
   text-transform: none;
-  font-size: 1.728rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c3 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.440rem;
   text-align: left;
   -webkit-text-decoration: line-through;
   text-decoration: line-through;
   text-transform: none;
-  font-size: 1.44rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>
@@ -478,38 +214,14 @@ exports[`Heading italic 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: italic;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>
@@ -524,228 +236,84 @@ exports[`Heading level 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.074rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.0736rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c2 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.728rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 1.728rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c3 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.440rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 1.44rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c4 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.200rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 1.2rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c5 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 1rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    font-size: 1rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>
@@ -771,308 +339,116 @@ exports[`Heading level 1`] = `
 `;
 
 exports[`Heading margin 1`] = `
-.c4 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: #0a0a0a;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0;
-}
-
 .c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0.4018775720164609rem;
+  margin: xs;
   padding: 0;
+  color: #000000;
 }
 
 .c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0;
+  margin: initial;
   padding: 0;
+  color: #000000;
 }
 
 .c2 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0.4018775720164609rem 0 0 0;
+  margin: xsrem 0 0 0;
   padding: 0;
+  color: #000000;
 }
 
 .c3 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0.4018775720164609rem 0 0;
+  margin: 0 xsrem 0 0;
   padding: 0;
+  color: #000000;
+}
+
+.c4 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.488rem;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0 0 xsrem 0;
+  padding: 0;
+  color: #000000;
 }
 
 .c5 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 xsrem;
   padding: 0;
+  color: #000000;
 }
 
 .c6 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
+  margin: 0 xsrem 0 xsrem;
   padding: 0;
+  color: #000000;
 }
 
 .c7 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
+  margin: xsrem 0 xsrem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem 0 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem 0 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem 0 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    font-size: 2.48832rem;
-    margin: 0 0.4018775720164609rem 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    font-size: 2.48832rem;
-    margin: 0 0.4018775720164609rem 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    font-size: 2.48832rem;
-    margin: 0 0.4018775720164609rem 0 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    font-size: 2.48832rem;
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    font-size: 2.48832rem;
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    font-size: 2.48832rem;
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c6 {
-    font-size: 2.48832rem;
-    margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c6 {
-    font-size: 2.48832rem;
-    margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c6 {
-    font-size: 2.48832rem;
-    margin: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    font-size: 2.48832rem;
-    margin: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>
@@ -1104,41 +480,49 @@ exports[`Heading margin 1`] = `
 `;
 
 exports[`Heading margin responsive 1`] = `
-.c0 {
+.c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0.4018775720164609rem;
+  margin: initial;
   padding: 0;
+  color: #000000;
+}
+
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.488rem;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: none;
+  margin: xs;
+  padding: 0;
+  color: #000000;
 }
 
 @media only screen and (min-width:48rem) {
   .c0 {
-    font-size: 2.48832rem;
-    margin: 0.6944444444444444rem;
-    padding: 0;
+    margin: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c0 {
-    font-size: 2.48832rem;
-    margin: 1rem;
-    padding: 0;
+    margin: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c0 {
-    font-size: 2.48832rem;
-    margin: 1.44rem;
-    padding: 0;
+    margin: lg;
   }
 }
 
@@ -1147,314 +531,122 @@ exports[`Heading margin responsive 1`] = `
     className="c0"
   />
   <h1
-    className="c0"
+    className="c1"
   />
 </div>
 `;
 
 exports[`Heading padding 1`] = `
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: #0a0a0a;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0;
-}
-
 .c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: xs;
+  color: #000000;
+}
+
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.488rem;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0 0 0.402rem 0;
+  padding: initial;
+  color: #000000;
 }
 
 .c2 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem 0 0 0;
+  margin: 0 0 0.402rem 0;
+  padding: xsrem 0 0 0;
+  color: #000000;
 }
 
 .c3 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0.4018775720164609rem 0 0;
+  margin: 0 0 0.402rem 0;
+  padding: 0 xsrem 0 0;
+  color: #000000;
 }
 
 .c4 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
+  padding: 0 0 xsrem 0;
+  color: #000000;
 }
 
 .c5 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: 0 0 0 xsrem;
+  color: #000000;
 }
 
 .c6 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: 0 xsrem 0 xsrem;
+  color: #000000;
 }
 
 .c7 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c6 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c6 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c6 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0 0.4018775720164609rem 0 0.4018775720164609rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.4018775720164609rem 0 0.4018775720164609rem 0;
-  }
+  margin: 0 0 0.402rem 0;
+  padding: xsrem 0 xsrem 0;
+  color: #000000;
 }
 
 <div>
@@ -1486,41 +678,49 @@ exports[`Heading padding 1`] = `
 `;
 
 exports[`Heading padding responsive 1`] = `
-.c0 {
+.c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
-  padding: 0.4018775720164609rem;
+  margin: 0 0 0.402rem 0;
+  padding: initial;
+  color: #000000;
+}
+
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.488rem;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0 0 0.402rem 0;
+  padding: xs;
+  color: #000000;
 }
 
 @media only screen and (min-width:48rem) {
   .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 1rem;
+    padding: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 1.44rem;
+    padding: lg;
   }
 }
 
@@ -1529,7 +729,7 @@ exports[`Heading padding responsive 1`] = `
     className="c0"
   />
   <h1
-    className="c0"
+    className="c1"
   />
 </div>
 `;
@@ -1539,38 +739,14 @@ exports[`Heading size 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: xs;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 1.2rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>
@@ -1585,37 +761,45 @@ exports[`Heading size responsive 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: xs;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 1.2rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
+}
+
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: initial;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0 0 0.402rem 0;
+  padding: 0;
+  color: #000000;
 }
 
 @media only screen and (min-width:48rem) {
   .c0 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
+    font-size: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c0 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
+    font-size: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c0 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
+    font-size: lg;
   }
 }
 
@@ -1624,7 +808,7 @@ exports[`Heading size responsive 1`] = `
     className="c0"
   />
   <h1
-    className="c0"
+    className="c1"
   />
 </div>
 `;
@@ -1634,190 +818,70 @@ exports[`Heading transform 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.074rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2.0736rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c2 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.728rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: lowercase;
-  font-size: 1.728rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c3 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.440rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 1.44rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c4 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 1.200rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: full-width;
-  font-size: 1.2rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    font-size: 1.728rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    font-size: 1.44rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    font-size: 1.2rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>
@@ -1844,76 +908,28 @@ exports[`Heading weight 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.488rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.48832rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
+  color: #000000;
 }
 
 .c1 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #0a0a0a;
+  font-size: 2.074rem;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: none;
-  font-size: 2.0736rem;
-  margin: 0 0 0.4018775720164609rem 0;
+  margin: 0 0 0.402rem 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: 2.48832rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    font-size: 2.0736rem;
-    margin: 0 0 0.4018775720164609rem 0;
-    padding: 0;
-  }
+  color: #000000;
 }
 
 <div>

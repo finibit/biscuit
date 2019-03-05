@@ -1,55 +1,99 @@
-import { scaleValue, themeMargin } from './themeUtils'
+import { utils } from '../themes/themeUtils'
 
-describe('Theme utils', () => {
-	test.each([
-		[{ global: { typeScale: 2 } }, -2, 0.25],
-		[{ global: { typeScale: 2 } }, -1, 0.5],
-		[{ global: { typeScale: 2 } }, 0, 1],
-		[{ global: { typeScale: 2 } }, 1, 2],
-		[{ global: { typeScale: 2 } }, 2, 4],
-	])('Specified value is scaled by typeScale property of theme object', (theme, value, expected) => {
-		expect(scaleValue(theme, value)).toEqual(expected)
+describe('utils.resolveValue', () => {
+	test('given an index returns value defined for an element', () => {
+		expect(utils.resolveValue({
+			element: { values: ['element'] },
+		}, 'element', 'values', 0)).toEqual('element')
 	})
 
-	test.each([
-		[{ elem: { margin: { } } }, 'none', '0'],
-		[{ elem: { margin: { xs: '1rem' } } }, 'xs', '1rem'],
-		[{ elem: { margin: { sm: '2rem' } } }, 'sm', '2rem'],
-		[{ elem: { margin: { md: '3rem' } } }, 'md', '3rem'],
-		[{ elem: { margin: { lg: '4rem' } } }, 'lg', '4rem'],
-		[{ elem: { margin: { xl: '5rem' } } }, 'xl', '5rem'],
-		[{
-			elem: {
-				margin: {
-					xs: '1rem',
-					sm: '2rem',
-					md: '3rem',
-					lg: '4rem',
-				},
-			},
-		}, {
-			top: 'xs',
-			right: 'sm',
-			bottom: 'md',
-			left: 'lg',
-		}, '1rem 2rem 3rem 4rem'],
-		[{
-			elem: {
-				margin: {
-					xs: '1rem',
-					md: '3rem',
-				},
-			},
-		}, {
-			vertical: 'xs',
-			horizontal: 'md',
-		}, '1rem 3rem 1rem 3rem'],
-		[{ global: { typeScale: 2 }, elem: { margin: { xs: -2 } } }, 'xs', '0.25rem'],
-		[{ global: { typeScale: 2 }, elem: { margin: { sm: -1 } } }, 'sm', '0.5rem'],
-		[{ global: { typeScale: 2 }, elem: { margin: { md: 0 } } }, 'md', '1rem'],
-		[{ global: { typeScale: 2 }, elem: { margin: { lg: 1 } } }, 'lg', '2rem'],
-		[{ global: { typeScale: 2 }, elem: { margin: { xl: 2 } } }, 'xl', '4rem'],
-	])('A string is returned that can be set to CSS margin property', (theme, size, expected) => {
-		expect(themeMargin(theme, 'elem', size)).toEqual(expected)
+	test('given a string returns value defined for an element', () => {
+		expect(utils.resolveValue({
+			element: { values: { value: 'element' } },
+		}, 'element', 'values', 'value')).toEqual('element')
+	})
+
+	test('given an index returns value defined globally', () => {
+		expect(utils.resolveValue({
+			global: { values: ['global'] },
+		}, 'element', 'values', 0)).toEqual('global')
+
+		expect(utils.resolveValue({
+			global: { values: ['global'] },
+			element: { values: [] },
+		}, 'element', 'values', 0)).toEqual('global')
+	})
+
+	test('given an index returns null if value cannot be resolved', () => {
+		expect(utils.resolveValue({
+			global: {},
+		}, 'element', 'values', 0)).toBeNull()
+
+		expect(utils.resolveValue({
+			global: {},
+			element: {},
+		}, 'element', 'values', 0)).toBeNull()
+	})
+
+	test('given a string returns value defined globally', () => {
+		expect(utils.resolveValue({
+			global: { values: { value: 'global' } },
+		}, 'element', 'values', 'value')).toEqual('global')
+
+		expect(utils.resolveValue({
+			global: { values: { value: 'global' } },
+			element: { values: {} },
+		}, 'element', 'values', 'value')).toEqual('global')
+	})
+
+	test('given a string returns null if value cannot be resolved', () => {
+		expect(utils.resolveValue({
+			global: {},
+		}, 'element', 'values', 'value')).toBeNull()
+
+		expect(utils.resolveValue({
+			global: {},
+			element: {},
+		}, 'element', 'values', 'value')).toBeNull()
+	})
+})
+
+describe('utils.resolveColor', () => {
+	test('given an index returns value defined for an element', () => {
+		expect(utils.resolveColor({
+			element: { colors: ['#ff0000'] },
+		}, 'element', 0)).toEqual('#ff0000')
+	})
+
+	test('given an index returns value defined globally', () => {
+		expect(utils.resolveColor({
+			global: { colors: ['#ff0000'] },
+			element: { colors: [] },
+		}, 'element', 0)).toEqual('#ff0000')
+	})
+
+	test('given a string returns value defined for an element', () => {
+		expect(utils.resolveColor({
+			element: { colors: { value: '#ff0000' } },
+		}, 'element', 'value')).toEqual('#ff0000')
+	})
+
+	test('given a string with color returns that string', () => {
+		expect(utils.resolveColor({
+			global: { colors: {} },
+		}, 'element', 'value')).toEqual('value')
+	})
+
+	test('return global color value if element color is a number', () => {
+		expect(utils.resolveColor({
+			global: { colors: ['#ff0000', '#00ff00'] },
+			element: { colors: [1] },
+		}, 'element', 0)).toEqual('#00ff00')
+	})
+
+	test('given object with index returns value defined for an element', () => {
+		expect(utils.resolveColor({
+			element: { colors: ['#ff0000'] },
+		}, 'element', { value: 0 })).toEqual('#ff0000')
 	})
 })

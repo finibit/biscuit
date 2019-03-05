@@ -8,7 +8,7 @@ const TableHeaderCellStyled = styled.th`
 	margin: 0;
 	padding: 0;
 
-	${(props) => props.$css};
+	${(props) => props.$css}
 `
 
 const TableHeaderCell = (props) => {

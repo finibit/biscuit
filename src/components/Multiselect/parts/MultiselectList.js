@@ -2,54 +2,39 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import MultiselectListItem from './MultiselectListItem'
-import { themeColor, themePadding, responsiveArray } from '../../../themes/themeUtils'
+import styles from '../../../themes'
 
 const MultiselectListStyled = styled.div`
+	${styles.shadow}
+	${styles.border}
+	${styles.bgColor}
+
+	box-sizing: border-box;
 	position: absolute;
 	top: 100%;
 	left: 0;
 	z-index: 1;
-
 	width: ${(props) => props.$width};
 	min-width: 100%;
 	max-width: ${(props) => props.$width};
 	height: ${(props) => props.$height};
 	max-height: ${(props) => props.$height};
-
 	margin: 0;
 	padding: 0;
-
+	border-top: none !important;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
 	overflow: hidden;
 	overflow-y: ${(props) => props.$height === 'auto' ? 'hidden' : 'scroll'};
 	-webkit-overflow-scrolling: touch;
-
-	border-left: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
-	border-right: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
-	border-bottom: 1px solid ${(props) => themeColor(props.theme, 'light-4')};
-	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding};
-	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.rounding};
-	background-color: ${(props) => themeColor(props.theme, 'light-0')};
-	box-shadow: 0 2px 5px -1px ${(props) => themeColor(props.theme, 'light-3')};
 `
 
 const MultiselectListPlaceholderStyled = styled.div`
+	${styles.color}
+	${styles.spacing}
+	${styles.fontFamily}
+
 	text-align: center;
-	color: ${(props) => themeColor(props.theme, 'light-6')};
-
-	margin: 0;
-	padding: ${(props) => themePadding(props.theme, 'select', props.$padding[0])};
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		padding: ${(props) => themePadding(props.theme, 'select', props.$padding[3])};
-	}
 `
 
 const MultiselectList = (props) => {
@@ -61,6 +46,7 @@ const MultiselectList = (props) => {
 		height,
 		padding,
 		onSelect,
+		themeElement,
 		...rest
 	} = props
 
@@ -70,6 +56,9 @@ const MultiselectList = (props) => {
 
 	return (
 		<MultiselectListStyled
+			$element={themeElement}
+			$border={0}
+			$bgColor="listBackground"
 			$width={width}
 			$height={height}
 			onClick={(event) => event.stopPropagation()}
@@ -77,7 +66,10 @@ const MultiselectList = (props) => {
 		>
 			{(items.length === 0) ? (
 				<MultiselectListPlaceholderStyled
-					$padding={responsiveArray(padding)}
+					$element={themeElement}
+					$color={{ value: 1, shade: 0.2 }}
+					$margin="none"
+					$padding={padding}
 				>
 					{placeholder}
 				</MultiselectListPlaceholderStyled>
@@ -88,6 +80,7 @@ const MultiselectList = (props) => {
 						item={item}
 						padding={padding}
 						onClick={(event) => onSelect(event, item)}
+						themeElement={themeElement}
 					/>
 				))
 			)}
@@ -103,6 +96,7 @@ MultiselectList.propTypes = {
 	height: PropTypes.string.isRequired,
 	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]).isRequired,
 	onSelect: PropTypes.func.isRequired,
+	themeElement: PropTypes.string.isRequired,
 }
 
 export default MultiselectList

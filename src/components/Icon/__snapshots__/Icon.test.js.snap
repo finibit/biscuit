@@ -6,7 +6,7 @@ exports[`Icon is rendered 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #0a0a0a;
+  border-bottom: 4px solid #000000;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ exports[`Icon is rendered 1`] = `
   height: 0;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
-  border-right: 4px solid #0a0a0a;
+  border-right: 4px solid #000000;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ exports[`Icon is rendered 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #0a0a0a;
+  border-top: 4px solid #000000;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ exports[`Icon is rendered 1`] = `
   height: 0;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
-  border-left: 4px solid #0a0a0a;
+  border-left: 4px solid #000000;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -56,116 +56,11 @@ exports[`Icon is rendered 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #0a0a0a;
+  border: solid #000000;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c2 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c4 {
-    margin: 0;
-    padding: 0;
-  }
 }
 
 <div>

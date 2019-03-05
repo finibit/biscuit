@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Theme from './components/Theme'
+import biscuitTheme from './themes/biscuitTheme'
 
 const Wrapper = (props) => (
-	<Theme global={false}>
+	<Theme theme={biscuitTheme} global={false}>
 		{props.children}
 	</Theme>
 )

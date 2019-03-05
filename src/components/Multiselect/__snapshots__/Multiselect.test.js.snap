@@ -6,13 +6,14 @@ exports[`Multiselect renders empty closed 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #c3c3c3;
+  border-top: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -30,17 +31,20 @@ exports[`Multiselect renders empty closed 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: !important;
+  border-bottom-right-radius: !important;
 }
 
 .c2 {
-  color: #c3c3c3;
+  color: #ccc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -56,63 +60,6 @@ exports[`Multiselect renders empty closed 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -142,13 +89,14 @@ exports[`Multiselect renders empty opened 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -166,23 +114,30 @@ exports[`Multiselect renders empty opened 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
-  color: #c3c3c3;
+  color: #ccc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -194,23 +149,20 @@ exports[`Multiselect renders empty opened 1`] = `
   max-height: auto;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c5 {
-  text-align: center;
-  color: #c3c3c3;
+  color: #ccc;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  text-align: center;
 }
 
 .c0 {
@@ -223,81 +175,6 @@ exports[`Multiselect renders empty opened 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -337,13 +214,14 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -361,23 +239,30 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
-  color: #c3c3c3;
+  color: #ccc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -389,23 +274,20 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   max-height: auto;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c5 {
-  text-align: center;
-  color: #c3c3c3;
+  color: #ccc;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  text-align: center;
 }
 
 .c0 {
@@ -418,81 +300,6 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -532,13 +339,14 @@ exports[`Multiselect renders selected items count in select box 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #c3c3c3;
+  border-top: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -556,13 +364,16 @@ exports[`Multiselect renders selected items count in select box 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: !important;
+  border-bottom-right-radius: !important;
 }
 
 .c2 {
@@ -581,63 +392,6 @@ exports[`Multiselect renders selected items count in select box 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -669,13 +423,14 @@ exports[`Multiselect renders selected items in select box 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #c3c3c3;
+  border-top: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -693,13 +448,16 @@ exports[`Multiselect renders selected items in select box 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: !important;
+  border-bottom-right-radius: !important;
 }
 
 .c2 {
@@ -718,63 +476,6 @@ exports[`Multiselect renders selected items in select box 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -809,15 +510,15 @@ exports[`Multiselect renders with fixed height 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: hidden;
 }
@@ -827,7 +528,7 @@ exports[`Multiselect renders with fixed height 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -835,6 +536,7 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -852,17 +554,20 @@ exports[`Multiselect renders with fixed height 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
-  color: #c3c3c3;
+  color: #ccc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -888,12 +593,13 @@ exports[`Multiselect renders with fixed height 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
 }
 
 .c5:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c6 {
@@ -903,6 +609,10 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -914,16 +624,12 @@ exports[`Multiselect renders with fixed height 1`] = `
   max-height: 400px;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c0 {
@@ -936,102 +642,6 @@ exports[`Multiselect renders with fixed height 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -1105,15 +715,15 @@ exports[`Multiselect renders with fixed width 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: hidden;
 }
@@ -1123,7 +733,7 @@ exports[`Multiselect renders with fixed width 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1131,6 +741,7 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1148,17 +759,20 @@ exports[`Multiselect renders with fixed width 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
-  color: #c3c3c3;
+  color: #ccc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1184,12 +798,13 @@ exports[`Multiselect renders with fixed width 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
 }
 
 .c5:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c6 {
@@ -1199,6 +814,10 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -1210,16 +829,12 @@ exports[`Multiselect renders with fixed width 1`] = `
   max-height: auto;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c0 {
@@ -1232,102 +847,6 @@ exports[`Multiselect renders with fixed width 1`] = `
   max-width: 400px;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -1401,15 +920,15 @@ exports[`Multiselect renders with no items selected 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: hidden;
 }
@@ -1419,7 +938,7 @@ exports[`Multiselect renders with no items selected 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1427,6 +946,7 @@ exports[`Multiselect renders with no items selected 1`] = `
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1444,17 +964,20 @@ exports[`Multiselect renders with no items selected 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
-  color: #c3c3c3;
+  color: #ccc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1480,12 +1003,13 @@ exports[`Multiselect renders with no items selected 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
 }
 
 .c5:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c6 {
@@ -1495,6 +1019,10 @@ exports[`Multiselect renders with no items selected 1`] = `
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -1506,16 +1034,12 @@ exports[`Multiselect renders with no items selected 1`] = `
   max-height: auto;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c0 {
@@ -1528,102 +1052,6 @@ exports[`Multiselect renders with no items selected 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -1697,15 +1125,15 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: hidden;
 }
@@ -1715,7 +1143,7 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1724,7 +1152,7 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 
 .c9 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: visible;
 }
@@ -1734,7 +1162,7 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1742,6 +1170,7 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1759,13 +1188,16 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: xs;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
@@ -1794,12 +1226,13 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0.4018775720164609rem;
+  padding: xs;
 }
 
 .c5:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c8 {
@@ -1822,13 +1255,14 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0.4018775720164609rem;
+  padding: xs;
 }
 
 .c8:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c6 {
@@ -1838,6 +1272,10 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -1849,16 +1287,12 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   max-height: auto;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c0 {
@@ -1869,142 +1303,79 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0.4018775720164609rem;
+  margin: xs;
   padding: 0;
 }
 
 @media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
   .c1 {
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c1 {
-    padding: 1rem;
+    padding: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c1 {
-    padding: 1.44rem;
+    padding: lg;
   }
 }
 
 @media only screen and (min-width:48rem) {
   .c5 {
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c5 {
-    padding: 1rem;
+    padding: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c5 {
-    padding: 1.44rem;
+    padding: lg;
   }
 }
 
 @media only screen and (min-width:48rem) {
   .c8 {
-    padding: 0.6944444444444444rem;
+    padding: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c8 {
-    padding: 1rem;
+    padding: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c8 {
-    padding: 1.44rem;
+    padding: lg;
   }
 }
 
 @media only screen and (min-width:48rem) {
   .c0 {
-    margin: 0.6944444444444444rem;
+    margin: sm;
   }
 }
 
 @media only screen and (min-width:64rem) {
   .c0 {
-    margin: 1rem;
+    margin: md;
   }
 }
 
 @media only screen and (min-width:75rem) {
   .c0 {
-    margin: 1.44rem;
+    margin: lg;
   }
 }
 
@@ -2084,15 +1455,15 @@ exports[`Multiselect renders with some items selected 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: hidden;
 }
@@ -2102,7 +1473,7 @@ exports[`Multiselect renders with some items selected 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2111,7 +1482,7 @@ exports[`Multiselect renders with some items selected 1`] = `
 
 .c9 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: visible;
 }
@@ -2121,7 +1492,7 @@ exports[`Multiselect renders with some items selected 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2129,6 +1500,7 @@ exports[`Multiselect renders with some items selected 1`] = `
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2146,13 +1518,16 @@ exports[`Multiselect renders with some items selected 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
@@ -2181,12 +1556,13 @@ exports[`Multiselect renders with some items selected 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
 }
 
 .c5:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c8 {
@@ -2209,13 +1585,14 @@ exports[`Multiselect renders with some items selected 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
+  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
 }
 
 .c8:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c6 {
@@ -2225,6 +1602,10 @@ exports[`Multiselect renders with some items selected 1`] = `
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -2236,16 +1617,12 @@ exports[`Multiselect renders with some items selected 1`] = `
   max-height: auto;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c0 {
@@ -2258,141 +1635,6 @@ exports[`Multiselect renders with some items selected 1`] = `
   max-width: 100%;
   margin: 0;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 0.4018775720164609rem 0.6944444444444444rem 0.4018775720164609rem 0.6944444444444444rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 0;
-  }
 }
 
 <div>
@@ -2471,15 +1713,15 @@ exports[`Multiselect renders with spacing 1`] = `
   height: 0;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #c3c3c3;
+  border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.4018775720164609rem;
+  margin: 0 0 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: hidden;
 }
@@ -2489,7 +1731,7 @@ exports[`Multiselect renders with spacing 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2498,7 +1740,7 @@ exports[`Multiselect renders with spacing 1`] = `
 
 .c9 {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 0 0.402rem;
   padding: 0;
   visibility: visible;
 }
@@ -2508,7 +1750,7 @@ exports[`Multiselect renders with spacing 1`] = `
   display: block;
   width: 4px;
   height: 9px;
-  border: solid #c3c3c3;
+  border: solid #ccc;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2516,6 +1758,7 @@ exports[`Multiselect renders with spacing 1`] = `
 }
 
 .c1 {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2533,13 +1776,16 @@ exports[`Multiselect renders with spacing 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
   margin: 0;
-  padding: 1rem;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  padding: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  border-top-left-radius: !important;
+  border-top-right-radius: !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .c2 {
@@ -2568,12 +1814,13 @@ exports[`Multiselect renders with spacing 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 1rem;
+  padding: md;
 }
 
 .c5:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c8 {
@@ -2596,13 +1843,14 @@ exports[`Multiselect renders with spacing 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   margin: 0;
-  padding: 1rem;
+  padding: md;
 }
 
 .c8:hover {
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .c6 {
@@ -2612,6 +1860,10 @@ exports[`Multiselect renders with spacing 1`] = `
 }
 
 .c4 {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.4018775720164609rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
   position: absolute;
   top: 100%;
   left: 0;
@@ -2623,16 +1875,12 @@ exports[`Multiselect renders with spacing 1`] = `
   max-height: auto;
   margin: 0;
   padding: 0;
+  border-top: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  border-left: 1px solid #d7d7d7;
-  border-right: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 5px -1px #e1e1e1;
 }
 
 .c0 {
@@ -2643,143 +1891,8 @@ exports[`Multiselect renders with spacing 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 2.48832rem;
+  margin: xl;
   padding: 0;
-}
-
-@media only screen and (min-width:48rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c3 {
-    margin: 0 0 0 0.4018775720164609rem;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c7 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c9 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: 1rem;
-  }
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: 2.48832rem;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: 2.48832rem;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: 2.48832rem;
-  }
 }
 
 <div>

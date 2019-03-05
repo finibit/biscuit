@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { themeMargin, responsiveArray } from '../../themes/themeUtils'
+import styles from '../../themes'
 
 const ImageStyled = styled.img`
+	${styles.spacing}
+
 	flex: 1 1;
 	overflow: hidden;
 	object-fit: ${(props) => props.$fit};
@@ -15,20 +17,7 @@ const ImageStyled = styled.img`
 	height: ${(props) => props.$height};
 	max-height: ${(props) => props.$height};
 
-	margin: ${(props) => themeMargin(props.theme, 'image', props.$margin[0])};
-	padding: 0;
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		margin: ${(props) => themeMargin(props.theme, 'image', props.$margin[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		margin: ${(props) => themeMargin(props.theme, 'image', props.$margin[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		margin: ${(props) => themeMargin(props.theme, 'image', props.$margin[3])};
-	}
+	${(props) => props.$css}
 `
 
 /** An image. */
@@ -38,15 +27,20 @@ const Image = (props) => {
 		margin,
 		width,
 		height,
+		themeElement,
+		css,
 		...rest
 	} = props
 
 	return (
 		<ImageStyled
+			$element={themeElement}
 			$fit={fit}
-			$margin={responsiveArray(margin)}
+			$padding="none"
+			$margin={margin}
 			$width={width}
 			$height={height}
+			$css={css}
 			{...rest}
 		/>
 	)
@@ -57,13 +51,24 @@ Image.propTypes = {
 	fit: PropTypes.oneOf(['cover', 'contain']),
 
 	/** The amount of margin around the image. */
-	margin: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
+	margin: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
 
 	/** Fixed width of the image. */
 	width: PropTypes.string,
 
 	/** Fixed height of the image. */
 	height: PropTypes.string,
+
+	/** Theme element. */
+	themeElement: PropTypes.string,
+
+	/** Custom styles passed to styled-components. */
+	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
 }
 
 Image.defaultProps = {
@@ -71,6 +76,8 @@ Image.defaultProps = {
 	margin: 'none',
 	width: 'auto',
 	height: 'auto',
+	themeElement: 'Image',
+	css: null,
 }
 
 export default Image

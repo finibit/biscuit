@@ -8,7 +8,7 @@ const TableCellStyled = styled.td`
 	margin: 0;
 	padding: 0;
 
-	${(props) => props.$css};
+	${(props) => props.$css}
 `
 
 const TableCell = (props) => {

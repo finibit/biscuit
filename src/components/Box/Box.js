@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { themeColor, themeMargin, themePadding, responsiveArray } from '../../themes/themeUtils'
+import styles from '../../themes'
 
 const justifyMap = {
 	start: 'flex-start',
@@ -30,8 +30,11 @@ const alignContentMap = {
 }
 
 const BoxStyled = styled.div`
-	box-sizing: border-box;
-	overflow: ${(props) => props.$overflow};
+	${styles.bgColor}
+	${styles.border}
+	${styles.elevation}
+	${styles.spacing}
+
 	display: flex;
 	flex-direction: ${(props) => props.$direction};
 	flex-wrap: ${(props) => props.$wrap ? 'wrap' : 'nowrap'};
@@ -40,40 +43,24 @@ const BoxStyled = styled.div`
 	align-items: ${(props) => alignMap[props.$align]};
 	align-self: ${(props) => alignMap[props.$alignSelf]};
 	align-content: ${(props) => alignContentMap[props.$alignContent]};
-	background-color: ${(props) => themeColor(props.theme, props.$color)};
 	width: ${(props) => props.$width};
 	max-width: ${(props) => props.$width};
 	height: ${(props) => props.$height};
 	max-height: ${(props) => props.$height};
+	overflow: ${(props) => props.$overflow};
 
-	margin: ${(props) => themeMargin(props.theme, 'box', props.$margin[0])};
-	padding: ${(props) => themePadding(props.theme, 'box', props.$padding[0])};
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.sm}) {
-		margin: ${(props) => themeMargin(props.theme, 'box', props.$margin[1])};
-		padding: ${(props) => themePadding(props.theme, 'box', props.$padding[1])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.md}) {
-		margin: ${(props) => themeMargin(props.theme, 'box', props.$margin[2])};
-		padding: ${(props) => themePadding(props.theme, 'box', props.$padding[2])};
-	}
-
-	@media only screen and (min-width: ${(props) => props.theme.global.breakpoints.lg}) {
-		margin: ${(props) => themeMargin(props.theme, 'box', props.$margin[3])};
-		padding: ${(props) => themePadding(props.theme, 'box', props.$padding[3])};
-	}
-
-	${(props) => props.$css};
+	${(props) => props.$css}
 `
 /** A flexbox container. */
 const Box = (props) => {
 	const {
 		color,
-		margin,
-		padding,
+		border,
+		elevation,
 		width,
 		height,
+		margin,
+		padding,
 		overflow,
 		direction,
 		wrap,
@@ -82,17 +69,21 @@ const Box = (props) => {
 		align,
 		alignSelf,
 		alignContent,
+		themeElement,
 		css,
 		...rest
 	} = props
 
 	return (
 		<BoxStyled
-			$color={color}
-			$margin={responsiveArray(margin)}
-			$padding={responsiveArray(padding)}
+			$element={themeElement}
+			$bgColor={color}
+			$border={border}
+			$elevation={elevation}
 			$width={width}
 			$height={height}
+			$margin={margin}
+			$padding={padding}
 			$overflow={overflow}
 			$direction={direction}
 			$wrap={wrap}
@@ -110,46 +101,102 @@ const Box = (props) => {
 Box.propTypes = {
 	/** Any number of renderable nodes. */
 	children: PropTypes.node,
+
 	/** DOM element to use. */
 	as: PropTypes.string,
-	/** Custom color value or theme color identifier of the box background. */
-	color: PropTypes.string,
-	/** The amount of margin around the box. */
-	margin: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
-	/** The amount of padding around the box. */
-	padding: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
-	/** A fixed width of the box including padding. */
+
+	/** Background color. */
+	color: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.shape({
+			value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+			shade: PropTypes.number,
+			tint: PropTypes.number,
+		}),
+	]),
+
+	/** Border of the box. */
+	border: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.number,
+		PropTypes.shape({
+			color: PropTypes.oneOfType([
+				PropTypes.string,
+				PropTypes.number,
+				PropTypes.object,
+			]),
+			width: PropTypes.string,
+			style: PropTypes.string,
+		}),
+	]),
+
+	/** Elevation of the box. */
+	elevation: PropTypes.number,
+
+	/** A fixed width of the box. */
 	width: PropTypes.string,
-	/** A fixed height of the box including padding. */
+
+	/** A fixed height of the box. */
 	height: PropTypes.string,
+
+	/** The amount of margin around the box. */
+	margin: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
+
+	/** The amount of padding around the box. */
+	padding: PropTypes.oneOfType([
+		PropTypes.number,
+		PropTypes.string,
+		PropTypes.object,
+		PropTypes.array,
+	]),
+
 	/** What to do when children do not fit in the box. */
 	overflow: PropTypes.oneOf(['auto', 'scroll', 'hidden', 'visible']),
+
 	/** The direction in which children will be laid out. */
 	direction: PropTypes.oneOf(['row', 'row-reverse', 'column', 'column-reverse']),
+
 	/** Whether children elements should wrap if they cannot fit inside the parent box. */
 	wrap: PropTypes.bool,
+
 	/** The order of the box as it is laid out in the parent box. */
 	order: PropTypes.number,
+
 	/** How the contents will be aligned along the main axis. */
 	justify: PropTypes.oneOf(['start', 'end', 'center', 'between', 'around', 'evenly']),
+
 	/** How the contents will be aligned along the cross axis. */
 	align: PropTypes.oneOf(['start', 'end', 'center', 'stretch']),
+
 	/** How to align self when inside another box. */
 	alignSelf: PropTypes.oneOf(['auto', 'start', 'end', 'center', 'stretch']),
+
 	/** How the contents will be aligned when there is extra space on the cross axis. */
 	alignContent: PropTypes.oneOf(['start', 'end', 'center', 'stretch', 'between', 'around']),
+
+	/** Theme element. */
+	themeElement: PropTypes.string,
+
 	/** Custom styles passed to styled-components. */
-	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
 }
 
 Box.defaultProps = {
 	children: null,
 	as: 'div',
 	color: 'none',
-	margin: 'none',
-	padding: 'none',
+	border: 'none',
+	elevation: 0,
 	width: 'auto',
 	height: 'auto',
+	margin: 'none',
+	padding: 'none',
 	overflow: 'visible',
 	direction: 'row',
 	wrap: false,
@@ -158,6 +205,7 @@ Box.defaultProps = {
 	align: 'stretch',
 	alignSelf: 'auto',
 	alignContent: 'stretch',
+	themeElement: 'Box',
 	css: null,
 }
 
