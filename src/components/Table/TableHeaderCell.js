@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const TableHeaderCellStyled = styled.th`
 	width: ${(props) => props.$width};
+	min-width: ${(props) => props.$width};
 	max-width: ${(props) => props.$width};
 	margin: 0;
 	padding: 0;

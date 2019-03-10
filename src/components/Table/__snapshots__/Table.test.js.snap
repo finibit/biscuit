@@ -37,6 +37,7 @@ exports[`Table body with rows is rendered 1`] = `
 
 .c3 {
   width: initial;
+  min-width: initial;
   max-width: initial;
   margin: 0;
   padding: 0;
@@ -162,6 +163,7 @@ exports[`Table footer is rendered 1`] = `
 exports[`Table footer with rows is rendered 1`] = `
 .c3 {
   width: initial;
+  min-width: initial;
   max-width: initial;
   margin: 0;
   padding: 0;
@@ -247,6 +249,7 @@ exports[`Table header is rendered 1`] = `
 exports[`Table header with rows is rendered 1`] = `
 .c3 {
   width: initial;
+  min-width: initial;
   max-width: initial;
   margin: 0;
   padding: 0;
