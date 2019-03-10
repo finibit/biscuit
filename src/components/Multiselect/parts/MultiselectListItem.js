@@ -51,7 +51,7 @@ const MultiselectListItem = (props) => {
 			<Icon
 				type="check-mark"
 				color="listPlaceholder"
-				margin={{ left: 0 }}
+				margin={{ left: 2 }}
 				css={{ visibility: item.selected ? 'visible' : 'hidden' }}
 				themeElement={themeElement}
 			/>
