@@ -5,7 +5,7 @@ import MultiselectListItem from './MultiselectListItem'
 import styles from '../../../themes'
 
 const MultiselectListStyled = styled.div`
-	${styles.shadow}
+	${styles.elevation}
 	${styles.border}
 	${styles.bgColor}
 
@@ -61,6 +61,7 @@ const MultiselectList = (props) => {
 			$bgColor="listBackground"
 			$width={width}
 			$height={height}
+			$elevation={1}
 			onClick={(event) => event.stopPropagation()}
 			{...rest}
 		>
