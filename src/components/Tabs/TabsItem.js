@@ -10,6 +10,7 @@ const TabsItemStyled = styled.div`
 
 const TabsItem = (props) => {
 	const {
+		title,
 		padding,
 		...rest
 	} = props

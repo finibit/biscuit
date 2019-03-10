@@ -20,6 +20,12 @@ const baseTheme = {
 				style: 'solid',
 				radius: `${1.2 ** -5}rem`,
 			},
+			{
+				color: 1,
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			}
 		],
 
 		breakpoints: ['0', '48rem', '64rem', '75rem'],
@@ -72,13 +78,10 @@ const baseTheme = {
 	Tabs: {
 		spacing: [],
 		colors: {
-			activeTabBorder: { value: 0 },
 			activeTabTitle: { value: 0 },
-			inactiveTabBorder: { value: 1, shade: 0.1 },
 			inactiveTabTitle: { value: 1 },
-			disabledTabBorder: { value: 1, shade: 0.1 },
 			disabledTabTitle: { value: 1, shade: 0.2 },
-			hoverTabBorder: { value: 1, shade: 0.2 },
+			hoverTabBg: { value: 1, shade: 0.03 },
 		},
 	},
 

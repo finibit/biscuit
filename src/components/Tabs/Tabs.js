@@ -12,15 +12,16 @@ const TabsStyled = styled.div`
 `
 
 const TabsNavStyled = styled.ul`
+	${styles.border}
+
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	list-style: none;
+	list-style-type: none;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flext-start;
-	border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'inactiveTabBorder')};
 	box-sizing: border-box;
 `
 
@@ -32,34 +33,31 @@ const TabsNavItemStyled = styled.li`
 `
 
 const inactiveStyles = css`
-	border-bottom: 2px solid transparent;
+	${styles.border}
 
 	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'hoverTabBorder')};
+		background-color: ${(props) => utils.resolveColor(props.theme, props.$element, 'hoverTabBg')};
+		border-bottom: 1px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'activeTabBorder')};
 	}
 `
 
 const activeStyles = css`
-	border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'activeTabBorder')};
-
-	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'activeTabBorder')};
-	}
+	${styles.border}
+	cursor: default;
 `
 
 const disabledStyles = css`
-	border-bottom: 2px solid transparent;
-
-	&:hover, &:active {
-		border-bottom: 2px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'disabledTabBorder')};
-	}
-
+	${styles.border}
 	color: ${(props) => utils.resolveColor(props.theme, props.$element, 'disabledTabTitle')} !important;
+	cursor: default;
 `
 
 const TabsButtonStyled = styled.a`
 	${styles.fontFamily}
 	${styles.padding}
+
+	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
+	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
 
 	color: ${(props) => props.theme.global.colors['dark-0']};
 	display: inline-block;
@@ -70,8 +68,9 @@ const TabsButtonStyled = styled.a`
 	box-sizing: border-box;
 	line-height: 1;
 	vertical-align: middle;
+	user-select: none;
 
-	margin: 0 0 -2px 0;
+	margin: 0 2px -1px 0;
 
 	${(props) => {
 		if (props.$disabled) {
@@ -97,11 +96,26 @@ const TabsButton = (props) => {
 		...rest
 	} = props
 
+	const border = {}
+
+	if (active) {
+		border.top = 0
+		border.right = 0
+		border.bottom = 1
+		border.left = 0
+	}
+	else if (!disabled) {
+		border.top = 1
+		border.right = 1
+		border.left = 1
+	}
+
 	return (
 		<TabsButtonStyled
 			$element="Tabs"
 			$active={active}
 			$disabled={disabled}
+			$border={border}
 			$padding={padding}
 			{...rest}
 			onClick={(event) => {
@@ -152,6 +166,7 @@ const Tabs = (props) => {
 		>
 			<TabsNavStyled
 				$element={themeElement}
+				$border={{ bottom: 0 }}
 			>
 				{Children.map(children, (child, index) => (
 					<TabsNavItemStyled

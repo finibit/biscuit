@@ -7,6 +7,14 @@ const resolveValueImpl = (theme, element, prop, value, next) => {
 		return null
 	}
 
+	if (!check.assigned(value)) {
+		return null
+	}
+
+	if (value === 'none') {
+		return null
+	}
+
 	let result = theme[element]
 
 	if (!check.assigned(result)) {
@@ -28,8 +36,53 @@ const resolveValueImpl = (theme, element, prop, value, next) => {
 	return result
 }
 
-export const _resolveValue = (theme, element, prop, value) => (
+const _resolveValue = (theme, element, prop, value) => (
 	resolveValueImpl(theme, element, prop, value, 'global')
+)
+
+const resolveBorderImpl = (theme, element, value, next) => {
+	if (!check.assigned(element)) {
+		return null
+	}
+
+	let result = resolveValueImpl(theme, element, 'borders', value, next)
+
+	if (!check.assigned(result)) {
+		if (check.string(value)) {
+			return value
+		}
+
+		if (element === 'global') {
+			return null
+		}
+
+		result = {}
+
+		if (check.assigned(value.top)) {
+			result.top = resolveBorderImpl(theme, 'global', value.top)
+		}
+
+		if (check.assigned(value.right)) {
+			result.right = resolveBorderImpl(theme, 'global', value.right)
+		}
+
+		if (check.assigned(value.bottom)) {
+			result.bottom = resolveBorderImpl(theme, 'global', value.bottom)
+		}
+
+		if (check.assigned(value.left)) {
+			result.left = resolveBorderImpl(theme, 'global', value.left)
+		}
+
+		return result
+	}
+
+	result.color = _resolveColor(theme, element, result.color)
+	return result
+}
+
+const _resolveBorder = (theme, element, value) => (
+	resolveBorderImpl(theme, element, value, 'global')
 )
 
 const resolveColorImpl = (theme, element, value, next) => {
@@ -85,7 +138,7 @@ const resolveColorImpl = (theme, element, value, next) => {
 	return color
 }
 
-export const _resolveColor = (theme, element, value) => (
+const _resolveColor = (theme, element, value) => (
 	resolveColorImpl(theme, element, value, 'global')
 )
 
@@ -225,26 +278,39 @@ const _textTransform = (props) => {
 }
 
 const _border = (props) => {
-	const { $element, $border } = props
-
-	if (!check.assigned($border)) {
-		return 'border: none;'
-	}
-
-	let border = _resolveValue(props.theme, $element, 'borders', $border)
+	let border = _resolveBorder(props.theme, props.$element, props.$border)
 
 	if (!check.assigned(border)) {
-		if (check.object($border)) {
-			border = $border
-		}
-		else {
-			return 'border: none;'
-		}
+		return 'border: none; border-radius: 0;'
 	}
 
-	return `
-		border: ${border.width} ${border.style} ${_resolveColor(props.theme, $element, border.color)};
-		border-radius: ${border.radius};`
+	if (check.string(border)) {
+		return `border: ${border};`
+	}
+
+	let result = ''
+
+	if (check.assigned(border.top)) {
+		result += `border-top: ${border.top.width} ${border.top.style} ${border.top.color};`
+	}
+
+	if (check.assigned(border.right)) {
+		result += `border-right: ${border.right.width} ${border.right.style} ${border.right.color};`
+	}
+
+	if (check.assigned(border.bottom)) {
+		result += `border-bottom: ${border.bottom.width} ${border.bottom.style} ${border.bottom.color};`
+	}
+
+	if (check.assigned(border.left)) {
+		result += `border-left: ${border.left.width} ${border.left.style} ${border.left.color};`
+	}
+
+	if (result.length === 0) {
+		result = `border: ${border.width} ${border.style} ${border.color};`
+	}
+
+	return result
 }
 
 const _color = (props) => {

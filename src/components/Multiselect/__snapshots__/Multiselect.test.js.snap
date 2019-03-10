@@ -32,7 +32,6 @@ exports[`Multiselect renders empty closed 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -115,7 +114,6 @@ exports[`Multiselect renders empty opened 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -135,7 +133,6 @@ exports[`Multiselect renders empty opened 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
@@ -240,7 +237,6 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -260,7 +256,6 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
@@ -365,7 +360,6 @@ exports[`Multiselect renders selected items count in select box 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -449,7 +443,6 @@ exports[`Multiselect renders selected items in select box 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -555,7 +548,6 @@ exports[`Multiselect renders with fixed height 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -610,7 +602,6 @@ exports[`Multiselect renders with fixed height 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
@@ -760,7 +751,6 @@ exports[`Multiselect renders with fixed width 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -815,7 +805,6 @@ exports[`Multiselect renders with fixed width 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
@@ -965,7 +954,6 @@ exports[`Multiselect renders with no items selected 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -1020,7 +1008,6 @@ exports[`Multiselect renders with no items selected 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
@@ -1189,7 +1176,6 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: xs;
@@ -1273,7 +1259,6 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
@@ -1519,7 +1504,6 @@ exports[`Multiselect renders with some items selected 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: 0.402rem 0.694rem 0.402rem 0.694rem;
@@ -1603,7 +1587,6 @@ exports[`Multiselect renders with some items selected 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
@@ -1777,7 +1760,6 @@ exports[`Multiselect renders with spacing 1`] = `
   position: relative;
   cursor: default;
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   margin: 0;
   padding: md;
@@ -1861,7 +1843,6 @@ exports[`Multiselect renders with spacing 1`] = `
 
 .c4 {
   border: 1px solid #d8d8d8;
-  border-radius: 0.4018775720164609rem;
   background-color: #ffffff;
   box-sizing: border-box;
   position: absolute;
