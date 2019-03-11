@@ -6,6 +6,7 @@ exports[`Text align 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -20,6 +21,7 @@ exports[`Text align 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: right;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -34,6 +36,7 @@ exports[`Text align 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: center;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -62,6 +65,7 @@ exports[`Text as 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -84,6 +88,7 @@ exports[`Text color 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -98,6 +103,7 @@ exports[`Text color 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -123,6 +129,7 @@ exports[`Text css 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -149,6 +156,7 @@ exports[`Text decoration 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -163,6 +171,7 @@ exports[`Text decoration 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: underline;
   text-decoration: underline;
@@ -177,6 +186,7 @@ exports[`Text decoration 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: overline;
   text-decoration: overline;
@@ -191,6 +201,7 @@ exports[`Text decoration 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: line-through;
   text-decoration: line-through;
@@ -222,6 +233,7 @@ exports[`Text default 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -244,6 +256,7 @@ exports[`Text italic 1`] = `
   font-weight: normal;
   font-style: italic;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -266,6 +279,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -280,6 +294,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -294,6 +309,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -308,6 +324,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -322,6 +339,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -336,6 +354,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -350,6 +369,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -364,6 +384,7 @@ exports[`Text margin 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -407,6 +428,7 @@ exports[`Text margin responsive 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -421,6 +443,7 @@ exports[`Text margin responsive 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -464,6 +487,7 @@ exports[`Text nowrap 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -489,6 +513,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -503,6 +528,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -517,6 +543,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -531,6 +558,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -545,6 +573,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -559,6 +588,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -573,6 +603,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -587,6 +618,7 @@ exports[`Text padding 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -630,6 +662,7 @@ exports[`Text padding responsive 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -644,6 +677,7 @@ exports[`Text padding responsive 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -687,6 +721,7 @@ exports[`Text size 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: xs;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -709,6 +744,7 @@ exports[`Text size responsive 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: xs;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -723,6 +759,7 @@ exports[`Text size responsive 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: initial;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -766,6 +803,7 @@ exports[`Text transform 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -780,6 +818,7 @@ exports[`Text transform 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -794,6 +833,7 @@ exports[`Text transform 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -808,6 +848,7 @@ exports[`Text transform 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -822,6 +863,7 @@ exports[`Text transform 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -856,6 +898,7 @@ exports[`Text weight 1`] = `
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -870,6 +913,7 @@ exports[`Text weight 1`] = `
   font-weight: bold;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -884,6 +928,7 @@ exports[`Text weight 1`] = `
   font-weight: 600;
   font-style: normal;
   font-size: 1rem;
+  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;

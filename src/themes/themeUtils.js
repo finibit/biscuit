@@ -253,6 +253,18 @@ const _fontSize = (props) => (
 	sizeStyles(props, props.$size, 'size', 'font-size')
 )
 
+const _lineHeight = (props) => {
+	if (props.$lineHeight) {
+		return `line-height: ${props.$lineHeight};`
+	}
+
+	if (check.assigned(props.theme[props.$element]) && check.assigned(props.theme[props.$element].lineHeight)) {
+		return `line-height: ${props.theme[props.$element].lineHeight};`
+	}
+
+	return `line-height: ${props.theme.global.lineHeight};`
+}
+
 const _textAlign = (props) => {
 	if (props.$align) {
 		return `text-align: ${props.$align};`
@@ -370,6 +382,7 @@ const styles = {
 	fontWeight: _fontWeight,
 	fontStyle: _fontStyle,
 	fontSize: _fontSize,
+	lineHeight: _lineHeight,
 	textAlign: _textAlign,
 	textDecoration: _textDecoration,
 	textTransform: _textTransform,

@@ -31,6 +31,10 @@ exports[`Popover renders content 1`] = `
   -webkit-transform: translateY(-56px);
   -ms-transform: translateY(-56px);
   transform: translateY(-56px);
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c0:hover .c2 {
@@ -95,6 +99,10 @@ exports[`Popover renders trigger 1`] = `
   -webkit-transform: translateY(-56px);
   -ms-transform: translateY(-56px);
   transform: translateY(-56px);
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c0:hover .c2 {
@@ -168,6 +176,10 @@ exports[`Popover renders with custom padding 1`] = `
   -webkit-transform: translateY(-56px);
   -ms-transform: translateY(-56px);
   transform: translateY(-56px);
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c0:hover .c2 {
@@ -240,6 +252,10 @@ exports[`Popover renders with fixed height 1`] = `
   -webkit-transform: translateY(-56px);
   -ms-transform: translateY(-56px);
   transform: translateY(-56px);
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c0:hover .c2 {
@@ -308,6 +324,10 @@ exports[`Popover renders with fixed width 1`] = `
   -webkit-transform: translateY(-56px);
   -ms-transform: translateY(-56px);
   transform: translateY(-56px);
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c0:hover .c2 {

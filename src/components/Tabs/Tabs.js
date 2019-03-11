@@ -54,6 +54,7 @@ const disabledStyles = css`
 
 const TabsButtonStyled = styled.a`
 	${styles.fontFamily}
+	${styles.lineHeight}
 	${styles.padding}
 
 	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
@@ -66,7 +67,6 @@ const TabsButtonStyled = styled.a`
 	font-weight: normal;
 	text-decoration: none;
 	box-sizing: border-box;
-	line-height: 1;
 	vertical-align: middle;
 	user-select: none;
 

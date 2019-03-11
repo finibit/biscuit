@@ -16,6 +16,10 @@ const PopoverContent = styled.div`
 	left: 0;
 	bottom: 0;
 	transform: translateY(-56px);
+	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
+	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
+	border-bottom-left-radius: ${(props) => props.theme.global.borders[0].radius};
+	border-bottom-right-radius: ${(props) => props.theme.global.borders[0].radius};
 
 	${(props) => props.$parent}:hover & {
 		display: block;

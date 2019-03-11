@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import MultiselectListItem from './MultiselectListItem'
+import SelectListItem from './SelectListItem'
 import styles from '../../../themes'
 
-const MultiselectListStyled = styled.div`
+const SelectListStyled = styled.div`
 	${styles.elevation}
 	${styles.border}
 	${styles.bgColor}
@@ -31,7 +31,7 @@ const MultiselectListStyled = styled.div`
 	-webkit-overflow-scrolling: touch;
 `
 
-const MultiselectListPlaceholderStyled = styled.div`
+const SelectListPlaceholderStyled = styled.div`
 	${styles.color}
 	${styles.spacing}
 	${styles.fontFamily}
@@ -39,7 +39,7 @@ const MultiselectListPlaceholderStyled = styled.div`
 	text-align: center;
 `
 
-const MultiselectList = (props) => {
+const SelectList = (props) => {
 	const {
 		items,
 		placeholder,
@@ -57,7 +57,7 @@ const MultiselectList = (props) => {
 	}
 
 	return (
-		<MultiselectListStyled
+		<SelectListStyled
 			$element={themeElement}
 			$border={0}
 			$bgColor="listBackground"
@@ -68,30 +68,30 @@ const MultiselectList = (props) => {
 			{...rest}
 		>
 			{(items.length === 0) ? (
-				<MultiselectListPlaceholderStyled
+				<SelectListPlaceholderStyled
 					$element={themeElement}
 					$color={{ value: 1, shade: 0.2 }}
 					$margin="none"
 					$padding={padding}
 				>
 					{placeholder}
-				</MultiselectListPlaceholderStyled>
+				</SelectListPlaceholderStyled>
 			) : (
-				items.map((item) => (
-					<MultiselectListItem
+				items.map((item, idx) => (
+					<SelectListItem
 						key={item.title}
 						item={item}
 						padding={padding}
-						onClick={(event) => onSelect(event, item)}
+						onClick={(event) => onSelect(event, item, idx)}
 						themeElement={themeElement}
 					/>
 				))
 			)}
-		</MultiselectListStyled>
+		</SelectListStyled>
 	)
 }
 
-MultiselectList.propTypes = {
+SelectList.propTypes = {
 	items: PropTypes.oneOfType([PropTypes.array]).isRequired,
 	placeholder: PropTypes.string.isRequired,
 	isOpen: PropTypes.bool.isRequired,
@@ -107,4 +107,4 @@ MultiselectList.propTypes = {
 	themeElement: PropTypes.string.isRequired,
 }
 
-export default MultiselectList
+export default SelectList

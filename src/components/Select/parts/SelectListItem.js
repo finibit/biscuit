@@ -1,12 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import Icon from '../../Icon'
 import styles from '../../../themes'
 
-const MultiselectListItemStyled = styled.div`
-	${styles.fontFamily}
+const SelectListItemStyled = styled.div`
 	${styles.lineHeight}
+	${styles.fontFamily}
 	${styles.spacing}
 
 	cursor: pointer;
@@ -23,13 +22,13 @@ const MultiselectListItemStyled = styled.div`
 	${(props) => props.$selected && styles.bgColor}
 `
 
-const MultiselectListItemTitleStyled = styled.span`
+const SelectListItemTitleStyled = styled.span`
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 `
 
-const MultiselectListItem = (props) => {
+const SelectListItem = (props) => {
 	const {
 		item,
 		padding,
@@ -38,7 +37,7 @@ const MultiselectListItem = (props) => {
 	} = props
 
 	return (
-		<MultiselectListItemStyled
+		<SelectListItemStyled
 			$element={themeElement}
 			$bgColor="listItemBackground"
 			$margin="none"
@@ -46,21 +45,14 @@ const MultiselectListItem = (props) => {
 			$selected={item.selected}
 			{...rest}
 		>
-			<MultiselectListItemTitleStyled>
+			<SelectListItemTitleStyled>
 				{item.title}
-			</MultiselectListItemTitleStyled>
-			<Icon
-				type="check-mark"
-				color="listPlaceholder"
-				margin={{ left: 2 }}
-				css={{ visibility: item.selected ? 'visible' : 'hidden' }}
-				themeElement={themeElement}
-			/>
-		</MultiselectListItemStyled>
+			</SelectListItemTitleStyled>
+		</SelectListItemStyled>
 	)
 }
 
-MultiselectListItem.propTypes = {
+SelectListItem.propTypes = {
 	item: PropTypes.oneOfType([PropTypes.object]).isRequired,
 	padding: PropTypes.oneOfType([
 		PropTypes.number,
@@ -71,4 +63,4 @@ MultiselectListItem.propTypes = {
 	themeElement: PropTypes.string.isRequired,
 }
 
-export default MultiselectListItem
+export default SelectListItem

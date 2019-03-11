@@ -8,6 +8,7 @@ const HeadingStyled = styled.h1`
 	${styles.fontWeight}
 	${styles.fontStyle}
 	${styles.fontSize}
+	${styles.lineHeight}
 	${styles.textAlign}
 	${styles.textDecoration}
 	${styles.textTransform}

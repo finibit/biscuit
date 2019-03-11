@@ -3,6 +3,7 @@ const baseTheme = {
 		baseSize: 14,
 		typeScale: 1.2,
 		fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
+		lineHeight: '1.2em',
 
 		colors: [
 			'#000000', // black
@@ -45,6 +46,7 @@ const baseTheme = {
 	Paragraph: {
 		size: [],
 		spacing: [],
+		lineHeight: '1.5em',
 	},
 
 	Text: {

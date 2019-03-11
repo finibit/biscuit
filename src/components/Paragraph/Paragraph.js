@@ -6,6 +6,7 @@ import styles from '../../themes'
 const ParagraphStyled = styled.p`
 	${styles.fontFamily}
 	${styles.fontSize}
+	${styles.lineHeight}
 	${styles.textAlign}
 	${styles.spacing}
 	${styles.color}

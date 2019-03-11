@@ -10,7 +10,7 @@ const textWrapStyles = css`
 	text-overflow: ellipsis;
 `
 
-const MultiselectBoxStyled = styled.div`
+const SelectBoxStyled = styled.div`
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
@@ -40,22 +40,21 @@ const SelectedItemStyled = styled.span`
 	${textWrapStyles};
 `
 
-const MultiselectBox = (props) => {
+const SelectBox = (props) => {
 	const {
 		placeholder,
-		selectedItems,
+		selectedItem,
 		width,
 		isOpen,
 		onOpen,
 		onClose,
-		display,
 		padding,
 		themeElement,
 		...rest
 	} = props
 
 	return (
-		<MultiselectBoxStyled
+		<SelectBoxStyled
 			$element={themeElement}
 			$bgColor="boxBackground"
 			$border={0}
@@ -73,30 +72,16 @@ const MultiselectBox = (props) => {
 				}
 			}}
 		>
-			{(selectedItems.length === 0) ? (
+			{(selectedItem == null) ? (
 				<PlaceholderStyled
 					$element="Select"
 					$color="boxPlaceholder"
 				>
-					{(display === 'selected-count') ? (
-						`${placeholder} (${selectedItems.length})`
-					) : (
-						placeholder
-					)}
+					{placeholder}
 				</PlaceholderStyled>
 			) : (
 				<SelectedItemStyled>
-					{(display === 'selected-items') ? (
-						selectedItems.map((item, index) => (
-							<span key={item}>
-								{`${item}${index === (selectedItems.length - 1) ? '' : ', '}`}
-							</span>
-						))
-					) : (
-						<span>
-							{`${placeholder} (${selectedItems.length})`}
-						</span>
-					)}
+					{selectedItem.title}
 				</SelectedItemStyled>
 			)}
 			<Icon
@@ -105,18 +90,17 @@ const MultiselectBox = (props) => {
 				margin={{ left: 0 }}
 				themeElement={themeElement}
 			/>
-		</MultiselectBoxStyled>
+		</SelectBoxStyled>
 	)
 }
 
-MultiselectBox.propTypes = {
+SelectBox.propTypes = {
 	placeholder: PropTypes.string.isRequired,
-	selectedItems: PropTypes.oneOfType([PropTypes.array]).isRequired,
+	selectedItem: PropTypes.oneOfType([PropTypes.object]),
 	width: PropTypes.string.isRequired,
 	isOpen: PropTypes.bool.isRequired,
 	onOpen: PropTypes.func.isRequired,
 	onClose: PropTypes.func.isRequired,
-	display: PropTypes.oneOf(['selected-items', 'selected-count']).isRequired,
 	padding: PropTypes.oneOfType([
 		PropTypes.number,
 		PropTypes.string,
@@ -126,5 +110,9 @@ MultiselectBox.propTypes = {
 	themeElement: PropTypes.string.isRequired,
 }
 
-export default MultiselectBox
+SelectBox.defaultProps = {
+	selectedItem: null,
+}
+
+export default SelectBox
 
