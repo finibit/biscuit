@@ -1,30 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
-
-const TableCellStyled = styled.td`
-	width: ${(props) => props.$width};
-	min-width: ${(props) => props.$width};
-	max-width: ${(props) => props.$width};
-	margin: 0;
-	padding: 0;
-
-	${(props) => props.$css}
-`
 
 const TableCell = (props) => {
 	const {
 		width,
-		css,
+		children,
 		...rest
 	} = props
 
+	const styles = {
+		width: width,
+		minWidth: width,
+		maxWidth: width,
+	}
+
 	return (
-		<TableCellStyled
-			$width={width}
-			$css={css}
-			{...rest}
-		/>
+		<td style={styles} {...rest}>
+			{children}
+		</td>
 	)
 }
 
@@ -40,9 +33,6 @@ TableCell.propTypes = {
 
 	/** Fixed width of the cell. */
 	width: PropTypes.string,
-
-	/** Custom styles passed to styled-components. */
-	css: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
 }
 
 TableCell.defaultProps = {
@@ -50,7 +40,6 @@ TableCell.defaultProps = {
 	colSpan: 1,
 	rowSpan: 1,
 	width: 'initial',
-	css: null,
 }
 
 export default TableCell

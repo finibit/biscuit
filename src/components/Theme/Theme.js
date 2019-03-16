@@ -9,30 +9,41 @@ const GlobalStyle = createGlobalStyle`
 		box-sizing: border-box;
 	}
 
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
 	html, body {
 		width: 100%;
 		height: 100%;
 		margin: 0;
 		padding: 0;
-		font-size: ${(props) => props.theme.global.baseSize}px;
 		font-family: ${(props) => props.theme.global.fontFamily};
+		font-size: ${(props) => props.theme.global.baseSize}px;
 	}
 
-	*, *:before, *:after {
-		box-sizing: inherit;
+	table, thead, tbody, tfoot, th, tr, td {
+		font-family: ${(props) => props.theme.global.fontFamily};
+		font-size: ${(props) => props.theme.global.baseSize}px;
+		font-weight: normal;
+		margin: 0;
+		padding: 0;
 	}
+
+	${(props) => props.$css}
 `
 
 const Theme = (props) => {
 	const {
 		theme,
 		global,
+		css,
 	} = props
 
 	return (
 		<ThemeProvider theme={mergeTheme(baseTheme, theme)}>
 			<div>
-				{ global && <GlobalStyle /> }
+				{ global && <GlobalStyle $css={css} /> }
 				{props.children}
 			</div>
 		</ThemeProvider>
@@ -48,12 +59,16 @@ Theme.propTypes = {
 
 	/** Should some styles like font-size, font-family be applied globally? */
 	global: PropTypes.bool,
+
+	/** Custom global styles passed to styled-components. */
+	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
 }
 
 Theme.defaultProps = {
 	children: null,
 	theme: baseTheme,
 	global: true,
+	css: null,
 }
 
 export default Theme

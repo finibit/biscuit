@@ -1,30 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
-
-const TableHeaderCellStyled = styled.th`
-	width: ${(props) => props.$width};
-	min-width: ${(props) => props.$width};
-	max-width: ${(props) => props.$width};
-	margin: 0;
-	padding: 0;
-
-	${(props) => props.$css}
-`
 
 const TableHeaderCell = (props) => {
 	const {
 		width,
-		css,
+		children,
 		...rest
 	} = props
 
+	const styles = {
+		width: width,
+		minWidth: width,
+		maxWidth: width,
+	}
+
 	return (
-		<TableHeaderCellStyled
-			$width={width}
-			$css={css}
-			{...rest}
-		/>
+		<th style={styles} {...rest}>
+			{children}
+		</th>
 	)
 }
 
@@ -43,9 +36,6 @@ TableHeaderCell.propTypes = {
 
 	/** Fixed width of the cell. */
 	width: PropTypes.string,
-
-	/** Custom styles passed to styled-components. */
-	css: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.array]),
 }
 
 TableHeaderCell.defaultProps = {
@@ -54,7 +44,6 @@ TableHeaderCell.defaultProps = {
 	colSpan: 1,
 	rowSpan: 1,
 	width: 'initial',
-	css: null,
 }
 
 export default TableHeaderCell

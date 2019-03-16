@@ -1,12 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Table body is rendered 1`] = `
-.c1 {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
 .c0 {
   margin: 0;
   table-layout: fixed;
@@ -22,32 +16,17 @@ exports[`Table body is rendered 1`] = `
     className="c0"
   >
     <tbody
-      className="c1"
+      props={
+        Object {
+          "children": null,
+        }
+      }
     />
   </table>
 </div>
 `;
 
 exports[`Table body with rows is rendered 1`] = `
-.c1 {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
-.c3 {
-  width: initial;
-  min-width: initial;
-  max-width: initial;
-  margin: 0;
-  padding: 0;
-}
-
-.c2 {
-  margin: 0;
-  padding: 0;
-}
-
 .c0 {
   margin: 0;
   table-layout: fixed;
@@ -63,38 +42,91 @@ exports[`Table body with rows is rendered 1`] = `
     className="c0"
   >
     <tbody
-      className="c1"
+      props={
+        Object {
+          "children": Array [
+            <TableRow>
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="body"
+                width="initial"
+              />
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="body"
+                width="initial"
+              />
+            </TableRow>,
+            <TableRow>
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="body"
+                width="initial"
+              />
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="body"
+                width="initial"
+              />
+            </TableRow>,
+          ],
+        }
+      }
     >
-      <tr
-        className="c2"
-      >
+      <tr>
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="body"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="body"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
       </tr>
-      <tr
-        className="c2"
-      >
+      <tr>
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="body"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="body"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
       </tr>
     </tbody>
@@ -133,12 +165,6 @@ exports[`Table caption is rendered 1`] = `
 `;
 
 exports[`Table footer is rendered 1`] = `
-.c1 {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
 .c0 {
   margin: 0;
   table-layout: fixed;
@@ -154,32 +180,17 @@ exports[`Table footer is rendered 1`] = `
     className="c0"
   >
     <tfoot
-      className="c1"
+      props={
+        Object {
+          "children": null,
+        }
+      }
     />
   </table>
 </div>
 `;
 
 exports[`Table footer with rows is rendered 1`] = `
-.c3 {
-  width: initial;
-  min-width: initial;
-  max-width: initial;
-  margin: 0;
-  padding: 0;
-}
-
-.c1 {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
-.c2 {
-  margin: 0;
-  padding: 0;
-}
-
 .c0 {
   margin: 0;
   table-layout: fixed;
@@ -195,22 +206,49 @@ exports[`Table footer with rows is rendered 1`] = `
     className="c0"
   >
     <tfoot
-      className="c1"
+      props={
+        Object {
+          "children": <TableRow>
+            <TableCell
+              colSpan={1}
+              rowSpan={1}
+              scope="footer"
+              width="initial"
+            />
+            <TableCell
+              colSpan={1}
+              rowSpan={1}
+              scope="footer"
+              width="initial"
+            />
+          </TableRow>,
+        }
+      }
     >
-      <tr
-        className="c2"
-      >
+      <tr>
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="footer"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="footer"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
       </tr>
     </tfoot>
@@ -219,12 +257,6 @@ exports[`Table footer with rows is rendered 1`] = `
 `;
 
 exports[`Table header is rendered 1`] = `
-.c1 {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
 .c0 {
   margin: 0;
   table-layout: fixed;
@@ -240,32 +272,17 @@ exports[`Table header is rendered 1`] = `
     className="c0"
   >
     <thead
-      className="c1"
+      props={
+        Object {
+          "children": null,
+        }
+      }
     />
   </table>
 </div>
 `;
 
 exports[`Table header with rows is rendered 1`] = `
-.c3 {
-  width: initial;
-  min-width: initial;
-  max-width: initial;
-  margin: 0;
-  padding: 0;
-}
-
-.c1 {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-}
-
-.c2 {
-  margin: 0;
-  padding: 0;
-}
-
 .c0 {
   margin: 0;
   table-layout: fixed;
@@ -281,38 +298,91 @@ exports[`Table header with rows is rendered 1`] = `
     className="c0"
   >
     <thead
-      className="c1"
+      props={
+        Object {
+          "children": Array [
+            <TableRow>
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="header"
+                width="initial"
+              />
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="header"
+                width="initial"
+              />
+            </TableRow>,
+            <TableRow>
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="header"
+                width="initial"
+              />
+              <TableCell
+                colSpan={1}
+                rowSpan={1}
+                scope="header"
+                width="initial"
+              />
+            </TableRow>,
+          ],
+        }
+      }
     >
-      <tr
-        className="c2"
-      >
+      <tr>
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="header"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="header"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
       </tr>
-      <tr
-        className="c2"
-      >
+      <tr>
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="header"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
         <td
-          className="c3"
           colSpan={1}
           rowSpan={1}
           scope="header"
+          style={
+            Object {
+              "maxWidth": "initial",
+              "minWidth": "initial",
+              "width": "initial",
+            }
+          }
         />
       </tr>
     </thead>
