@@ -12,6 +12,8 @@ const TabsItem = (props) => {
 	const {
 		title,
 		padding,
+		disabled,
+		hidden,
 		...rest
 	} = props
 
@@ -35,6 +37,9 @@ TabsItem.propTypes = {
 	/** Is this tab disabled? */
 	disabled: PropTypes.bool,
 
+	/** Should the tab be hidden? */
+	hidden: PropTypes.bool,
+
 	/** The amount of padding around the tab content. */
 	padding: PropTypes.oneOfType([
 		PropTypes.number,
@@ -47,6 +52,7 @@ TabsItem.propTypes = {
 TabsItem.defaultProps = {
 	children: null,
 	disabled: false,
+	hidden: false,
 	padding: { horizontal: 'none', vertical: 2 },
 }
 

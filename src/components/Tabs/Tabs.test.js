@@ -50,6 +50,21 @@ describe('Tabs', () => {
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
+
+	test('disabled navigation item is rendered if hidden', () => {
+		const component = renderer.create((
+			<Theme>
+				<Tabs
+					activeIndex={0}
+					onTabChange={() => {}}
+				>
+					<Tabs.Item title="" />
+					<Tabs.Item title="" disabled hidden />
+				</Tabs>
+			</Theme>
+		))
+		expect(component.toJSON()).toMatchSnapshot()
+	})
 })
 
 describe('TabsItem', () => {

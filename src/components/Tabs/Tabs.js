@@ -169,23 +169,26 @@ const Tabs = (props) => {
 				$border={{ bottom: 0 }}
 			>
 				{Children.map(children, (child, index) => (
-					<TabsNavItemStyled
-						key={child.props.title}
-						$element={themeElement}
-					>
-						<TabsButton
+					(child.props.disabled && child.props.hidden) ? (
+						null) : (
+						<TabsNavItemStyled
+							key={child.props.title}
 							$element={themeElement}
-							index={index}
-							active={index === activeIndex}
-							disabled={child.props.disabled}
-							padding={padding}
-							onClick={(event) => {
-								onTabChange(event, index)
-							}}
 						>
-							{child.props.title}
-						</TabsButton>
-					</TabsNavItemStyled>
+							<TabsButton
+								$element={themeElement}
+								index={index}
+								active={index === activeIndex}
+								disabled={child.props.disabled}
+								padding={padding}
+								onClick={(event) => {
+									onTabChange(event, index)
+								}}
+							>
+								{child.props.title}
+							</TabsButton>
+						</TabsNavItemStyled>
+					)
 				))}
 			</TabsNavStyled>
 			{Children.toArray(props.children)[activeIndex]}

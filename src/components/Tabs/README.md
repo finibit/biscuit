@@ -26,6 +26,7 @@ class CustomTabs extends React.Component {
         <Tabs.Item title="Tab 1" />
         <Tabs.Item title="Tab 2" />
         <Tabs.Item title="Tab 3" disabled />
+        <Tabs.Item title="Tab 4" disabled hidden />
       </Tabs>
     )
   }
