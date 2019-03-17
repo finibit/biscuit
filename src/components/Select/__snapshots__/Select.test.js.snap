@@ -134,7 +134,7 @@ exports[`Select renders empty opened 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -261,7 +261,7 @@ exports[`Select renders empty with custom placeholders 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -590,7 +590,7 @@ exports[`Select renders with fixed height 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -770,7 +770,7 @@ exports[`Select renders with fixed width 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -950,7 +950,7 @@ exports[`Select renders with no items selected 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -1160,7 +1160,7 @@ exports[`Select renders with responsive spacing 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -1442,7 +1442,7 @@ exports[`Select renders with some items selected 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -1652,7 +1652,7 @@ exports[`Select renders with spacing 1`] = `
 }
 
 .c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   box-sizing: border-box;

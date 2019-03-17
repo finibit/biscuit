@@ -17,18 +17,6 @@ describe('Popover', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('renders content', () => {
-		const component = renderer.create((
-			<Theme>
-				<Popover
-					trigger={<h1>Trigger</h1>}
-					content={<p>Content</p>}
-				/>
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
 	test('renders with fixed width', () => {
 		const component = renderer.create((
 			<Theme>

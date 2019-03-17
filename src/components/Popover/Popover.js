@@ -1,51 +1,82 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
 import PopoverArrow from './parts/PopoverArrow'
 import PopoverContent from './parts/PopoverContent'
 
-const PopoverStyled = styled.div`
-	box-sizing: border-box;
-	position: relative;
-	display: inline-block;
-`
+class Popover extends React.PureComponent {
+	constructor(props) {
+		super(props)
+		this.state = {
+			visible: (props.visible != null) ? props.visible : false,
+		}
+		this.triggerRef = React.createRef()
+		this.onMouseOver = this.onMouseOver.bind(this)
+		this.onMouseLeave = this.onMouseLeave.bind(this)
+	}
 
-const Popover = (props) => {
-	const {
-		trigger,
-		content,
-		width,
-		height,
-		padding,
-		...rest
-	} = props
+	onMouseOver() {
+		this.setState({
+			visible: true,
+		})
+	}
 
-	return (
-		<PopoverStyled
-			{...rest}
-		>
-			{trigger}
-			<PopoverContent
-				$element="Popover"
-				$parent={PopoverStyled}
-				$color={0}
-				$bgColor={1}
-				$margin="none"
-				$padding={padding}
-				$width={width}
-				$height={height}
-				$border={0}
-				$elevation={2}
-			>
-				{content}
-				<PopoverArrow
-					$element="Popover"
-					$bgColor={1}
-					$elevation={1}
-				/>
-			</PopoverContent>
-		</PopoverStyled>
-	)
+	onMouseLeave() {
+		this.setState({
+			visible: false,
+		})
+	}
+
+	componentDidMount() {
+		this.setState({
+			visible: false,
+		})
+	}
+
+	render() {
+		const {
+			trigger,
+			content,
+			width,
+			height,
+			padding,
+			placement,
+		} = this.props
+
+		return (
+			<>
+				<div
+					ref={this.triggerRef}
+					onMouseOver={this.onMouseOver}
+					onMouseLeave={this.onMouseLeave}
+					style={{ display: 'inline-block' }}
+				>
+					{trigger}
+				</div>
+				{(this.triggerRef.current && (this.props.visible || this.state.visible)) && (
+					<PopoverContent
+						$element="Popover"
+						$color={0}
+						$bgColor={1}
+						$margin="none"
+						$padding={padding}
+						$width={width}
+						$height={height}
+						$border={0}
+						$elevation={2}
+						$rect={this.triggerRef.current.getBoundingClientRect()}
+						$placement={placement}
+					>
+						{content}
+						<PopoverArrow
+							$element="Popover"
+							$bgColor={1}
+							$placement={placement}
+						/>
+					</PopoverContent>
+				)}
+			</>
+		)
+	}
 }
 
 Popover.propTypes = {
@@ -68,6 +99,24 @@ Popover.propTypes = {
 		PropTypes.object,
 		PropTypes.array,
 	]),
+
+	/** Placement of the content. */
+	placement: PropTypes.oneOf([
+		'top-left',
+		'top',
+		'top-right',
+		'right-top',
+		'right',
+		'right-bottom',
+		'bottom-right',
+		'bottom',
+		'bottom-left',
+		'left-bottom',
+		'left',
+		'left-top',
+	]),
+
+	visible: PropTypes.oneOfType([PropTypes.bool, PropTypes.oneOf([null])]),
 }
 
 Popover.defaultProps = {
@@ -75,6 +124,8 @@ Popover.defaultProps = {
 	width: 'initial',
 	height: 'initial',
 	padding: 2,
+	placement: 'top-left',
+	visible: null,
 }
 
 export default Popover
