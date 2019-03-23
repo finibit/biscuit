@@ -10,7 +10,7 @@ module.exports = {
 	output: {
 		path: outputPath,
 		publicPath: '',
-		filename: 'index.js',
+		filename: 'biscuit.js',
 		libraryTarget: 'commonjs2',
 		library: 'Biscuit',
 	},
