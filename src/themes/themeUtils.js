@@ -1,5 +1,6 @@
 import merge from 'deepmerge'
 import check from 'check-types'
+import { css } from 'styled-components'
 import { shade, tint } from 'polished'
 
 const resolveValueImpl = (theme, element, prop, value, next) => {
@@ -377,6 +378,12 @@ const _spacing = (props) => (
 	_margin(props) + _padding(props)
 )
 
+const _nowrap = css`
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+`
+
 const styles = {
 	fontFamily: _fontFamily,
 	fontWeight: _fontWeight,
@@ -393,6 +400,7 @@ const styles = {
 	padding: _padding,
 	margin: _margin,
 	spacing: _spacing,
+	noWrap: _nowrap,
 }
 
 export const utils = {

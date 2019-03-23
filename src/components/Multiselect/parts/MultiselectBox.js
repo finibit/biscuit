@@ -4,40 +4,34 @@ import styled, { css } from 'styled-components'
 import Icon from '../../Icon'
 import styles from '../../../themes'
 
-const textWrapStyles = css`
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-`
-
-const MultiselectBoxStyled = styled.div`
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-	cursor: default;
-
-	${styles.border}
-	${styles.bgColor}
-	${styles.spacing}
-	${styles.fontFamily}
-	${styles.lineHeight}
-
+const borderStyles = css`
 	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
 	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
 	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
 	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
 `
 
+const MultiselectBoxStyled = styled.div`
+	${styles.border}
+	${styles.bgColor}
+	${borderStyles}
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	cursor: default;
+`
+
 const PlaceholderStyled = styled.span`
+	${styles.margin}
 	${styles.color}
-	${textWrapStyles}
+	${styles.noWrap}
 `
 
 const SelectedItemStyled = styled.span`
-	${textWrapStyles};
+	${styles.margin}
+	${styles.noWrap}
 `
 
 const MultiselectBox = (props) => {
@@ -49,7 +43,6 @@ const MultiselectBox = (props) => {
 		onOpen,
 		onClose,
 		display,
-		padding,
 		themeElement,
 		...rest
 	} = props
@@ -60,8 +53,6 @@ const MultiselectBox = (props) => {
 			$bgColor="boxBackground"
 			$border={0}
 			$width={width}
-			$margin="none"
-			$padding={padding}
 			$isOpen={isOpen}
 			{...rest}
 			onClick={() => {
@@ -75,8 +66,9 @@ const MultiselectBox = (props) => {
 		>
 			{(selectedItems.length === 0) ? (
 				<PlaceholderStyled
-					$element="Select"
+					$element={themeElement}
 					$color="boxPlaceholder"
+					$margin={{ left: 1 }}
 				>
 					{(display === 'selected-count') ? (
 						`${placeholder} (${selectedItems.length})`
@@ -85,7 +77,10 @@ const MultiselectBox = (props) => {
 					)}
 				</PlaceholderStyled>
 			) : (
-				<SelectedItemStyled>
+				<SelectedItemStyled
+					$element={themeElement}
+					$margin={{ left: 1 }}
+				>
 					{(display === 'selected-items') ? (
 						selectedItems.map((item, index) => (
 							<span key={item}>
@@ -93,16 +88,14 @@ const MultiselectBox = (props) => {
 							</span>
 						))
 					) : (
-						<span>
-							{`${placeholder} (${selectedItems.length})`}
-						</span>
+						`${placeholder} (${selectedItems.length})`
 					)}
 				</SelectedItemStyled>
 			)}
 			<Icon
 				type={isOpen ? 'arrow-up' : 'arrow-down'}
 				color="boxPlaceholder"
-				margin={{ left: 0 }}
+				margin={{ left: 0, right: 1 }}
 				themeElement={themeElement}
 			/>
 		</MultiselectBoxStyled>
@@ -117,12 +110,6 @@ MultiselectBox.propTypes = {
 	onOpen: PropTypes.func.isRequired,
 	onClose: PropTypes.func.isRequired,
 	display: PropTypes.oneOf(['selected-items', 'selected-count']).isRequired,
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]).isRequired,
 	themeElement: PropTypes.string.isRequired,
 }
 

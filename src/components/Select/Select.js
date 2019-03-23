@@ -6,16 +6,17 @@ import SelectBox from './parts/SelectBox'
 import SelectList from './parts/SelectList'
 
 const SelectStyled = styled.div`
+	${styles.margin}
+	${styles.fontFamily}
+	${styles.lineHeight}
+	box-sizing: border-box;
 	user-select: none;
 	position: relative;
-
 	width: ${(props) => props.$width};
 	max-width: ${(props) => props.$width};
-
-	${styles.spacing}
 `
 
-/** Single options select box. */
+/** Single option select box. */
 class Select extends React.PureComponent {
 	componentWillMount() {
 		window.addEventListener('click', this.onClickOutside, false)
@@ -48,7 +49,6 @@ class Select extends React.PureComponent {
 			onClose,
 			onSelect,
 			margin,
-			padding,
 			width,
 			height,
 			themeElement,
@@ -65,7 +65,6 @@ class Select extends React.PureComponent {
 				}}
 				$element={themeElement}
 				$margin={margin}
-				$padding="none"
 				$width={width}
 				{...rest}
 			>
@@ -73,7 +72,6 @@ class Select extends React.PureComponent {
 					placeholder={placeholder}
 					selectedItem={selectedItem}
 					width={width}
-					padding={padding}
 					isOpen={isOpen}
 					onOpen={onOpen}
 					onClose={onClose}
@@ -85,7 +83,6 @@ class Select extends React.PureComponent {
 					isOpen={isOpen}
 					width={width}
 					height={height}
-					padding={padding}
 					onSelect={this.onSelect}
 					themeElement={themeElement}
 				/>
@@ -133,14 +130,6 @@ Select.propTypes = {
 		PropTypes.array,
 	]),
 
-	/** The amount of padding around the select box and the select list. */
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-
 	/** Fixed width of the select box and the select list. */
 	width: PropTypes.string,
 
@@ -155,7 +144,6 @@ Select.defaultProps = {
 	placeholder: 'Select an item',
 	emptyPlaceholder: 'No items',
 	margin: 'none',
-	padding: { horizontal: 1, vertical: 0 },
 	width: '100%',
 	height: 'auto',
 	themeElement: 'Select',

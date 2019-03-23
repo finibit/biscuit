@@ -183,7 +183,7 @@ describe('Select', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('renders with spacing', () => {
+	test('renders with margin', () => {
 		const component = renderer.create((
 			<Theme>
 				<Select
@@ -192,7 +192,6 @@ describe('Select', () => {
 					onOpen={() => {}}
 					onClose={() => {}}
 					onSelect={() => {}}
-					padding="md"
 					margin="xl"
 				/>
 			</Theme>
@@ -200,7 +199,7 @@ describe('Select', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('renders with responsive spacing', () => {
+	test('renders with responsive margin', () => {
 		const component = renderer.create((
 			<Theme>
 				<Select
@@ -209,7 +208,6 @@ describe('Select', () => {
 					onOpen={() => {}}
 					onClose={() => {}}
 					onSelect={() => {}}
-					padding={['xs', 'sm', 'md', 'lg']}
 					margin={['xs', 'sm', 'md', 'lg']}
 				/>
 			</Theme>

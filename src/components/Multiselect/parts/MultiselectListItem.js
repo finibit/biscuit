@@ -5,10 +5,6 @@ import Icon from '../../Icon'
 import styles from '../../../themes'
 
 const MultiselectListItemStyled = styled.div`
-	${styles.fontFamily}
-	${styles.lineHeight}
-	${styles.spacing}
-
 	cursor: pointer;
 	display: flex;
 	flex-direction: row;
@@ -24,15 +20,13 @@ const MultiselectListItemStyled = styled.div`
 `
 
 const MultiselectListItemTitleStyled = styled.span`
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	${styles.margin}
+	${styles.noWrap}
 `
 
 const MultiselectListItem = (props) => {
 	const {
 		item,
-		padding,
 		themeElement,
 		...rest
 	} = props
@@ -42,17 +36,20 @@ const MultiselectListItem = (props) => {
 			$element={themeElement}
 			$bgColor="listItemBackground"
 			$margin="none"
-			$padding={padding}
 			$selected={item.selected}
 			{...rest}
 		>
-			<MultiselectListItemTitleStyled>
+			<MultiselectListItemTitleStyled
+				$element={themeElement}
+				$margin={{ left: 1 }}
+			>
 				{item.title}
 			</MultiselectListItemTitleStyled>
 			<Icon
 				type="check-mark"
 				color="listPlaceholder"
-				margin={{ left: 2 }}
+				$element={themeElement}
+				$margin={{ left: 2, right: 1 }}
 				css={{ visibility: item.selected ? 'visible' : 'hidden' }}
 				themeElement={themeElement}
 			/>
@@ -62,12 +59,6 @@ const MultiselectListItem = (props) => {
 
 MultiselectListItem.propTypes = {
 	item: PropTypes.oneOfType([PropTypes.object]).isRequired,
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]).isRequired,
 	themeElement: PropTypes.string.isRequired,
 }
 

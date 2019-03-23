@@ -6,13 +6,14 @@ import MultiselectBox from './parts/MultiselectBox'
 import MultiselectList from './parts/MultiselectList'
 
 const MultiselectStyled = styled.div`
+	${styles.margin}
+	${styles.fontFamily}
+	${styles.lineHeight}
+	box-sizing: border-box;
 	user-select: none;
 	position: relative;
-
 	width: ${(props) => props.$width};
 	max-width: ${(props) => props.$width};
-
-	${styles.spacing}
 `
 
 /** Multiple options select box. */
@@ -44,7 +45,6 @@ class Multiselect extends React.PureComponent {
 			onClose,
 			onSelect,
 			margin,
-			padding,
 			width,
 			height,
 			themeElement,
@@ -63,7 +63,6 @@ class Multiselect extends React.PureComponent {
 				}}
 				$element={themeElement}
 				$margin={margin}
-				$padding="none"
 				$width={width}
 				{...rest}
 			>
@@ -72,7 +71,6 @@ class Multiselect extends React.PureComponent {
 					selectedItems={selectedItems}
 					display={display}
 					width={width}
-					padding={padding}
 					isOpen={isOpen}
 					onOpen={onOpen}
 					onClose={onClose}
@@ -84,7 +82,6 @@ class Multiselect extends React.PureComponent {
 					isOpen={isOpen}
 					width={width}
 					height={height}
-					padding={padding}
 					onSelect={onSelect}
 					themeElement={themeElement}
 				/>
@@ -135,14 +132,6 @@ Multiselect.propTypes = {
 		PropTypes.array,
 	]),
 
-	/** The amount of padding around the select box and the select list. */
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-
 	/** Fixed width of the select box and the select list. */
 	width: PropTypes.string,
 
@@ -158,7 +147,6 @@ Multiselect.defaultProps = {
 	emptyPlaceholder: 'No items',
 	display: 'selected-items',
 	margin: 'none',
-	padding: { horizontal: 1, vertical: 0 },
 	width: '100%',
 	height: 'auto',
 	themeElement: 'Select',

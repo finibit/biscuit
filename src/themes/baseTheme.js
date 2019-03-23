@@ -26,7 +26,7 @@ const baseTheme = {
 				width: '1px',
 				style: 'solid',
 				radius: `${1.2 ** -5}rem`,
-			}
+			},
 		],
 
 		breakpoints: ['0', '48rem', '64rem', '75rem'],
@@ -68,6 +68,7 @@ const baseTheme = {
 
 	Select: {
 		spacing: [],
+		lineHeight: '2rem',
 		colors: {
 			boxBackground: 1,
 			boxPlaceholder: { value: 1, shade: 0.2 },

@@ -4,10 +4,6 @@ import styled from 'styled-components'
 import styles from '../../../themes'
 
 const SelectListItemStyled = styled.div`
-	${styles.lineHeight}
-	${styles.fontFamily}
-	${styles.spacing}
-
 	cursor: pointer;
 	display: flex;
 	flex-direction: row;
@@ -23,15 +19,13 @@ const SelectListItemStyled = styled.div`
 `
 
 const SelectListItemTitleStyled = styled.span`
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	${styles.margin}
+	${styles.noWrap}
 `
 
 const SelectListItem = (props) => {
 	const {
 		item,
-		padding,
 		themeElement,
 		...rest
 	} = props
@@ -40,12 +34,13 @@ const SelectListItem = (props) => {
 		<SelectListItemStyled
 			$element={themeElement}
 			$bgColor="listItemBackground"
-			$margin="none"
-			$padding={padding}
 			$selected={item.selected}
 			{...rest}
 		>
-			<SelectListItemTitleStyled>
+			<SelectListItemTitleStyled
+				$element={themeElement}
+				$margin={{ left: 1 }}
+			>
 				{item.title}
 			</SelectListItemTitleStyled>
 		</SelectListItemStyled>
@@ -54,12 +49,6 @@ const SelectListItem = (props) => {
 
 SelectListItem.propTypes = {
 	item: PropTypes.oneOfType([PropTypes.object]).isRequired,
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]).isRequired,
 	themeElement: PropTypes.string.isRequired,
 }
 

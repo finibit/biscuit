@@ -8,12 +8,17 @@ exports[`Multiselect renders empty closed 1`] = `
   border-right: 4px solid transparent;
   border-top: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -31,19 +36,10 @@ exports[`Multiselect renders empty closed 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   color: #ccc;
   white-space: nowrap;
   overflow: hidden;
@@ -51,6 +47,10 @@ exports[`Multiselect renders empty closed 1`] = `
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -58,8 +58,6 @@ exports[`Multiselect renders empty closed 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 <div>
@@ -91,12 +89,17 @@ exports[`Multiselect renders empty opened 1`] = `
   border-right: 4px solid transparent;
   border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -114,19 +117,10 @@ exports[`Multiselect renders empty opened 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   color: #ccc;
   white-space: nowrap;
   overflow: hidden;
@@ -137,6 +131,11 @@ exports[`Multiselect renders empty opened 1`] = `
   box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
   box-sizing: border-box;
   position: absolute;
   top: 100%;
@@ -147,13 +146,6 @@ exports[`Multiselect renders empty opened 1`] = `
   max-width: 100%;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
@@ -161,13 +153,14 @@ exports[`Multiselect renders empty opened 1`] = `
 
 .c5 {
   color: #ccc;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   text-align: center;
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -175,8 +168,6 @@ exports[`Multiselect renders empty opened 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 <div>
@@ -218,12 +209,17 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   border-right: 4px solid transparent;
   border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -241,19 +237,10 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   color: #ccc;
   white-space: nowrap;
   overflow: hidden;
@@ -264,6 +251,11 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
   box-sizing: border-box;
   position: absolute;
   top: 100%;
@@ -274,13 +266,6 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   max-width: 100%;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
@@ -288,13 +273,14 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
 
 .c5 {
   color: #ccc;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   text-align: center;
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -302,8 +288,6 @@ exports[`Multiselect renders empty with custom placeholders 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 <div>
@@ -345,12 +329,17 @@ exports[`Multiselect renders selected items count in select box 1`] = `
   border-right: 4px solid transparent;
   border-top: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -368,25 +357,20 @@ exports[`Multiselect renders selected items count in select box 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -394,8 +378,6 @@ exports[`Multiselect renders selected items count in select box 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 <div>
@@ -409,9 +391,7 @@ exports[`Multiselect renders selected items count in select box 1`] = `
       <span
         className="c2"
       >
-        <span>
-          Select an item (2)
-        </span>
+        Select an item (2)
       </span>
       <div
         className="c3"
@@ -429,12 +409,17 @@ exports[`Multiselect renders selected items in select box 1`] = `
   border-right: 4px solid transparent;
   border-top: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -452,25 +437,20 @@ exports[`Multiselect renders selected items in select box 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -478,8 +458,6 @@ exports[`Multiselect renders selected items in select box 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 <div>
@@ -516,13 +494,13 @@ exports[`Multiselect renders with fixed height 1`] = `
   border-right: 4px solid transparent;
   border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0 0.694rem 0 1rem;
   padding: 0;
   visibility: hidden;
 }
@@ -540,7 +518,12 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -558,19 +541,10 @@ exports[`Multiselect renders with fixed height 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   color: #ccc;
   white-space: nowrap;
   overflow: hidden;
@@ -578,10 +552,6 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 .c5 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -608,6 +578,7 @@ exports[`Multiselect renders with fixed height 1`] = `
 }
 
 .c6 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -617,6 +588,11 @@ exports[`Multiselect renders with fixed height 1`] = `
   box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
   box-sizing: border-box;
   position: absolute;
   top: 100%;
@@ -627,19 +603,16 @@ exports[`Multiselect renders with fixed height 1`] = `
   max-width: 100%;
   height: 400px;
   max-height: 400px;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
   overflow: hidden;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -647,8 +620,6 @@ exports[`Multiselect renders with fixed height 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 <div>
@@ -724,13 +695,13 @@ exports[`Multiselect renders with fixed width 1`] = `
   border-right: 4px solid transparent;
   border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0 0.694rem 0 1rem;
   padding: 0;
   visibility: hidden;
 }
@@ -748,7 +719,12 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -766,19 +742,10 @@ exports[`Multiselect renders with fixed width 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   color: #ccc;
   white-space: nowrap;
   overflow: hidden;
@@ -786,10 +753,6 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 .c5 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -816,6 +779,7 @@ exports[`Multiselect renders with fixed width 1`] = `
 }
 
 .c6 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -825,6 +789,11 @@ exports[`Multiselect renders with fixed width 1`] = `
   box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
   box-sizing: border-box;
   position: absolute;
   top: 100%;
@@ -835,19 +804,16 @@ exports[`Multiselect renders with fixed width 1`] = `
   max-width: 400px;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -855,8 +821,6 @@ exports[`Multiselect renders with fixed width 1`] = `
   position: relative;
   width: 400px;
   max-width: 400px;
-  margin: 0;
-  padding: 0;
 }
 
 <div>
@@ -924,7 +888,7 @@ exports[`Multiselect renders with fixed width 1`] = `
 </div>
 `;
 
-exports[`Multiselect renders with no items selected 1`] = `
+exports[`Multiselect renders with margin 1`] = `
 .c3 {
   width: 0;
   height: 0;
@@ -932,221 +896,13 @@ exports[`Multiselect renders with no items selected 1`] = `
   border-right: 4px solid transparent;
   border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: hidden;
-}
-
-.c7:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #ccc;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c1 {
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c2 {
-  color: #ccc;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.c5 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c5:hover {
-  background-color: #f7f7f7;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  box-sizing: border-box;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  max-height: auto;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
-  overflow: hidden;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <span
-        className="c2"
-      >
-        Select an item
-      </span>
-      <div
-        className="c3"
-      />
-    </div>
-    <div
-      className="c4"
-      onClick={[Function]}
-    >
-      <div
-        className="c5"
-        onClick={[Function]}
-      >
-        <span
-          className="c6"
-        >
-          Item 1
-        </span>
-        <div
-          className="c7"
-        />
-      </div>
-      <div
-        className="c5"
-        onClick={[Function]}
-      >
-        <span
-          className="c6"
-        >
-          Item 2
-        </span>
-        <div
-          className="c7"
-        />
-      </div>
-      <div
-        className="c5"
-        onClick={[Function]}
-      >
-        <span
-          className="c6"
-        >
-          Item 3
-        </span>
-        <div
-          className="c7"
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders with responsive spacing 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 4px solid #ccc;
-  display: inline-block;
-  margin: 0 0 0 0.402rem;
-  padding: 0;
-}
-
-.c7 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0 0.694rem 0 1rem;
   padding: 0;
   visibility: hidden;
 }
@@ -1165,7 +921,7 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 
 .c9 {
   display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0 0.694rem 0 1rem;
   padding: 0;
   visibility: visible;
 }
@@ -1183,7 +939,12 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1201,29 +962,16 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: xs;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .c5 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: xs;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1250,10 +998,6 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 }
 
 .c8 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: xs;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1281,6 +1025,7 @@ exports[`Multiselect renders with responsive spacing 1`] = `
 }
 
 .c6 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1290,6 +1035,11 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
   box-sizing: border-box;
   position: absolute;
   top: 100%;
@@ -1300,19 +1050,16 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   max-width: 100%;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
 .c0 {
+  margin: xl;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1320,62 +1067,458 @@ exports[`Multiselect renders with responsive spacing 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: xs;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        <span>
+          Item 2, 
+        </span>
+        <span>
+          Item 3
+        </span>
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
+      <div
+        className="c8"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c9"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders with no items selected 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #ccc;
+  display: inline-block;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
-@media only screen and (min-width:48rem) {
-  .c1 {
-    padding: sm;
-  }
+.c7 {
+  display: inline-block;
+  margin: 0 0.694rem 0 1rem;
+  padding: 0;
+  visibility: hidden;
 }
 
-@media only screen and (min-width:64rem) {
-  .c1 {
-    padding: md;
-  }
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #ccc;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-@media only screen and (min-width:75rem) {
-  .c1 {
-    padding: lg;
-  }
+.c1 {
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
 }
 
-@media only screen and (min-width:48rem) {
-  .c5 {
-    padding: sm;
-  }
+.c2 {
+  margin: 0 0 0 0.694rem;
+  color: #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-@media only screen and (min-width:64rem) {
-  .c5 {
-    padding: md;
-  }
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-@media only screen and (min-width:75rem) {
-  .c5 {
-    padding: lg;
-  }
+.c5:hover {
+  background-color: #f7f7f7;
 }
 
-@media only screen and (min-width:48rem) {
-  .c8 {
-    padding: sm;
-  }
+.c6 {
+  margin: 0 0 0 0.694rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-@media only screen and (min-width:64rem) {
-  .c8 {
-    padding: md;
-  }
+.c4 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
-@media only screen and (min-width:75rem) {
-  .c8 {
-    padding: lg;
-  }
+.c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      onClick={[Function]}
+    >
+      <span
+        className="c2"
+      >
+        Select an item
+      </span>
+      <div
+        className="c3"
+      />
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 1
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 2
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c5"
+        onClick={[Function]}
+      >
+        <span
+          className="c6"
+        >
+          Item 3
+        </span>
+        <div
+          className="c7"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect renders with responsive margin 1`] = `
+.c3 {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #ccc;
+  display: inline-block;
+  margin: 0 0.694rem 0 0.402rem;
+  padding: 0;
+}
+
+.c7 {
+  display: inline-block;
+  margin: 0 0.694rem 0 1rem;
+  padding: 0;
+  visibility: hidden;
+}
+
+.c7:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #ccc;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c9 {
+  display: inline-block;
+  margin: 0 0.694rem 0 1rem;
+  padding: 0;
+  visibility: visible;
+}
+
+.c9:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 9px;
+  border: solid #ccc;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c1 {
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  cursor: default;
+}
+
+.c2 {
+  margin: 0 0 0 0.694rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5:hover {
+  background-color: #f7f7f7;
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.c8:hover {
+  background-color: #f7f7f7;
+}
+
+.c6 {
+  margin: 0 0 0 0.694rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c4 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  overflow: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0 {
+  margin: xs;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
 }
 
 @media only screen and (min-width:48rem) {
@@ -1474,13 +1617,13 @@ exports[`Multiselect renders with some items selected 1`] = `
   border-right: 4px solid transparent;
   border-bottom: 4px solid #ccc;
   display: inline-block;
-  margin: 0 0 0 0.402rem;
+  margin: 0 0.694rem 0 0.402rem;
   padding: 0;
 }
 
 .c7 {
   display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0 0.694rem 0 1rem;
   padding: 0;
   visibility: hidden;
 }
@@ -1499,7 +1642,7 @@ exports[`Multiselect renders with some items selected 1`] = `
 
 .c9 {
   display: inline-block;
-  margin: 0 0 0 1rem;
+  margin: 0 0.694rem 0 1rem;
   padding: 0;
   visibility: visible;
 }
@@ -1517,7 +1660,12 @@ exports[`Multiselect renders with some items selected 1`] = `
 }
 
 .c1 {
-  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1535,29 +1683,16 @@ exports[`Multiselect renders with some items selected 1`] = `
   align-items: center;
   position: relative;
   cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .c5 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1584,10 +1719,6 @@ exports[`Multiselect renders with some items selected 1`] = `
 }
 
 .c8 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: 0.402rem 0.694rem 0.402rem 0.694rem;
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1615,6 +1746,7 @@ exports[`Multiselect renders with some items selected 1`] = `
 }
 
 .c6 {
+  margin: 0 0 0 0.694rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1624,6 +1756,11 @@ exports[`Multiselect renders with some items selected 1`] = `
   box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top: none !important;
   box-sizing: border-box;
   position: absolute;
   top: 100%;
@@ -1634,19 +1771,16 @@ exports[`Multiselect renders with some items selected 1`] = `
   max-width: 100%;
   height: auto;
   max-height: auto;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
   overflow: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
 .c0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 2rem;
+  box-sizing: border-box;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1654,270 +1788,6 @@ exports[`Multiselect renders with some items selected 1`] = `
   position: relative;
   width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-      onClick={[Function]}
-    >
-      <span
-        className="c2"
-      >
-        <span>
-          Item 2, 
-        </span>
-        <span>
-          Item 3
-        </span>
-      </span>
-      <div
-        className="c3"
-      />
-    </div>
-    <div
-      className="c4"
-      onClick={[Function]}
-    >
-      <div
-        className="c5"
-        onClick={[Function]}
-      >
-        <span
-          className="c6"
-        >
-          Item 1
-        </span>
-        <div
-          className="c7"
-        />
-      </div>
-      <div
-        className="c8"
-        onClick={[Function]}
-      >
-        <span
-          className="c6"
-        >
-          Item 2
-        </span>
-        <div
-          className="c9"
-        />
-      </div>
-      <div
-        className="c8"
-        onClick={[Function]}
-      >
-        <span
-          className="c6"
-        >
-          Item 3
-        </span>
-        <div
-          className="c9"
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multiselect renders with spacing 1`] = `
-.c3 {
-  width: 0;
-  height: 0;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-bottom: 4px solid #ccc;
-  display: inline-block;
-  margin: 0 0 0 0.402rem;
-  padding: 0;
-}
-
-.c7 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: hidden;
-}
-
-.c7:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #ccc;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c9 {
-  display: inline-block;
-  margin: 0 0 0 1rem;
-  padding: 0;
-  visibility: visible;
-}
-
-.c9:after {
-  content: '';
-  display: block;
-  width: 4px;
-  height: 9px;
-  border: solid #ccc;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.c1 {
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  cursor: default;
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  margin: 0;
-  padding: md;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c2 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.c5 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: md;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c5:hover {
-  background-color: #f7f7f7;
-}
-
-.c8 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  margin: 0;
-  padding: md;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #f7f7f7;
-}
-
-.c8:hover {
-  background-color: #f7f7f7;
-}
-
-.c6 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.c4 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.12);
-  border: 1px solid #d8d8d8;
-  background-color: #ffffff;
-  box-sizing: border-box;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  max-height: auto;
-  margin: 0;
-  padding: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-  border-top: none !important;
-  overflow: hidden;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-}
-
-.c0 {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin: xl;
-  padding: 0;
 }
 
 <div>
