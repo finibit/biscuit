@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders type 1`] = `
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #000000;
+  background-color: #dfdfdf;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c0:hover {
+  background-color: #d3d3d3;
+}
+
+.c0:active {
+  background-color: #c8c8c8;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #ffffff;
+  background-color: #a7bd0d;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c1:hover {
+  background-color: #9eb30c;
+}
+
+.c1:active {
+  background-color: #96aa0b;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1::-moz-focus-inner {
+  border: 0;
+}
+
+.c2 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #ffffff;
+  background-color: #3498db;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c2:hover {
+  background-color: #3190d0;
+}
+
+.c2:active {
+  background-color: #2e88c5;
+}
+
+.c2:focus {
+  outline: none;
+}
+
+.c2::-moz-focus-inner {
+  border: 0;
+}
+
+.c3 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #ffffff;
+  background-color: #f22613;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c3:hover {
+  background-color: #e52412;
+}
+
+.c3:active {
+  background-color: #d92211;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3::-moz-focus-inner {
+  border: 0;
+}
+
+.c4 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #ffffff;
+  background-color: #26a65b;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c4:hover {
+  background-color: #249d56;
+}
+
+.c4:active {
+  background-color: #229551;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c4::-moz-focus-inner {
+  border: 0;
+}
+
+.c5 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #ffffff;
+  background-color: #f9690e;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c5:hover {
+  background-color: #ec630d;
+}
+
+.c5:active {
+  background-color: #e05e0c;
+}
+
+.c5:focus {
+  outline: none;
+}
+
+.c5::-moz-focus-inner {
+  border: 0;
+}
+
+<div>
+  <button
+    className="c0"
+  >
+    Default
+  </button>
+  <button
+    className="c0"
+  >
+    Default
+  </button>
+  <button
+    className="c1"
+  >
+    Primary
+  </button>
+  <button
+    className="c2"
+  >
+    Info
+  </button>
+  <button
+    className="c3"
+  >
+    Danger
+  </button>
+  <button
+    className="c4"
+  >
+    Success
+  </button>
+  <button
+    className="c5"
+  >
+    Warning
+  </button>
+</div>
+`;
+
+exports[`Button renders with css 1`] = `
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #000000;
+  background-color: #dfdfdf;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.c0:hover {
+  background-color: #d3d3d3;
+}
+
+.c0:active {
+  background-color: #c8c8c8;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #000000;
+  background-color: #dfdfdf;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.c1:hover {
+  background-color: #d3d3d3;
+}
+
+.c1:active {
+  background-color: #c8c8c8;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1::-moz-focus-inner {
+  border: 0;
+}
+
+<div>
+  <button
+    className="c0"
+  />
+  <button
+    className="c1"
+  />
+</div>
+`;
+
+exports[`Button renders with margin 1`] = `
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 1.440rem 0 0;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #000000;
+  background-color: #dfdfdf;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c0:hover {
+  background-color: #d3d3d3;
+}
+
+.c0:active {
+  background-color: #c8c8c8;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 20px;
+  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  color: #000000;
+  background-color: #dfdfdf;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c1:hover {
+  background-color: #d3d3d3;
+}
+
+.c1:active {
+  background-color: #c8c8c8;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1::-moz-focus-inner {
+  border: 0;
+}
+
+<div>
+  <button
+    className="c0"
+  />
+  <button
+    className="c1"
+  />
+</div>
+`;
+
+exports[`Button renders with padding 1`] = `
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 0.694rem 1rem 0.694rem 1rem;
+  color: #000000;
+  background-color: #dfdfdf;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c0:hover {
+  background-color: #d3d3d3;
+}
+
+.c0:active {
+  background-color: #c8c8c8;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+}
+
+.c1 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0.402rem 0 0;
+  padding: 20px;
+  color: #000000;
+  background-color: #dfdfdf;
+  font-weight: normal;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0.4018775720164609rem;
+  border-top-right-radius: 0.4018775720164609rem;
+  border-bottom-left-radius: 0.4018775720164609rem;
+  border-bottom-right-radius: 0.4018775720164609rem;
+}
+
+.c1:hover {
+  background-color: #d3d3d3;
+}
+
+.c1:active {
+  background-color: #c8c8c8;
+}
+
+.c1:focus {
+  outline: none;
+}
+
+.c1::-moz-focus-inner {
+  border: 0;
+}
+
+<div>
+  <button
+    className="c0"
+  />
+  <button
+    className="c1"
+  />
+</div>
+`;

@@ -38,6 +38,20 @@ const baseTheme = {
 		spacing: [],
 	},
 
+	Button: {
+		spacing: [],
+		colors: [
+			0, // black
+			1, // white,
+			'#dfdfdf', // default
+			'#a7bd0d', // primary
+			2, // info
+			3, // danger
+			4, // success
+			5, // warning
+		],
+	},
+
 	Heading: {
 		size: [0, 1, 2, 3, 4, 5],
 		spacing: [],
