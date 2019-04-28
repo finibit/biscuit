@@ -115,6 +115,10 @@ const baseTheme = {
 		spacing: [],
 	},
 
+	List: {
+		spacing: [],
+	},
+
 	Popover: {
 		spacing: [],
 	},
