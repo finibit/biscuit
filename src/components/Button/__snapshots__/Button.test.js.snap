@@ -7,13 +7,13 @@ exports[`Button renders type 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #d8d8d8;
   color: #000000;
-  background-color: #dfdfdf;
+  background-color: #ffffff;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -21,11 +21,11 @@ exports[`Button renders type 1`] = `
 }
 
 .c0:hover {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .c0:active {
-  background-color: #c8c8c8;
+  background-color: #e5e5e5;
 }
 
 .c0:focus {
@@ -42,13 +42,13 @@ exports[`Button renders type 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #bdbdbd;
   color: #ffffff;
   background-color: #a7bd0d;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -56,7 +56,7 @@ exports[`Button renders type 1`] = `
 }
 
 .c1:hover {
-  background-color: #9eb30c;
+  background-color: #a1b70c;
 }
 
 .c1:active {
@@ -77,13 +77,13 @@ exports[`Button renders type 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #2c81ba;
   color: #ffffff;
   background-color: #3498db;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -91,7 +91,7 @@ exports[`Button renders type 1`] = `
 }
 
 .c2:hover {
-  background-color: #3190d0;
+  background-color: #3293d4;
 }
 
 .c2:active {
@@ -112,13 +112,13 @@ exports[`Button renders type 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #cd2010;
   color: #ffffff;
   background-color: #f22613;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -126,7 +126,7 @@ exports[`Button renders type 1`] = `
 }
 
 .c3:hover {
-  background-color: #e52412;
+  background-color: #ea2412;
 }
 
 .c3:active {
@@ -147,13 +147,13 @@ exports[`Button renders type 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #208d4d;
   color: #ffffff;
   background-color: #26a65b;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -161,7 +161,7 @@ exports[`Button renders type 1`] = `
 }
 
 .c4:hover {
-  background-color: #249d56;
+  background-color: #24a158;
 }
 
 .c4:active {
@@ -182,13 +182,13 @@ exports[`Button renders type 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #d3590b;
   color: #ffffff;
   background-color: #f9690e;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -196,7 +196,7 @@ exports[`Button renders type 1`] = `
 }
 
 .c5:hover {
-  background-color: #ec630d;
+  background-color: #f1650d;
 }
 
 .c5:active {
@@ -257,13 +257,13 @@ exports[`Button renders with css 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #d8d8d8;
   color: #000000;
-  background-color: #dfdfdf;
+  background-color: #ffffff;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -273,11 +273,11 @@ exports[`Button renders with css 1`] = `
 }
 
 .c0:hover {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .c0:active {
-  background-color: #c8c8c8;
+  background-color: #e5e5e5;
 }
 
 .c0:focus {
@@ -294,13 +294,13 @@ exports[`Button renders with css 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 0.402rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #d8d8d8;
   color: #000000;
-  background-color: #dfdfdf;
+  background-color: #ffffff;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -310,11 +310,11 @@ exports[`Button renders with css 1`] = `
 }
 
 .c1:hover {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .c1:active {
-  background-color: #c8c8c8;
+  background-color: #e5e5e5;
 }
 
 .c1:focus {
@@ -342,13 +342,13 @@ exports[`Button renders with margin 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 0 1.440rem 0 0;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #d8d8d8;
   color: #000000;
-  background-color: #dfdfdf;
+  background-color: #ffffff;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -356,11 +356,11 @@ exports[`Button renders with margin 1`] = `
 }
 
 .c0:hover {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .c0:active {
-  background-color: #c8c8c8;
+  background-color: #e5e5e5;
 }
 
 .c0:focus {
@@ -377,13 +377,13 @@ exports[`Button renders with margin 1`] = `
   line-height: 1.2em;
   text-align: center;
   margin: 20px;
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
+  padding: 0.402rem 1.440rem 0.402rem 1.440rem;
+  border: 1px solid #d8d8d8;
   color: #000000;
-  background-color: #dfdfdf;
+  background-color: #ffffff;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -391,11 +391,11 @@ exports[`Button renders with margin 1`] = `
 }
 
 .c1:hover {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .c1:active {
-  background-color: #c8c8c8;
+  background-color: #e5e5e5;
 }
 
 .c1:focus {
@@ -424,12 +424,12 @@ exports[`Button renders with padding 1`] = `
   text-align: center;
   margin: 0 0.402rem 0 0;
   padding: 0.694rem 1rem 0.694rem 1rem;
+  border: 1px solid #d8d8d8;
   color: #000000;
-  background-color: #dfdfdf;
+  background-color: #ffffff;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -437,11 +437,11 @@ exports[`Button renders with padding 1`] = `
 }
 
 .c0:hover {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .c0:active {
-  background-color: #c8c8c8;
+  background-color: #e5e5e5;
 }
 
 .c0:focus {
@@ -459,12 +459,12 @@ exports[`Button renders with padding 1`] = `
   text-align: center;
   margin: 0 0.402rem 0 0;
   padding: 20px;
+  border: 1px solid #d8d8d8;
   color: #000000;
-  background-color: #dfdfdf;
+  background-color: #ffffff;
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border: none;
   border-top-left-radius: 0.4018775720164609rem;
   border-top-right-radius: 0.4018775720164609rem;
   border-bottom-left-radius: 0.4018775720164609rem;
@@ -472,11 +472,11 @@ exports[`Button renders with padding 1`] = `
 }
 
 .c1:hover {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .c1:active {
-  background-color: #c8c8c8;
+  background-color: #e5e5e5;
 }
 
 .c1:focus {

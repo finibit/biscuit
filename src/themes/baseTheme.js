@@ -8,6 +8,7 @@ const baseTheme = {
 		colors: [
 			'#000000', // black
 			'#ffffff', // white
+			'#a7bd0d', // primary
 			'#3498db', // info
 			'#f22613', // danger
 			'#26a65b', // success
@@ -40,15 +41,53 @@ const baseTheme = {
 
 	Button: {
 		spacing: [],
+		borders: [
+			{
+				color: { value: 1, shade: 0.15 },
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			},
+			{
+				color: { value: 2, shade: 0.15 },
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			},
+			{
+				color: { value: 4, shade: 0.15 },
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			},
+			{
+				color: { value: 5, shade: 0.15 },
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			},
+			{
+				color: { value: 6, shade: 0.15 },
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			},
+			{
+				color: { value: 7, shade: 0.15 },
+				width: '1px',
+				style: 'solid',
+				radius: `${1.2 ** -5}rem`,
+			},
+		],
 		colors: [
 			0, // black
 			1, // white,
 			'#dfdfdf', // default
-			'#a7bd0d', // primary
-			2, // info
-			3, // danger
-			4, // success
-			5, // warning
+			2, // primary
+			3, // info
+			4, // danger
+			5, // success
+			6, // warning
 		],
 	},
 

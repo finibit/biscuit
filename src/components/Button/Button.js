@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import styles, { utils } from '../../themes'
 
 const backgroundColorsMap = {
-	default: 2,
+	default: 1,
 	primary: 3,
 	info: 4,
 	danger: 5,
@@ -21,19 +21,29 @@ const textColorsMap = {
 	warning: 1,
 }
 
+const borderColorsMap = {
+	default: 0,
+	primary: 1,
+	info: 2,
+	danger: 3,
+	success: 4,
+	warning: 5,
+}
+
 const ButtonStyled = styled.button`
 	${styles.fontFamily}
 	${styles.fontSize}
 	${styles.lineHeight}
 	${styles.textAlign}
 	${styles.spacing}
+	${styles.border}
 	${styles.color}
 	${styles.bgColor}
 	${styles.fontWeight}
 
 	&:hover {
 		background-color: ${(props) => (
-			utils.resolveColor(props.theme, props.$element, { value: props.$bgColor, shade: 0.05 })
+			utils.resolveColor(props.theme, props.$element, { value: props.$bgColor, shade: 0.03 })
 		)};
 	}
 
@@ -53,11 +63,10 @@ const ButtonStyled = styled.button`
 
 	display: inline-block;
 	cursor: pointer;
-	border: none;
-	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.theme.global.borders[0].radius};
+	border-top-left-radius: ${(props) => props.theme.Button.borders[0].radius};
+	border-top-right-radius: ${(props) => props.theme.Button.borders[0].radius};
+	border-bottom-left-radius: ${(props) => props.theme.Button.borders[0].radius};
+	border-bottom-right-radius: ${(props) => props.theme.Button.borders[0].radius};
 
 	${(props) => props.$css}
 `
@@ -79,6 +88,7 @@ const Button = (props) => {
 			$element={themeElement}
 			$size={2}
 			$weight="normal"
+			$border={borderColorsMap[type]}
 			$color={textColorsMap[type]}
 			$bgColor={backgroundColorsMap[type]}
 			$align="center"
@@ -137,7 +147,7 @@ Button.defaultProps = {
 	children: null,
 	type: 'default',
 	margin: { right: 0 },
-	padding: { vertical: 1, horizontal: 3 },
+	padding: { vertical: 0, horizontal: 3 },
 	themeElement: 'Button',
 	css: null,
 }
