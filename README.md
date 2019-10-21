@@ -11,19 +11,19 @@ npm i @finibit/biscuit
 ## Usage
 
 ```javascript
-import { Theme, Heading } from '@finibit/biscuit'
+import { Theme, Title } from '@finibit/biscuit'
 
 <Theme>
-  <Heading level={1}>Hello, yummy!</Heading>
+  <Title level={1}>Hello, yummy!</Title>
 </Theme>
 ```
 
-## Documentation
+## Examples
 
-You can view the documentation by downloading the repository and executing the following commands:
+You can view the usage examples by downloading the repository and executing the following command:
 
 ```bash
-npm install && npm run styleguide
+npm install && npm run storybook
 ```
 
-After completion open your browser and navigate to http://localhost:6060
+After completion open your browser and navigate to http://localhost:6006

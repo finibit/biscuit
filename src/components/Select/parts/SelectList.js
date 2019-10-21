@@ -1,51 +1,57 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
+import { themeGet } from '../../../themes'
+import styles from '../../../styles'
 import SelectListItem from './SelectListItem'
-import styles from '../../../themes'
+
+const nowrapStyles = css`
+	${styles.nowrap({ nowrap: true })};
+`
+
+const spaceStyles = css`
+	margin: 0;
+`
 
 const borderStyles = css`
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
-	border-top: none !important;
+	border: ${themeGet.border('light')};
+	border-radius: ${themeGet.borderRadius('md')};
 `
 
 const SelectListStyled = styled.div`
-	${styles.elevation}
-	${styles.border}
-	${styles.bgColor}
-	${borderStyles}
 	box-sizing: border-box;
 	position: absolute;
 	top: 100%;
 	left: 0;
 	z-index: 1;
-	width: ${(props) => props.$width};
-	min-width: 100%;
-	max-width: ${(props) => props.$width};
-	height: ${(props) => props.$height};
-	max-height: ${(props) => props.$height};
+	transform: translateY(${themeGet.space(1)});
+	width: 100%;
 	overflow: hidden;
-	overflow-y: ${(props) => props.$height === 'auto' ? 'hidden' : 'scroll'};
+	background-color: ${themeGet.color('white')};
 	-webkit-overflow-scrolling: touch;
+	line-height: ${themeGet.lineHeight('lg')};
+
+	box-shadow: ${themeGet.shadow('md')};
+
+	${spaceStyles}
+	${borderStyles};
 `
 
-const SelectListPlaceholderStyled = styled.div`
-	${styles.color}
+const PlaceholderStyled = styled.div`
+	box-sizing: border-box;
+	color: ${themeGet.colorText('white', 0.7)};
 	text-align: center;
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
+	${nowrapStyles};
 `
 
 const SelectList = (props) => {
 	const {
 		items,
+		selectedIndex,
 		placeholder,
 		isOpen,
-		width,
-		height,
 		onSelect,
-		themeElement,
 		...rest
 	} = props
 
@@ -55,44 +61,34 @@ const SelectList = (props) => {
 
 	return (
 		<SelectListStyled
-			$element={themeElement}
-			$border={0}
-			$bgColor="listBackground"
-			$width={width}
-			$height={height}
-			$elevation={1}
-			onClick={(event) => event.stopPropagation()}
+			onClick={event => event.stopPropagation()}
+			isOpen={isOpen}
 			{...rest}
 		>
-			{(items.length === 0) ? (
-				<SelectListPlaceholderStyled
-					$element={themeElement}
-					$color={{ value: 1, shade: 0.2 }}
-				>
-					{placeholder}
-				</SelectListPlaceholderStyled>
-			) : (
-				items.map((item, idx) => (
-					<SelectListItem
-						key={item.title}
+ 			{(items.length === 0) ? (
+ 				<PlaceholderStyled>
+ 					{placeholder}
+ 				</PlaceholderStyled>
+ 			) : (
+ 				items.map((item, idx) => (
+ 					<SelectListItem
+ 						key={item}
 						item={item}
+						selected={selectedIndex === idx}
 						onClick={(event) => onSelect(event, item, idx)}
-						themeElement={themeElement}
-					/>
-				))
-			)}
+ 					/>
+ 				))
+ 			)}
 		</SelectListStyled>
-	)
+	)	
 }
 
 SelectList.propTypes = {
-	items: PropTypes.oneOfType([PropTypes.array]).isRequired,
+	items: PropTypes.arrayOf(PropTypes.node).isRequired,
+	selectedIndex: PropTypes.number.isRequired,
 	placeholder: PropTypes.string.isRequired,
 	isOpen: PropTypes.bool.isRequired,
-	width: PropTypes.string.isRequired,
-	height: PropTypes.string.isRequired,
 	onSelect: PropTypes.func.isRequired,
-	themeElement: PropTypes.string.isRequired,
 }
 
 export default SelectList

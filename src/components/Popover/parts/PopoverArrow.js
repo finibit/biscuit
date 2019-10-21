@@ -1,8 +1,9 @@
+import React from 'react'
+import themeGet from '@styled-system/theme-get'
 import styled from 'styled-components'
-import styles from '../../../themes'
 
 const position = (props) => {
-	const placement = props.$placement.split('-')
+	const placement = props.placement.split('-')
 	placement.push('')
 
 	let top = 0
@@ -85,7 +86,7 @@ const position = (props) => {
 }
 
 const PopoverArrow = styled.div`
-	${styles.bgColor}
+background-color: ${themeGet('colors.white', '#fff')};
 	${position}
 
 	width: 10px;

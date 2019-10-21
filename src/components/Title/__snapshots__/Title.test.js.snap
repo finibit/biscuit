@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title align 1`] = `
+.c0 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  text-align: left;
+  color: #1e272e;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  text-align: right;
+  color: #1e272e;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  text-align: center;
+  color: #1e272e;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div>
+  <h1
+    className="c0"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c1"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c2"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+</div>
+`;
+
+exports[`Title nowrap 1`] = `
+.c0 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1.728em;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+<div>
+  <h1
+    className="c0"
+    color="black"
+    size={3}
+    textDecoration="none"
+  />
+</div>
+`;
+
+exports[`Title transform 1`] = `
+.c0 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  color: #1e272e;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  text-transform: lowercase;
+  color: #1e272e;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  text-transform: capitalize;
+  color: #1e272e;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  text-transform: full-width;
+  color: #1e272e;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div>
+  <h1
+    className="c0"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c1"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c2"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c3"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+</div>
+`;
+
+exports[`Title with color 1`] = `
+.c0 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #ffffff;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #f1f2f6;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #ffdd59;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #0fbcf9;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #ff3f34;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #05c46b;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #ffa801;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #001122;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: cyan;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div>
+  <h1
+    className="c0"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c1"
+    color="white"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c2"
+    color="light"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c3"
+    color="primary"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c4"
+    color="info"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c5"
+    color="danger"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c6"
+    color="success"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c7"
+    color="warning"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c8"
+    color="#001122"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c9"
+    color="cyan"
+    size={1}
+    textDecoration="none"
+  />
+</div>
+`;
+
+exports[`Title with decoration 1`] = `
+.c0 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  -webkit-text-decoration: overline;
+  text-decoration: overline;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+}
+
+.c1 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+}
+
+.c2 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+}
+
+<div>
+  <h1
+    className="c0"
+    color="black"
+    size={1}
+    textDecoration="overline"
+  />
+  <h1
+    className="c1"
+    color="black"
+    size={1}
+    textDecoration="underline"
+  />
+  <h1
+    className="c2"
+    color="black"
+    size={1}
+    textDecoration="line-through"
+  />
+</div>
+`;
+
+exports[`Title with size 1`] = `
+.c0 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.488em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 2.074em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1.728em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1.44em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.125;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  color: #1e272e;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div>
+  <h1
+    className="c0"
+    color="black"
+    size={1}
+    textDecoration="none"
+  />
+  <h1
+    className="c1"
+    color="black"
+    size={2}
+    textDecoration="none"
+  />
+  <h1
+    className="c2"
+    color="black"
+    size={3}
+    textDecoration="none"
+  />
+  <h1
+    className="c3"
+    color="black"
+    size={4}
+    textDecoration="none"
+  />
+  <h1
+    className="c4"
+    color="black"
+    size={5}
+    textDecoration="none"
+  />
+  <h1
+    className="c5"
+    color="black"
+    size={6}
+    textDecoration="none"
+  />
+</div>
+`;

@@ -1,155 +1,116 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import styles from '../../themes'
-import MultiselectBox from './parts/MultiselectBox'
-import MultiselectList from './parts/MultiselectList'
+import { themeGet } from '../../themes'
+import styles from '../../styles'
+import types from '../../types'
+import { useOutsideClick } from '../../hooks'
+import { MultiselectBox, MultiselectList } from './parts'
 
 const MultiselectStyled = styled.div`
-	${styles.margin}
-	${styles.fontFamily}
-	${styles.lineHeight}
 	box-sizing: border-box;
 	user-select: none;
 	position: relative;
-	width: ${(props) => props.$width};
-	max-width: ${(props) => props.$width};
+	color: ${themeGet.color('black')};
+	font-family: ${themeGet.fontFamily('secondary')};
+	line-height: ${themeGet.lineHeight('lg')};
+
+	${styles.compose(
+		styles.layout,
+		styles.margin,
+	)};
 `
 
-/** Multiple options select box. */
-class Multiselect extends React.PureComponent {
-	componentWillMount() {
-		window.addEventListener('click', this.onClickOutside, false)
-	}
+const Multiselect = (props) => {
+	const {
+		placeholder,
+		emptyPlaceholder,
+		items,
+		selectedIndices,
+		isOpen,
+		onOpen,
+		onClose,
+		onSelect,
+		onDeselect,
+		...rest
+	} = props
 
-	componentWillUnmount() {
-		window.removeEventListener('click', this.onClickOutside, false)
-	}
+	const ref = useRef()
 
-	onClickOutside = (e) => {
-		if (this.node.contains(e.target)) {
-			return
-		}
+	useOutsideClick(ref, () => {
+		onClose()
+	})
 
-		this.props.onClose()
-	}
+	const selectedItems = selectedIndices.map((value) => (
+		items[value]
+	))
 
-	render() {
-		const {
-			placeholder,
-			emptyPlaceholder,
-			display,
-			items,
-			isOpen,
-			onOpen,
-			onClose,
-			onSelect,
-			margin,
-			width,
-			height,
-			themeElement,
-			...rest
-		} = this.props
-
-		const selectedItems = items
-			.filter((item) => item.selected)
-			.map((item) => item.title)
-
-		return (
-			<MultiselectStyled
-				ref={(node) => {
-					this.node = node
-					return this.node
+	return (
+		<MultiselectStyled
+			ref={ref}
+			{...rest}
+		>
+			<MultiselectBox
+				placeholder={placeholder}
+				selectedItems={selectedItems}
+				isOpen={isOpen}
+				onOpen={onOpen}
+				onClose={onClose}
+			/>
+			<MultiselectList
+				placeholder={emptyPlaceholder}
+				items={items}
+				selectedIndices={selectedIndices}
+				isOpen={isOpen}
+				onSelect={(event, item, index) => {
+					onSelect(event, item, index)
+					onClose()
 				}}
-				$element={themeElement}
-				$margin={margin}
-				$width={width}
-				{...rest}
-			>
-				<MultiselectBox
-					placeholder={placeholder}
-					selectedItems={selectedItems}
-					display={display}
-					width={width}
-					isOpen={isOpen}
-					onOpen={onOpen}
-					onClose={onClose}
-					themeElement={themeElement}
-				/>
-				<MultiselectList
-					items={items}
-					placeholder={emptyPlaceholder}
-					isOpen={isOpen}
-					width={width}
-					height={height}
-					onSelect={onSelect}
-					themeElement={themeElement}
-				/>
-			</MultiselectStyled>
-		)
-	}
+				onDeselect={(event, item, index) => {
+					onDeselect(event, item, index)
+					onClose()
+				}}
+			/>
+		</MultiselectStyled>
+	)
 }
 
 Multiselect.propTypes = {
-	/** What to display in the select box when no item is selected. */
+	/** A text displayed in the select box when no item is selected. */
 	placeholder: PropTypes.string,
 
-	/** What to display on the list when there are no items. */
+	/** A text displayed in the select list when the list is empty. */
 	emptyPlaceholder: PropTypes.string,
 
-	/** How to display selected items in the select box. */
-	display: PropTypes.oneOf(['selected-items', 'selected-count']),
+	/** An array of items to display in the select list. */
+	items: PropTypes.arrayOf(PropTypes.node).isRequired,
 
-	/** List of items. */
-	items: PropTypes.arrayOf(PropTypes.shape({
-		title: PropTypes.string,
-		value: PropTypes.oneOfType([
-			PropTypes.number,
-			PropTypes.string,
-			PropTypes.object,
-			PropTypes.array,
-		]),
-		selected: PropTypes.bool,
-	})).isRequired,
+	/** An array of indices of selected items. */
+	selectedIndices: PropTypes.arrayOf(PropTypes.number).isRequired,
 
-	/** Is the select list open? */
+	/** A value indicating if the select list is open. */
 	isOpen: PropTypes.bool.isRequired,
 
-	/** Called when the select list should be opened. */
+	/** A function invoked when opening the select list was requested. */
 	onOpen: PropTypes.func.isRequired,
 
-	/** Called when the select list should be closed. */
+	/** A function invoked when closing the select list was requested. */
 	onClose: PropTypes.func.isRequired,
 
-	/** Called when an item should be selected. */
+	/** A function invoked when selecting an item was requested. */
 	onSelect: PropTypes.func.isRequired,
 
-	/** The amount of margin around the select box. */
-	margin: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
+	/** A function invoked when deselecting an item was requested. */
+	onDeselect: PropTypes.func.isRequired,
 
-	/** Fixed width of the select box and the select list. */
-	width: PropTypes.string,
-
-	/** Fixed height of the select list. */
-	height: PropTypes.string,
-
-	/** Theme element. */
-	themeElement: PropTypes.string,
+	...types.layout,
+	...types.margin,
 }
 
 Multiselect.defaultProps = {
+	width: '100%',
 	placeholder: 'Select an item',
 	emptyPlaceholder: 'No items',
-	display: 'selected-items',
-	margin: 'none',
-	width: '100%',
-	height: 'auto',
-	themeElement: 'Select',
 }
 
 export default Multiselect

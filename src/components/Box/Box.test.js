@@ -15,188 +15,173 @@ describe('Box', () => {
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('as', () => {
+	test('with margin', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box as="section" />
+				<Box m={1} />
+				<Box m={32} />
+				<Box m="5%" />
+				<Box mt={1} />
+				<Box mt={32} />
+				<Box mt="5%" />
+				<Box ml={1} />
+				<Box ml={32} />
+				<Box ml="5%" />
+				<Box mb={1} />
+				<Box mb={32} />
+				<Box mb="5%" />
+				<Box mr={1} />
+				<Box mr={32} />
+				<Box mr="5%" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('theme', () => {
+	test('with padding', () => {
 		const component = renderer.create((
-			<Theme theme={{ global: { colors: { brand: '#aabbcc' } } }}>
-				<Box color="brand" />
-				<Box color="#cafeee" />
+			<Theme>
+				<Box p={1} />
+				<Box p={32} />
+				<Box p="5%" />
+				<Box pt={1} />
+				<Box pt={32} />
+				<Box pt="5%" />
+				<Box pl={1} />
+				<Box pl={32} />
+				<Box pl="5%" />
+				<Box pb={1} />
+				<Box pb={32} />
+				<Box pb="5%" />
+				<Box pr={1} />
+				<Box pr={32} />
+				<Box pr="5%" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('margin', () => {
+	test('with size', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box margin="xs" />
-				<Box margin={{ vertical: 'xs', horizontal: 'sm' }} />
-				<Box margin={{ top: 'xs', left: 'sm', bottom: 'lg', right: 'xl' }} />
-				<Box margin={{ vertical: 'xs', left: 'sm', right: 'lg' }} />
-				<Box margin={{ horizontal: 'xs', top: 'sm', bottom: 'lg' }} />
-				<Box margin="1em" />
-				<Box margin={{ vertical: '1em', horizontal: '2em' }} />
-				<Box margin={{ top: '1em', left: '2em', bottom: '3em', right: '4em' }} />
-				<Box margin={{ vertical: '1em', left: '2em', right: '3em' }} />
-				<Box margin={{ horizontal: '1em', top: '2em', bottom: '3em' }} />
-				<Box margin={[]} />
-				<Box margin={['xs']} />
-				<Box margin={['xs', 'sm']} />
-				<Box margin={['xs', 'sm', 'lg']} />
-				<Box margin={['xs', 'sm', 'lg', 'xl']} />
+				<Box size="sm" />
+				<Box size={64} />
+				<Box size="5%" />
+				<Box width="sm" />
+				<Box width={64} />
+				<Box width="5%" />
+				<Box height="sm" />
+				<Box height={64} />
+				<Box height="5%" />
+				<Box minWidth={1} />
+				<Box minWidth={64} />
+				<Box minWidth="5%" />
+				<Box minHeight={1} />
+				<Box minHeight={64} />
+				<Box minHeight="5%" />
+				<Box maxWidth={1} />
+				<Box maxWidth={32} />
+				<Box maxWidth="5%" />
+				<Box maxHeight={1} />
+				<Box maxHeight={32} />
+				<Box maxHeight="5%" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('padding', () => {
+	test('with overflow', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box padding="xs" />
-				<Box padding={{ vertical: 'xs', horizontal: 'sm' }} />
-				<Box padding={{ top: 'xs', left: 'sm', bottom: 'lg', right: 'xl' }} />
-				<Box padding={{ vertical: 'xs', left: 'sm', right: 'lg' }} />
-				<Box padding={{ horizontal: 'xs', top: 'sm', bottom: 'lg' }} />
-				<Box padding="1em" />
-				<Box padding={{ vertical: '1em', horizontal: '2em' }} />
-				<Box padding={{ top: '1em', left: '2em', bottom: '3em', right: '4em' }} />
-				<Box padding={{ vertical: '1em', left: '2em', right: '3em' }} />
-				<Box padding={{ horizontal: '1em', top: '2em', bottom: '3em' }} />
-				<Box padding={[]} />
-				<Box padding={['xs']} />
-				<Box padding={['xs', 'sm']} />
-				<Box padding={['xs', 'sm', 'lg']} />
-				<Box padding={['xs', 'sm', 'lg', 'xl']} />
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
-	test('width', () => {
-		const component = renderer.create((
-			<Theme>
-				<Box width="100px" />
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
-	test('height', () => {
-		const component = renderer.create((
-			<Theme>
-				<Box height="100px" />
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
-	test('overflow', () => {
-		const component = renderer.create((
-			<Theme>
-				<Box overflow="auto" />
-				<Box overflow="scroll" />
 				<Box overflow="hidden" />
-				<Box overflow="visible" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('direction', () => {
+	test('with color background', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box direction="row" />
-				<Box direction="row-reverse" />
-				<Box direction="column" />
-				<Box direction="column-reverse" />
+				<Box bg="primary" />
+				<Box bg="#012345" />
+				<Box bg="cyan" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('wrap', () => {
+	test('with image background', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box wrap />
+				<Box backgroundImage="url('https://picsum.photos/128')" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('order', () => {
+	test('with border', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box order={1} />
+				<Box border="primary" />
+				<Box border="1px solid #012345" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('justify', () => {
+	test('with shadow', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box justify="start" />
-				<Box justify="end" />
-				<Box justify="center" />
-				<Box justify="between" />
-				<Box justify="around" />
-				<Box justify="evenly" />
+				<Box boxShadow="md" />
+				<Box boxShadow="10px 10px 5px 0px rgba(0,0,0,0.75)" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('align', () => {
+	test('with position', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box align="start" />
-				<Box align="end" />
-				<Box align="center" />
-				<Box align="stretch" />
+				<Box position="relative" />
+				<Box top={1} />
+				<Box top={32} />
+				<Box top="5%" />
+				<Box left={1} />
+				<Box left={32} />
+				<Box left="5%" />
+				<Box bottom={1} />
+				<Box bottom={32} />
+				<Box bottom="5%" />
+				<Box right={1} />
+				<Box right={32} />
+				<Box right="5%" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('alignSelf', () => {
+	test('with z-index', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box alignSelf="auto" />
-				<Box alignSelf="start" />
-				<Box alignSelf="end" />
-				<Box alignSelf="center" />
-				<Box alignSelf="stretch" />
+				<Box zIndex={1} />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()
 	})
 
-	test('alignContent', () => {
+	test('is flex', () => {
 		const component = renderer.create((
 			<Theme>
-				<Box alignContent="start" />
-				<Box alignContent="end" />
+				<Box flex="1 1 auto" />
+				<Box alignItems="center" />
 				<Box alignContent="center" />
-				<Box alignContent="stretch" />
-				<Box alignContent="between" />
-				<Box alignContent="around" />
-			</Theme>
-		))
-		expect(component.toJSON()).toMatchSnapshot()
-	})
-
-	test('css', () => {
-		const component = renderer.create((
-			<Theme>
-				<Box css="border: 1px solid #000;" />
+				<Box justifyContent="center" />
+				<Box flexWrap="wrap" />
+				<Box flexBasis="auto" />
+				<Box flexDirection="column" />
+				<Box justifySelf="center" />
+				<Box alignSelf="center" />
+				<Box order="2" />
 			</Theme>
 		))
 		expect(component.toJSON()).toMatchSnapshot()

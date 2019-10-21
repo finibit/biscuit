@@ -1,152 +1,103 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import styles from '../../themes'
-import SelectBox from './parts/SelectBox'
-import SelectList from './parts/SelectList'
+import { themeGet } from '../../themes'
+import styles from '../../styles'
+import types from '../../types'
+import { useOutsideClick } from '../../hooks'
+import { SelectBox, SelectList } from './parts'
 
 const SelectStyled = styled.div`
-	${styles.margin}
-	${styles.fontFamily}
-	${styles.lineHeight}
 	box-sizing: border-box;
 	user-select: none;
 	position: relative;
-	width: ${(props) => props.$width};
-	max-width: ${(props) => props.$width};
+	color: ${themeGet.color('black')};
+	font-family: ${themeGet.fontFamily('secondary')};
+
+	${styles.compose(
+		styles.layout,
+		styles.margin,
+	)};
 `
 
-/** Single option select box. */
-class Select extends React.PureComponent {
-	componentWillMount() {
-		window.addEventListener('click', this.onClickOutside, false)
-	}
+const Select = (props) => {
+	const {
+		placeholder,
+		emptyPlaceholder,
+		items,
+		selectedIndex,
+		isOpen,
+		onOpen,
+		onClose,
+		onSelect,
+		...rest
+	} = props
 
-	componentWillUnmount() {
-		window.removeEventListener('click', this.onClickOutside, false)
-	}
+	const ref = useRef()
 
-	onClickOutside = (e) => {
-		if (this.node.contains(e.target)) {
-			return
-		}
+	useOutsideClick(ref, () => {
+		onClose()
+	})
 
-		this.props.onClose()
-	}
-
-	onSelect = (event, item, index) => {
-		this.props.onSelect(event, item, index)
-		this.props.onClose()
-	}
-
-	render() {
-		const {
-			placeholder,
-			emptyPlaceholder,
-			items,
-			isOpen,
-			onOpen,
-			onClose,
-			onSelect,
-			margin,
-			width,
-			height,
-			themeElement,
-			...rest
-		} = this.props
-
-		const selectedItem = items.find((item) => (item.selected))
-
-		return (
-			<SelectStyled
-				ref={(node) => {
-					this.node = node
-					return this.node
+	return (
+		<SelectStyled
+			ref={ref}
+			{...rest}
+		>
+			<SelectBox
+				placeholder={placeholder}
+				selectedItem={items[selectedIndex]}
+				isOpen={isOpen}
+				onOpen={onOpen}
+				onClose={onClose}
+			/>
+			<SelectList
+				placeholder={emptyPlaceholder}
+				items={items}
+				selectedIndex={selectedIndex}
+				isOpen={isOpen}
+				onSelect={(event, item, index) => {
+					onSelect(event, item, index)
+					onClose()
 				}}
-				$element={themeElement}
-				$margin={margin}
-				$width={width}
-				{...rest}
-			>
-				<SelectBox
-					placeholder={placeholder}
-					selectedItem={selectedItem}
-					width={width}
-					isOpen={isOpen}
-					onOpen={onOpen}
-					onClose={onClose}
-					themeElement={themeElement}
-				/>
-				<SelectList
-					items={items}
-					placeholder={emptyPlaceholder}
-					isOpen={isOpen}
-					width={width}
-					height={height}
-					onSelect={this.onSelect}
-					themeElement={themeElement}
-				/>
-			</SelectStyled>
-		)
-	}
+			/>
+		</SelectStyled>
+	)
 }
 
 Select.propTypes = {
-	/** What to display in the select box when no item is selected. */
+	/** A text displayed in the select box when no item is selected. */
 	placeholder: PropTypes.string,
 
-	/** What to display on the list when there are no items. */
+	/** A text displayed in the select list when the list is empty. */
 	emptyPlaceholder: PropTypes.string,
 
-	/** List of items. */
-	items: PropTypes.arrayOf(PropTypes.shape({
-		title: PropTypes.string,
-		value: PropTypes.oneOfType([
-			PropTypes.number,
-			PropTypes.string,
-			PropTypes.object,
-			PropTypes.array,
-		]),
-		selected: PropTypes.bool,
-	})).isRequired,
+	/** An array of items to display in the select list. */
+	items: PropTypes.arrayOf(PropTypes.node).isRequired,
 
-	/** Is the select list open? */
+	/** An index of the element in the items array that is currently selected. */
+	selectedIndex: PropTypes.number.isRequired,
+
+	/** A value indicating if the select list is open. */
 	isOpen: PropTypes.bool.isRequired,
 
-	/** Called when the select list should be opened. */
+	/** A function invoked when opening the select list was requested. */
 	onOpen: PropTypes.func.isRequired,
 
-	/** Called when the select list should be closed. */
+	/** A function invoked when closing the select list was requested. */
 	onClose: PropTypes.func.isRequired,
 
-	/** Called when an item should be selected. */
+	/** A function invoked when selecting an item was requested. */
 	onSelect: PropTypes.func.isRequired,
 
-	/** The amount of margin around the select box. */
-	margin: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-
-	/** Fixed width of the select box and the select list. */
-	width: PropTypes.string,
-
-	/** Fixed height of the select list. */
-	height: PropTypes.string,
-
-	/** Theme element. */
-	themeElement: PropTypes.string,
+	...types.layout,
+	...types.margin,
 }
 
 Select.defaultProps = {
+	width: '100%',
 	placeholder: 'Select an item',
 	emptyPlaceholder: 'No items',
-	margin: 'none',
-	width: '100%',
-	height: 'auto',
-	themeElement: 'Select',
 }
 
 export default Select

@@ -1,59 +1,68 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
+import { themeGet } from '../../../themes'
+import styles from '../../../styles'
 import Icon from '../../Icon'
-import styles from '../../../themes'
+
+const nowrapStyles = css`
+	${styles.nowrap({ nowrap: true })};
+`
+
+const spaceStyles = css`
+	margin: 0;
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
+`
+
+const colorStyles = css`
+	color: ${themeGet.colorText('black')};
+	background-color: ${themeGet.color('white', '#fff')};
+`
 
 const borderStyles = css`
-	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
+	border: ${themeGet.border('light')};
+	border-radius: ${themeGet.borderRadius('md')};
 `
 
 const SelectBoxStyled = styled.div`
-	${styles.border}
-	${styles.bgColor}
-	${borderStyles}
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-	cursor: default;
+	cursor: pointer;
+	line-height: ${themeGet.lineHeight('lg')};
+
+	${spaceStyles};
+	${colorStyles};
+	${borderStyles};
 `
 
 const PlaceholderStyled = styled.span`
-	${styles.margin}
-	${styles.color}
-	${styles.noWrap}
+	box-sizing: border-box;
+	color: ${themeGet.colorText('white', 0.7)};
+	${nowrapStyles};
 `
 
 const SelectedItemStyled = styled.span`
-	${styles.margin}
-	${styles.noWrap}
+	box-sizing: border-box;
+	color: ${themeGet.colorText('white')};
+	${nowrapStyles};
 `
 
 const SelectBox = (props) => {
 	const {
 		placeholder,
 		selectedItem,
-		width,
 		isOpen,
 		onOpen,
 		onClose,
-		themeElement,
-		...rest
 	} = props
 
 	return (
 		<SelectBoxStyled
-			$element={themeElement}
-			$bgColor="boxBackground"
-			$border={0}
-			$width={width}
-			$isOpen={isOpen}
-			{...rest}
+			isOpen={isOpen}
 			onClick={() => {
 				if (isOpen) {
 					onClose()
@@ -63,40 +72,30 @@ const SelectBox = (props) => {
 				}
 			}}
 		>
-			{(selectedItem == null) ? (
-				<PlaceholderStyled
-					$element={themeElement}
-					$color="boxPlaceholder"
-					$margin={{ left: 1 }}
-				>
-					{placeholder}
-				</PlaceholderStyled>
-			) : (
-				<SelectedItemStyled
-					$element={themeElement}
-					$margin={{ left: 1 }}
-				>
-					{selectedItem.title}
-				</SelectedItemStyled>
-			)}
-			<Icon
+ 			{(selectedItem == null) ? (
+ 				<PlaceholderStyled>
+ 					{placeholder}
+ 				</PlaceholderStyled>
+ 			) : (
+ 				<SelectedItemStyled>
+ 					<span>{selectedItem}</span>
+ 				</SelectedItemStyled>
+			 )}
+			 <Icon
 				type={isOpen ? 'arrow-up' : 'arrow-down'}
-				color="boxPlaceholder"
-				margin={{ left: 0, right: 1 }}
-				themeElement={themeElement}
-			/>
+				color={themeGet.colorText('white', 0.85)(props)}
+				marginLeft={2}
+ 			 />
 		</SelectBoxStyled>
 	)
 }
 
 SelectBox.propTypes = {
 	placeholder: PropTypes.string.isRequired,
-	selectedItem: PropTypes.oneOfType([PropTypes.object]),
-	width: PropTypes.string.isRequired,
+	selectedItem: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 	isOpen: PropTypes.bool.isRequired,
 	onOpen: PropTypes.func.isRequired,
-	onClose: PropTypes.func.isRequired,
-	themeElement: PropTypes.string.isRequired,
+	onClose: PropTypes.func.isRequired,	
 }
 
 SelectBox.defaultProps = {
@@ -104,4 +103,3 @@ SelectBox.defaultProps = {
 }
 
 export default SelectBox
-

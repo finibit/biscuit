@@ -1,28 +1,30 @@
 import React, { Children } from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
-import TabsItem from './TabsItem'
-import styles, { utils } from '../../themes'
+import shortid from 'shortid'
+import { themeGet } from '../../themes'
+import * as parts from './parts'
 
 const TabsStyled = styled.div`
-	width: 100%;
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	width: 100%;
+	font-family: ${themeGet('fonts.secondary', 'sans-serif')};
+	font-size: ${props => themeGet(`fontSizes.md`, '1em')};
+	color: ${themeGet('colors.black', '#000')};
+	line-height: ${themeGet.lineHeight('lg')};
 `
 
 const TabsNavStyled = styled.ul`
-	${styles.border}
-
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	width: 100%;
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: flext-start;
-	box-sizing: border-box;
+	justify-content: flex-start;
+	border-bottom: ${themeGet.border('light')};
 `
 
 const TabsNavItemStyled = styled.li`
@@ -30,59 +32,64 @@ const TabsNavItemStyled = styled.li`
 	padding: 0;
 	box-sizing: border-box;
 	white-space: nowrap;
+	font-size: inherit;
 `
 
 const inactiveStyles = css`
-	${styles.border}
+	border-top: ${themeGet.border('white')};
+	border-left: ${themeGet.border('white')};
+	border-right: ${themeGet.border('white')};
+	border-bottom: ${themeGet.border('light')};
+	border-top-left-radius: ${themeGet.borderRadius('md')};
+	border-top-right-radius: ${themeGet.borderRadius('md')};
 
 	&:hover, &:active {
-		background-color: ${(props) => utils.resolveColor(props.theme, props.$element, 'hoverTabBg')};
-		border-bottom: 1px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'activeTabBorder')};
+		background-color: ${themeGet.color('light')};
 	}
 `
 
 const activeStyles = css`
-	${styles.border}
+	border-top: ${themeGet.border('light')};
+	border-left: ${themeGet.border('light')};
+	border-right: ${themeGet.border('light')};
+	border-bottom: ${themeGet.border('white')};
+	border-top-left-radius: ${themeGet.borderRadius('md')};
+	border-top-right-radius: ${themeGet.borderRadius('md')};
 	cursor: default;
 `
 
 const disabledStyles = css`
-	${styles.border}
-	color: ${(props) => utils.resolveColor(props.theme, props.$element, 'disabledTabTitle')} !important;
+	border-top: ${themeGet.border('white')};
+	border-left: ${themeGet.border('white')};
+	border-right: ${themeGet.border('white')};
+	border-bottom: ${themeGet.border('light')};
 	cursor: default;
+	color: ${themeGet.colorText('white', .7)};
 `
 
 const TabsButtonStyled = styled.a`
-	${styles.fontFamily}
-	${styles.lineHeight}
-	${styles.padding}
-
-	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
-
-	color: ${(props) => props.theme.global.colors['dark-0']};
 	display: inline-block;
 	cursor: pointer;
-	font-size: 1rem;
 	font-weight: normal;
 	text-decoration: none;
 	box-sizing: border-box;
 	vertical-align: middle;
 	user-select: none;
-
 	margin: 0 2px -1px 0;
 
 	${(props) => {
-		if (props.$disabled) {
+		if (props.disabled) {
 			return disabledStyles
 		}
 
-		if (props.$active) {
+		if (props.active) {
 			return activeStyles
 		}
 
 		return inactiveStyles
 	}};
+
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
 `
 
 const TabsButton = (props) => {
@@ -112,11 +119,8 @@ const TabsButton = (props) => {
 
 	return (
 		<TabsButtonStyled
-			$element="Tabs"
-			$active={active}
-			$disabled={disabled}
-			$border={border}
-			$padding={padding}
+			active={active}
+			disabled={disabled}
 			{...rest}
 			onClick={(event) => {
 				if (!disabled) {
@@ -130,57 +134,28 @@ const TabsButton = (props) => {
 	)
 }
 
-TabsButton.propTypes = {
-	children: PropTypes.string.isRequired,
-	index: PropTypes.number.isRequired,
-	active: PropTypes.bool.isRequired,
-	disabled: PropTypes.bool.isRequired,
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-	onClick: PropTypes.func,
-}
-
-TabsButton.defaultProps = {
-	padding: 'none',
-	onClick: () => {},
-}
-
 const Tabs = (props) => {
 	const {
 		children,
-		padding,
 		activeIndex,
 		onTabChange,
-		themeElement,
 		...rest
 	} = props
 
 	return (
 		<TabsStyled
-			$element={themeElement}
 			{...rest}
 		>
-			<TabsNavStyled
-				$element={themeElement}
-				$border={{ bottom: 0 }}
-			>
+			<TabsNavStyled>
 				{Children.map(children, (child, index) => (
-					(child.props.disabled && child.props.hidden) ? (
-						null) : (
+					(child.props.hidden) ? (null) : (
 						<TabsNavItemStyled
-							key={child.props.title}
-							$element={themeElement}
+							key={shortid()}
 						>
 							<TabsButton
-								$element={themeElement}
 								index={index}
 								active={index === activeIndex}
 								disabled={child.props.disabled}
-								padding={padding}
 								onClick={(event) => {
 									onTabChange(event, index)
 								}}
@@ -197,37 +172,10 @@ const Tabs = (props) => {
 }
 
 Tabs.propTypes = {
-	/** At least one `Tabs.Item` components. */
-	children: PropTypes.node.isRequired,
-
-	/** The amount of padding around the tab navigation. */
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-
-	/** Active item index. */
 	activeIndex: PropTypes.number.isRequired,
-
-	/**
-	 * Called when tab change is requested.
-	 *
-	 * @param {SyntheticEvent} event - React's original SyntheticEvent
-	 * @param {number} index - Proposed new activeIndex
-	 */
 	onTabChange: PropTypes.func.isRequired,
-
-	/** Theme element. */
-	themeElement: PropTypes.string,
 }
 
-Tabs.defaultProps = {
-	padding: { horizontal: 2, vertical: 1 },
-	themeElement: 'Tabs',
-}
-
-Tabs.Item = TabsItem
+Tabs.Item = parts.TabsItem
 
 export default Tabs

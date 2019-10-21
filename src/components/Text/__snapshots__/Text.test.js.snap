@@ -1,952 +1,966 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text align 1`] = `
+exports[`Text font family 1`] = `
 .c0 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  color: #1e272e;
+  font-size: md;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+  color: #1e272e;
+  font-size: md;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: right;
+  text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c2 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: serif;
+  color: #1e272e;
+  font-size: md;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: center;
+  text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 <div>
   <span
     className="c0"
+    color="black"
+    fontFamily="primary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c0"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c1"
+    color="black"
+    fontFamily="sans-serif"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c2"
+    color="black"
+    fontFamily="serif"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
 </div>
 `;
 
-exports[`Text as 1`] = `
+exports[`Text font size 1`] = `
 .c0 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.833rem;
+  color: #1e272e;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-<div>
-  <div
-    className="c0"
-  />
-</div>
-`;
-
-exports[`Text color 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: light-0;
+  line-height: 1.5;
 }
 
 .c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
   font-size: 1rem;
-  line-height: 1.2em;
+  color: #1e272e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #ffaa00;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c1"
-  />
-</div>
-`;
-
-exports[`Text css 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-  background-color: #000;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c0"
-  />
-</div>
-`;
-
-exports[`Text decoration 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c2 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.2em;
+  color: #1e272e;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c3 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.44em;
+  color: #1e272e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c4 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.728em;
+  color: #1e272e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c5 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2.074em;
+  color: #1e272e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c6 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2.488em;
+  color: #1e272e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c7 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 50px;
+  color: #1e272e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c8 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: 60px;
+  color: #1e272e;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+<div>
+  <span
+    className="c0"
+    color="black"
+    fontFamily="secondary"
+    fontSize={0}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c1"
+    color="black"
+    fontFamily="secondary"
+    fontSize={1}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c2"
+    color="black"
+    fontFamily="secondary"
+    fontSize={2}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c3"
+    color="black"
+    fontFamily="secondary"
+    fontSize={3}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c4"
+    color="black"
+    fontFamily="secondary"
+    fontSize={4}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c5"
+    color="black"
+    fontFamily="secondary"
+    fontSize={5}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c6"
+    color="black"
+    fontFamily="secondary"
+    fontSize={6}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c7"
+    color="black"
+    fontFamily="secondary"
+    fontSize={50}
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c8"
+    color="black"
+    fontFamily="secondary"
+    fontSize="60px"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+</div>
+`;
+
+exports[`Text font style 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-style: italic;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-style: oblique;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+<div>
+  <span
+    className="c0"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c1"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="italic"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c2"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="oblique"
+    fontWeight={400}
+    textDecoration="none"
+  />
+</div>
+`;
+
+exports[`Text font weight 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c3 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c4 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+<div>
+  <span
+    className="c0"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight="light"
+    textDecoration="none"
+  />
+  <span
+    className="c1"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight="normal"
+    textDecoration="none"
+  />
+  <span
+    className="c2"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight="medium"
+    textDecoration="none"
+  />
+  <span
+    className="c3"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight="semi-bold"
+    textDecoration="none"
+  />
+  <span
+    className="c4"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight="bold"
+    textDecoration="none"
+  />
+  <span
+    className="c2"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={500}
+    textDecoration="none"
+  />
+</div>
+`;
+
+exports[`Text with decoration 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
   -webkit-text-decoration: overline;
   text-decoration: overline;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
   text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
-.c3 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
+.c1 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
   -webkit-text-decoration: line-through;
   text-decoration: line-through;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c1"
-  />
-  <span
-    className="c2"
-  />
-  <span
-    className="c3"
-  />
-</div>
-`;
-
-exports[`Text default 1`] = `
-.c0 {
+  color: #1e272e;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
   text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-</div>
-`;
-
-exports[`Text italic 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: italic;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-</div>
-`;
-
-exports[`Text margin 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: xs;
-  padding: 0;
-  color: #000000;
-}
-
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: initial;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c2 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: #1e272e;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
   text-transform: none;
-  margin: xsrem 0 0 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c3 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-decoration: underline overline;
+  text-decoration: underline overline;
+  color: #1e272e;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+<div>
+  <span
+    className="c0"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="overline"
+  />
+  <span
+    className="c1"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="line-through"
+  />
+  <span
+    className="c2"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="underline"
+  />
+  <span
+    className="c3"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="underline overline"
+  />
+</div>
+`;
+
+exports[`Text with decoration 2`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
+  line-height: 1.5;
+}
+
+.c1 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
   text-transform: none;
-  margin: 0 xsrem 0 0;
-  padding: 0;
-  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c2 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #f1f2f6;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c3 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #ffdd59;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
 }
 
 .c4 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #0fbcf9;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0 0 xsrem 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c5 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #ff3f34;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0 0 0 xsrem;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c6 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #05c46b;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0 xsrem 0 xsrem;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c7 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #ffa801;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
+  text-transform: none;
   -webkit-text-decoration: none;
   text-decoration: none;
+  line-height: 1.5;
+}
+
+.c8 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: #001122;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
   text-transform: none;
-  margin: xsrem 0 xsrem 0;
-  padding: 0;
-  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.c9 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  color: cyan;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
 }
 
 <div>
   <span
     className="c0"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c1"
+    color="white"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c2"
+    color="light"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c3"
+    color="primary"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c4"
+    color="info"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c5"
+    color="danger"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c6"
+    color="success"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c7"
+    color="warning"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c8"
+    color="#001122"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c9"
+    color="cyan"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
 </div>
 `;
 
-exports[`Text margin responsive 1`] = `
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: initial;
-  padding: 0;
-  color: #000000;
-}
-
+exports[`Text with transform 1`] = `
 .c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: xs;
-  padding: 0;
-  color: #000000;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    margin: sm;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    margin: md;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    margin: lg;
-  }
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c1"
-  />
-</div>
-`;
-
-exports[`Text nowrap 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-</div>
-`;
-
-exports[`Text padding 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: xs;
-  color: #000000;
-}
-
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: initial;
-  color: #000000;
-}
-
-.c2 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: xsrem 0 0 0;
-  color: #000000;
-}
-
-.c3 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0 xsrem 0 0;
-  color: #000000;
-}
-
-.c4 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0 0 xsrem 0;
-  color: #000000;
-}
-
-.c5 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0 0 0 xsrem;
-  color: #000000;
-}
-
-.c6 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0 xsrem 0 xsrem;
-  color: #000000;
-}
-
-.c7 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: xsrem 0 xsrem 0;
-  color: #000000;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c1"
-  />
-  <span
-    className="c2"
-  />
-  <span
-    className="c3"
-  />
-  <span
-    className="c4"
-  />
-  <span
-    className="c5"
-  />
-  <span
-    className="c6"
-  />
-  <span
-    className="c7"
-  />
-</div>
-`;
-
-exports[`Text padding responsive 1`] = `
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: initial;
-  color: #000000;
-}
-
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: xs;
-  color: #000000;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    padding: sm;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    padding: md;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    padding: lg;
-  }
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c1"
-  />
-</div>
-`;
-
-exports[`Text size 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: xs;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-</div>
-`;
-
-exports[`Text size responsive 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: xs;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: initial;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-@media only screen and (min-width:48rem) {
-  .c0 {
-    font-size: sm;
-  }
-}
-
-@media only screen and (min-width:64rem) {
-  .c0 {
-    font-size: md;
-  }
-}
-
-@media only screen and (min-width:75rem) {
-  .c0 {
-    font-size: lg;
-  }
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c1"
-  />
-</div>
-`;
-
-exports[`Text transform 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-.c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-.c2 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: lowercase;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-.c3 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
   text-transform: capitalize;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-.c4 {
+  color: #1e272e;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: full-width;
-  margin: 0;
-  padding: 0;
-  color: #000000;
-}
-
-<div>
-  <span
-    className="c0"
-  />
-  <span
-    className="c1"
-  />
-  <span
-    className="c2"
-  />
-  <span
-    className="c3"
-  />
-  <span
-    className="c4"
-  />
-</div>
-`;
-
-exports[`Text weight 1`] = `
-.c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
-  text-align: left;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c1 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  color: #1e272e;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
 }
 
 .c2 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-transform: lowercase;
+  color: #1e272e;
+  font-size: md;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.2em;
   text-align: left;
   -webkit-text-decoration: none;
   text-decoration: none;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  color: #000000;
+  line-height: 1.5;
+}
+
+.c3 {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-transform: full-width;
+  color: #1e272e;
+  font-size: md;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 1.5;
 }
 
 <div>
   <span
     className="c0"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c1"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
   <span
     className="c2"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
+  />
+  <span
+    className="c3"
+    color="black"
+    fontFamily="secondary"
+    fontSize="md"
+    fontStyle="normal"
+    fontWeight={400}
+    textDecoration="none"
   />
 </div>
 `;

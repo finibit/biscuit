@@ -1,155 +1,75 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import styles, { utils } from '../../themes'
+import styled, { css } from 'styled-components'
+import styles from '../../styles'
+import types from '../../types'
+import { themeGet } from '../../themes'
 
-const backgroundColorsMap = {
-	default: 1,
-	primary: 3,
-	info: 4,
-	danger: 5,
-	success: 6,
-	warning: 7,
-}
+const typographyStyles = css`
+	text-decoration: none;
+	font-family: ${themeGet.fontFamily('primary')};
+	font-weight: ${themeGet.fontWeight('normal')};
+	font-size: ${themeGet.fontSize(1)};
+	line-height: ${themeGet.lineHeight('lg')};
+`
 
-const textColorsMap = {
-	default: 0,
-	primary: 1,
-	info: 1,
-	danger: 1,
-	success: 1,
-	warning: 1,
-}
-
-const borderColorsMap = {
-	default: 0,
-	primary: 1,
-	info: 2,
-	danger: 3,
-	success: 4,
-	warning: 5,
-}
-
-const ButtonStyled = styled.button`
-	${styles.fontFamily}
-	${styles.fontSize}
-	${styles.lineHeight}
-	${styles.textAlign}
-	${styles.spacing}
-	${styles.border}
-	${styles.color}
-	${styles.bgColor}
-	${styles.fontWeight}
+const normalStyles = css`
+	color: ${props => themeGet.colorText(props.color)};
+	background-color: ${props => themeGet.color(props.color)};
 
 	&:hover {
-		background-color: ${(props) => (
-			utils.resolveColor(props.theme, props.$element, { value: props.$bgColor, shade: 0.03 })
-		)};
-	}
-
-	&:active {
-		background-color: ${(props) => (
-			utils.resolveColor(props.theme, props.$element, { value: props.$bgColor, shade: 0.1 })
-		)};
+		cursor: pointer;
+		background-color: ${props => themeGet.colorShade(props.color, .05)};
 	}
 
 	&:focus {
-		outline: none;
+		box-shadow: 0px 0px 0px 2px ${props => themeGet.colorShadeOrTint(props.color, .05, .7)};
 	}
-
-	&::-moz-focus-inner {
-		border:0;
-	}
-
-	display: inline-block;
-	cursor: pointer;
-	border-top-left-radius: ${(props) => props.theme.Button.borders[0].radius};
-	border-top-right-radius: ${(props) => props.theme.Button.borders[0].radius};
-	border-bottom-left-radius: ${(props) => props.theme.Button.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.theme.Button.borders[0].radius};
-
-	${(props) => props.$css}
 `
 
-/** A button. */
-const Button = (props) => {
-	const {
-		children,
-		type,
-		margin,
-		padding,
-		themeElement,
-		css,
-		...rest
-	} = props
+const disabledStyles = css`
+	color: ${props => themeGet.colorText(props.color, .5)};
+	background-color: ${props => themeGet.colorTint(props.color, .5)};
+`
 
-	return (
-		<ButtonStyled
-			$element={themeElement}
-			$size={2}
-			$weight="normal"
-			$border={borderColorsMap[type]}
-			$color={textColorsMap[type]}
-			$bgColor={backgroundColorsMap[type]}
-			$align="center"
-			$margin={margin}
-			$padding={padding}
-			$css={css}
-			{...rest}
-		>
-			{children}
-		</ButtonStyled>
-	)
-}
+const appearanceStyles = css`
+	${props => props.disabled ? disabledStyles : normalStyles};
+	border: none;
+	border-radius: ${themeGet.borderRadius('md')};
+	box-shadow: none;
+	text-align: center;
+	vertical-align: middle;
+	&::-moz-focus-inner { border: 0; }
+	&:focus { outline: none; }
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
+`
+
+const ButtonStyled = styled.button`
+	display: inline-block;
+	box-sizing: border-box;
+	${typographyStyles}
+	${appearanceStyles}
+
+	${styles.compose(
+		styles.margin,
+	)};
+`
+
+const Button = (props) => (
+	<ButtonStyled
+		{...props}
+	/>
+)
 
 Button.propTypes = {
-	/** Any number of renderable nodes. */
-	children: PropTypes.node,
-
-	/** Type of the button. */
-	type: PropTypes.oneOf([
-		'default',
-		'primary',
-		'info',
-		'danger',
-		'success',
-		'warning',
-	]),
-
-	/** The amount of margin around the button. */
-	margin: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-
-	/** The amount of padding around the button. */
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-
-	/** Theme element. */
-	themeElement: PropTypes.string,
-
-	/** Custom styles passed to styled-components. */
-	css: PropTypes.oneOfType([
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
+	...types.base,
+	...types.disabled,
+	...types.margin,
+	color: PropTypes.string,
 }
 
 Button.defaultProps = {
-	children: null,
-	type: 'default',
-	margin: { right: 0 },
-	padding: { vertical: 0, horizontal: 3 },
-	themeElement: 'Button',
-	css: null,
+	color: 'primary',
 }
 
 export default Button

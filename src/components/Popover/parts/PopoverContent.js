@@ -1,20 +1,20 @@
+import React from 'react'
 import styled from 'styled-components'
-import styles, { utils } from '../../../themes'
+import types from '../../../types'
+import { themeGet } from '../../../themes'
 
 const position = (props) => {
-	const rect = props.$rect
+	const rect = props.rect
 	const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
 	const scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft
-	const baseSize = props.theme.global.baseSize
-	const typeScale = props.theme.global.typeScale
-	const offset = (baseSize * (typeScale ** utils.resolveValue(props.theme, 'global', 'spacing', 2)))
+	const offset = 8
 
 	let top = 0
 	let left = 0
 	let tx = 0
 	let ty = 0
 
-	const placement = props.$placement.split('-')
+	const placement = props.placement.split('-')
 	placement.push('')
 
 	if (placement[0] === 'top') {
@@ -75,22 +75,28 @@ const position = (props) => {
 	return `top: ${top}px; left: ${left}px; transform: translate(${tx}%, ${ty}%);`
 }
 
-const PopoverContent = styled.div`
-	${styles.spacing}
-	${styles.color}
-	${styles.bgColor}
-	${styles.border}
-	${styles.elevation}
-	${position}
-
-	width: ${(props) => props.$width};
-	height: ${(props) => props.$height};
+const PopoverContentStyled = styled.div`
+	box-sizing: border-box;
 	position: absolute;
 	z-index: 99;
-	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.theme.global.borders[0].radius};
+	margin: 0;
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
+	background-color: ${themeGet.color('white', '#fff')};
+	border: ${themeGet.border('light')};
+	border-radius: ${themeGet.borderRadius('md')};
+	box-shadow: ${themeGet.shadow('lg')};
+	line-height: ${themeGet.lineHeight('lg')};
+	${position};
 `
+
+const PopoverContent = (props) => (
+	<PopoverContentStyled
+		{...props}
+	/>
+)
+
+PopoverContent.propTypes = {
+	...types.size,
+}
 
 export default PopoverContent

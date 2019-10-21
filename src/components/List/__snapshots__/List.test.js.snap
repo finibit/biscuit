@@ -1,12 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`List renders empty 1`] = `
+exports[`List empty 1`] = `
 .c0 {
-  margin: 0;
-  border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  padding: 0;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,10 +10,10 @@ exports[`List renders empty 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  color: #1e272e;
+  border: 1px solid #D9DADD;
+  border-radius: 4px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 <div>
@@ -27,14 +23,16 @@ exports[`List renders empty 1`] = `
 </div>
 `;
 
-exports[`List renders items custom 1`] = `
+exports[`List with items 1`] = `
 .c1 {
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
-  border: 1px solid #d8d8d8;
   margin: 0;
+  padding: .75em 1.25em;
   border-left: none;
   border-top: none;
   border-right: none;
+  border-bottom: 1px solid #D9DADD;
+  color: inherit;
+  font-family: inherit;
 }
 
 .c1:last-child {
@@ -42,11 +40,7 @@ exports[`List renders items custom 1`] = `
 }
 
 .c0 {
-  margin: 0;
-  border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  padding: 0;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -54,10 +48,10 @@ exports[`List renders items custom 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  color: #1e272e;
+  border: 1px solid #D9DADD;
+  border-radius: 4px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 <div>
@@ -67,101 +61,18 @@ exports[`List renders items custom 1`] = `
     <div
       className="c1"
     >
-      Custom Red
+      Item 1
     </div>
     <div
       className="c1"
     >
-      Custom Green
+      Item 2
     </div>
     <div
       className="c1"
     >
-      Custom Blue
+      Item 3
     </div>
   </div>
-</div>
-`;
-
-exports[`List renders items default 1`] = `
-.c1 {
-  padding: 0.694rem 1.440rem 0.694rem 1.440rem;
-  border: 1px solid #d8d8d8;
-  margin: 0;
-  border-left: none;
-  border-top: none;
-  border-right: none;
-}
-
-.c1:last-child {
-  border-bottom: none;
-}
-
-.c0 {
-  margin: 0;
-  border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  padding: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-}
-
-<div>
-  <div
-    className="c0"
-  >
-    <div
-      className="c1"
-    >
-      Red
-    </div>
-    <div
-      className="c1"
-    >
-      Green
-    </div>
-    <div
-      className="c1"
-    >
-      Blue
-    </div>
-  </div>
-</div>
-`;
-
-exports[`List renders with custom margin 1`] = `
-.c0 {
-  margin: 1.440rem;
-  border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
-  padding: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
-}
-
-<div>
-  <div
-    className="c0"
-  />
 </div>
 `;

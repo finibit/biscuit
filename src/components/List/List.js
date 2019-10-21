@@ -1,42 +1,45 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { themeGet } from '@styled-system/theme-get'
 import shortid from 'shortid'
-import styles from '../../themes'
+import styles from '../../styles'
+import types from '../../types'
 import ListItem from './parts/ListItem'
 
 const ListStyled = styled.div`
-	${styles.margin}
-	${styles.border}
-
-	padding: 0;
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.theme.global.borders[0].radius};
+	color: ${themeGet.color('black')};
+	border: ${themeGet.border('light')};
+	border-radius: ${themeGet.borderRadius('md')};
+	font-family: ${themeGet.fontFamily('secondary')};
+	line-height: ${themeGet.lineHeight('lg')};
+
+	${styles.compose(
+		styles.margin,
+	)};
 `
 
-/** A list of items. */
 const List = (props) => {
 	const {
 		items,
 		renderItem,
-		margin,
-		themeElement,
+		size,
 		...rest
 	} = props
 
 	return (
 		<ListStyled
-			$element={themeElement}
-			$margin={margin}
-			$border={0}
 			{...rest}
 		>
-			{items.map((item) => {
-				const elem = renderItem(item)
+			{items.map(item => {
+				const elem = renderItem ? renderItem(item) : (
+					<ListItem>
+						{item}
+					</ListItem>
+				)
 
 				if (elem.key != null) {
 					return elem
@@ -48,32 +51,16 @@ const List = (props) => {
 	)
 }
 
-List.propTypes = {
-	/** Array of items. */
-	items: PropTypes.arrayOf(PropTypes.any),
-
-	/** Item renderer. */
-	renderItem: PropTypes.func,
-
-	/** The amount of margin around the list. */
-	margin: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
-
-	/** Theme element. */
-	themeElement: PropTypes.string,
-}
-
 List.Item = ListItem
+
+List.propTypes = {
+	items: PropTypes.any,
+	renderItem: PropTypes.func,
+	...types.margin,
+}
 
 List.defaultProps = {
 	items: [],
-	renderItem: (item) => (<List.Item>{item}</List.Item>),
-	margin: 'none',
-	themeElement: 'List',
 }
 
 export default List

@@ -1,7 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import styles from '../../../themes'
+import styled, { css } from 'styled-components'
+import { themeGet } from '../../../themes'
+import styles from '../../../styles'
+
+const nowrapStyles = css`
+	${styles.nowrap({ nowrap: true })};
+`
 
 const SelectListItemStyled = styled.div`
 	cursor: pointer;
@@ -10,46 +15,42 @@ const SelectListItemStyled = styled.div`
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
+	color: inherit;
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
 
 	&:hover {
-		${styles.bgColor}
+		background-color: ${themeGet.colorTint('primary', .8, '#000000')};
 	}
 
-	${(props) => props.$selected && styles.bgColor}
+	background-color: ${props => props.selected && themeGet.colorTint('black', .97, '#000000')};
 `
 
 const SelectListItemTitleStyled = styled.span`
-	${styles.margin}
-	${styles.noWrap}
+	${nowrapStyles};
 `
 
 const SelectListItem = (props) => {
 	const {
 		item,
-		themeElement,
+		selected,
 		...rest
 	} = props
 
 	return (
 		<SelectListItemStyled
-			$element={themeElement}
-			$bgColor="listItemBackground"
-			$selected={item.selected}
+			selected={selected}
 			{...rest}
 		>
-			<SelectListItemTitleStyled
-				$element={themeElement}
-				$margin={{ left: 1 }}
-			>
-				{item.title}
+			<SelectListItemTitleStyled>
+				{item}
 			</SelectListItemTitleStyled>
 		</SelectListItemStyled>
 	)
 }
 
 SelectListItem.propTypes = {
-	item: PropTypes.oneOfType([PropTypes.object]).isRequired,
-	themeElement: PropTypes.string.isRequired,
+	item: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+	selected: PropTypes.bool.isRequired,
 }
 
 export default SelectListItem

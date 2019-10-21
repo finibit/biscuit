@@ -1,51 +1,58 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
+import shortid from 'shortid'
+import { themeGet } from '@styled-system/theme-get'
+import styles from '../../../styles'
 import MultiselectListItem from './MultiselectListItem'
-import styles from '../../../themes'
 
-const borderStyles = css`
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-	border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
-	border-top: none !important;
+const nowrapStyles = css`
+	${styles.nowrap({ nowrap: true })};
 `
 
-const MultiselectListStyled = styled.div`
-	${styles.elevation}
-	${styles.border}
-	${styles.bgColor}
-	${borderStyles}
+const spaceStyles = css`
+	margin: 0;
+`
+
+const borderStyles = css`
+	border: ${themeGet.border('light')};
+	border-radius: ${themeGet.borderRadius('md')};
+`
+
+const SelectListStyled = styled.div`
 	box-sizing: border-box;
 	position: absolute;
 	top: 100%;
 	left: 0;
 	z-index: 1;
-	width: ${(props) => props.$width};
-	min-width: 100%;
-	max-width: ${(props) => props.$width};
-	height: ${(props) => props.$height};
-	max-height: ${(props) => props.$height};
+	transform: translateY(${themeGet.space(1)});
+	width: 100%;
 	overflow: hidden;
-	overflow-y: ${(props) => props.$height === 'auto' ? 'hidden' : 'scroll'};
+	background-color: ${themeGet.color('white')};
 	-webkit-overflow-scrolling: touch;
+	line-height: ${themeGet.lineHeight('lg')};
+	box-shadow: ${themeGet.shadow('md')};
+
+	${spaceStyles}
+	${borderStyles};
 `
 
-const MultiselectListPlaceholderStyled = styled.div`
-	${styles.color}
+const PlaceholderStyled = styled.div`
+	box-sizing: border-box;
+	color: ${themeGet.colorText('white', 0.7)};
 	text-align: center;
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
+	${nowrapStyles};
 `
 
 const MultiselectList = (props) => {
 	const {
 		items,
+		selectedIndices,
 		placeholder,
 		isOpen,
-		width,
-		height,
 		onSelect,
-		themeElement,
+		onDeselect,
 		...rest
 	} = props
 
@@ -54,45 +61,47 @@ const MultiselectList = (props) => {
 	}
 
 	return (
-		<MultiselectListStyled
-			$element={themeElement}
-			$border={0}
-			$bgColor="listBackground"
-			$width={width}
-			$height={height}
-			$elevation={1}
-			onClick={(event) => event.stopPropagation()}
+		<SelectListStyled
+			onClick={event => event.stopPropagation()}
+			isOpen={isOpen}
 			{...rest}
 		>
-			{(items.length === 0) ? (
-				<MultiselectListPlaceholderStyled
-					$element={themeElement}
-					$color={{ value: 1, shade: 0.2 }}
-				>
-					{placeholder}
-				</MultiselectListPlaceholderStyled>
-			) : (
-				items.map((item) => (
-					<MultiselectListItem
-						key={item.title}
-						item={item}
-						onClick={(event) => onSelect(event, item)}
-						themeElement={themeElement}
-					/>
-				))
-			)}
-		</MultiselectListStyled>
-	)
+ 			{(items.length === 0) ? (
+ 				<PlaceholderStyled>
+ 					{placeholder}
+ 				</PlaceholderStyled>
+ 			) : (
+ 				items.map((item, idx) => {
+					const selected = (selectedIndices.findIndex(i => i === idx) === -1 ? false : true)
+ 					return (
+						<MultiselectListItem
+							key={shortid.generate()}
+							item={item}
+							selected={selected}
+							onClick={
+								(event) => {
+									if (selected) {
+										onDeselect(event, item, idx)
+									} else {
+										onSelect(event, item, idx)
+									}
+								}
+							}
+						/>
+					)
+				 })
+ 			)}
+		</SelectListStyled>
+	)	
 }
 
 MultiselectList.propTypes = {
 	items: PropTypes.oneOfType([PropTypes.array]).isRequired,
+	selectedIndices: PropTypes.arrayOf(PropTypes.number).isRequired,
 	placeholder: PropTypes.string.isRequired,
 	isOpen: PropTypes.bool.isRequired,
-	width: PropTypes.string.isRequired,
-	height: PropTypes.string.isRequired,
 	onSelect: PropTypes.func.isRequired,
-	themeElement: PropTypes.string.isRequired,
+	onDeselect: PropTypes.func.isRequired,
 }
 
 export default MultiselectList

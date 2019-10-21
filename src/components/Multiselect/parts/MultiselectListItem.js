@@ -1,8 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import { themeGet } from '../../../themes'
+import styles from '../../../styles'
 import Icon from '../../Icon'
-import styles from '../../../themes'
+
+const nowrapStyles = css`
+	${styles.nowrap({ nowrap: true })};
+`
 
 const MultiselectListItemStyled = styled.div`
 	cursor: pointer;
@@ -11,55 +16,47 @@ const MultiselectListItemStyled = styled.div`
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
+	color: inherit;
+	padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
 
 	&:hover {
-		${styles.bgColor}
+		background-color: ${themeGet.colorTint('primary', .8, '#000000')};
 	}
 
-	${(props) => props.$selected && styles.bgColor}
+	background-color: ${props => props.selected && themeGet.colorTint('black', .97, '#000000')};
 `
 
 const MultiselectListItemTitleStyled = styled.span`
-	${styles.margin}
-	${styles.noWrap}
+	${nowrapStyles};
 `
 
 const MultiselectListItem = (props) => {
 	const {
 		item,
-		themeElement,
+		selected,
 		...rest
 	} = props
 
 	return (
 		<MultiselectListItemStyled
-			$element={themeElement}
-			$bgColor="listItemBackground"
-			$margin="none"
-			$selected={item.selected}
+			selected={selected}
 			{...rest}
 		>
-			<MultiselectListItemTitleStyled
-				$element={themeElement}
-				$margin={{ left: 1 }}
-			>
-				{item.title}
+			<MultiselectListItemTitleStyled>
+				{item}
 			</MultiselectListItemTitleStyled>
 			<Icon
 				type="check-mark"
-				color="listPlaceholder"
-				$element={themeElement}
-				$margin={{ left: 2, right: 1 }}
-				css={{ visibility: item.selected ? 'visible' : 'hidden' }}
-				themeElement={themeElement}
+				color={themeGet.colorText('white', 0.85)(props)}
+				css={{ visibility: selected ? 'visible' : 'hidden' }}
 			/>
 		</MultiselectListItemStyled>
 	)
 }
 
 MultiselectListItem.propTypes = {
-	item: PropTypes.oneOfType([PropTypes.object]).isRequired,
-	themeElement: PropTypes.string.isRequired,
+	item: PropTypes.node.isRequired,
+	selected: PropTypes.bool.isRequired,
 }
 
 export default MultiselectListItem
