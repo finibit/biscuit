@@ -9,7 +9,8 @@ const Wrapper = (storyFn) => (
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center'
-  }}>
+  }}
+  >
     <Theme>{storyFn()}</Theme>
   </div>
 )

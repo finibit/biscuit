@@ -2,15 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const TableFooter = (props) => (
-	<tfoot {...props} />
+  <tfoot {...props} />
 )
 
 TableFooter.propTypes = {
-	children: PropTypes.node,
+  children: PropTypes.node
 }
 
 TableFooter.defaultProps = {
-	children: null,
+  children: null
 }
 
 export default TableFooter

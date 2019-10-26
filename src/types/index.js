@@ -5,17 +5,17 @@ import PropTypes, {
   array,
   object,
   oneOf,
-  oneOfType,
+  oneOfType
 } from 'prop-types'
 
 import propTypes from '@styled-system/prop-types'
 
 const childrenType = {
-  children: node,
+  children: node
 }
 
 const disabledType = {
-  disabled: bool,
+  disabled: bool
 }
 
 const textAlignType = {
@@ -23,8 +23,8 @@ const textAlignType = {
     'left',
     'center',
     'right',
-    'justify',
-  ]),
+    'justify'
+  ])
 }
 
 const textTransformType = {
@@ -33,8 +33,8 @@ const textTransformType = {
     'uppercase',
     'lowercase',
     'capitalize',
-    'full-width',
-  ]),
+    'full-width'
+  ])
 }
 
 const textDecorationType = {
@@ -44,12 +44,12 @@ const textDecorationType = {
     'overline',
     'line-through',
     'underline overline',
-    'overline underline',
-  ]),
+    'overline underline'
+  ])
 }
 
 const nowrapType = {
-  nowrap: bool,
+  nowrap: bool
 }
 
 const objectFitType = {
@@ -58,53 +58,53 @@ const objectFitType = {
     'contain',
     'cover',
     'none',
-    'scale-down',
-  ]),
+    'scale-down'
+  ])
 }
 
 const themeType = {
-  theme: object,
+  theme: object
 }
 
 const cssType = {
   css: oneOfType([
     string,
     object,
-    array,
-  ]),
+    array
+  ])
 }
 
 const types = {
   ...PropTypes,
   ...propTypes,
   children: {
-    ...childrenType,
+    ...childrenType
   },
   base: {
     children: node,
-    as: string,
+    as: string
   },
   text: {
     ...textAlignType,
     ...textTransformType,
     ...textDecorationType,
-    ...nowrapType,
+    ...nowrapType
   },
   nowrap: {
-    ...nowrapType,
+    ...nowrapType
   },
   disabled: {
-    ...disabledType,
+    ...disabledType
   },
   objectFit: {
-    ...objectFitType,
+    ...objectFitType
   },
   css: {
-    ...cssType,
+    ...cssType
   },
   theme: {
-    ...themeType,
-  },
+    ...themeType
+  }
 }
 
 export default types

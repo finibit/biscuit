@@ -8,7 +8,7 @@ exports[`Title align 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   text-align: left;
   color: #1e272e;
   text-transform: none;
@@ -23,7 +23,7 @@ exports[`Title align 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   text-align: right;
   color: #1e272e;
   text-transform: none;
@@ -38,7 +38,7 @@ exports[`Title align 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   text-align: center;
   color: #1e272e;
   text-transform: none;
@@ -50,19 +50,16 @@ exports[`Title align 1`] = `
   <h1
     className="c0"
     color="black"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c1"
     color="black"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c2"
     color="black"
-    size={1}
     textDecoration="none"
   />
 </div>
@@ -76,7 +73,7 @@ exports[`Title nowrap 1`] = `
   font-size: 1.728em;
   line-height: 1.5em;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -91,7 +88,6 @@ exports[`Title nowrap 1`] = `
   <h1
     className="c0"
     color="black"
-    size={3}
     textDecoration="none"
   />
 </div>
@@ -105,7 +101,7 @@ exports[`Title transform 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   text-transform: uppercase;
   color: #1e272e;
   text-align: left;
@@ -120,7 +116,7 @@ exports[`Title transform 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   text-transform: lowercase;
   color: #1e272e;
   text-align: left;
@@ -135,7 +131,7 @@ exports[`Title transform 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   text-transform: capitalize;
   color: #1e272e;
   text-align: left;
@@ -150,7 +146,7 @@ exports[`Title transform 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   text-transform: full-width;
   color: #1e272e;
   text-align: left;
@@ -162,25 +158,21 @@ exports[`Title transform 1`] = `
   <h1
     className="c0"
     color="black"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c1"
     color="black"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c2"
     color="black"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c3"
     color="black"
-    size={1}
     textDecoration="none"
   />
 </div>
@@ -194,7 +186,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -209,7 +201,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #ffffff;
   text-align: left;
   text-transform: none;
@@ -224,7 +216,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #f1f2f6;
   text-align: left;
   text-transform: none;
@@ -239,7 +231,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #ffdd59;
   text-align: left;
   text-transform: none;
@@ -254,7 +246,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #0fbcf9;
   text-align: left;
   text-transform: none;
@@ -269,7 +261,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #ff3f34;
   text-align: left;
   text-transform: none;
@@ -284,7 +276,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #05c46b;
   text-align: left;
   text-transform: none;
@@ -299,7 +291,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #ffa801;
   text-align: left;
   text-transform: none;
@@ -314,7 +306,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #001122;
   text-align: left;
   text-transform: none;
@@ -329,7 +321,7 @@ exports[`Title with color 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: cyan;
   text-align: left;
   text-transform: none;
@@ -341,61 +333,51 @@ exports[`Title with color 1`] = `
   <h1
     className="c0"
     color="black"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c1"
     color="white"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c2"
     color="light"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c3"
     color="primary"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c4"
     color="info"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c5"
     color="danger"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c6"
     color="success"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c7"
     color="warning"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c8"
     color="#001122"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c9"
     color="cyan"
-    size={1}
     textDecoration="none"
   />
 </div>
@@ -409,7 +391,7 @@ exports[`Title with decoration 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   -webkit-text-decoration: overline;
   text-decoration: overline;
   color: #1e272e;
@@ -424,7 +406,7 @@ exports[`Title with decoration 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   -webkit-text-decoration: underline;
   text-decoration: underline;
   color: #1e272e;
@@ -439,7 +421,7 @@ exports[`Title with decoration 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   -webkit-text-decoration: line-through;
   text-decoration: line-through;
   color: #1e272e;
@@ -451,25 +433,22 @@ exports[`Title with decoration 1`] = `
   <h1
     className="c0"
     color="black"
-    size={1}
     textDecoration="overline"
   />
   <h1
     className="c1"
     color="black"
-    size={1}
     textDecoration="underline"
   />
   <h1
     className="c2"
     color="black"
-    size={1}
     textDecoration="line-through"
   />
 </div>
 `;
 
-exports[`Title with size 1`] = `
+exports[`Title with level 1`] = `
 .c0 {
   box-sizing: border-box;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -477,7 +456,7 @@ exports[`Title with size 1`] = `
   font-size: 2.488em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -492,7 +471,7 @@ exports[`Title with size 1`] = `
   font-size: 2.074em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -507,7 +486,7 @@ exports[`Title with size 1`] = `
   font-size: 1.728em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -522,7 +501,7 @@ exports[`Title with size 1`] = `
   font-size: 1.44em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -537,7 +516,7 @@ exports[`Title with size 1`] = `
   font-size: 1.2em;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -552,7 +531,7 @@ exports[`Title with size 1`] = `
   font-size: 1rem;
   line-height: 1.125;
   padding: 0;
-  margin: 0 0 0.75rem;
+  margin: 0 0 16px;
   color: #1e272e;
   text-align: left;
   text-transform: none;
@@ -564,37 +543,31 @@ exports[`Title with size 1`] = `
   <h1
     className="c0"
     color="black"
-    size={1}
     textDecoration="none"
   />
   <h1
     className="c1"
     color="black"
-    size={2}
     textDecoration="none"
   />
   <h1
     className="c2"
     color="black"
-    size={3}
     textDecoration="none"
   />
   <h1
     className="c3"
     color="black"
-    size={4}
     textDecoration="none"
   />
   <h1
     className="c4"
     color="black"
-    size={5}
     textDecoration="none"
   />
   <h1
     className="c5"
     color="black"
-    size={6}
     textDecoration="none"
   />
 </div>

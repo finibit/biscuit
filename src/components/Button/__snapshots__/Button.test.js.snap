@@ -9,7 +9,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #8f9397;
   border: none;
@@ -17,7 +17,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c0::-moz-focus-inner {
@@ -36,7 +36,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #8f9397;
   background-color: #ffffff;
   border: none;
@@ -44,7 +44,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c1::-moz-focus-inner {
@@ -63,7 +63,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #8f9397;
   background-color: #f8f9fb;
   border: none;
@@ -71,7 +71,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c2::-moz-focus-inner {
@@ -90,7 +90,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #8f9397;
   background-color: #ffeeac;
   border: none;
@@ -98,7 +98,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c3::-moz-focus-inner {
@@ -117,7 +117,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #87defc;
   border: none;
@@ -125,7 +125,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c4::-moz-focus-inner {
@@ -144,7 +144,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #ff9f9a;
   border: none;
@@ -152,7 +152,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c5::-moz-focus-inner {
@@ -171,7 +171,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #82e2b5;
   border: none;
@@ -179,7 +179,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c6::-moz-focus-inner {
@@ -198,7 +198,7 @@ exports[`Button disabled 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #ffd480;
   border: none;
@@ -206,7 +206,7 @@ exports[`Button disabled 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c7::-moz-focus-inner {
@@ -270,7 +270,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #1e272e;
   border: none;
@@ -278,7 +278,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c0:hover {
@@ -306,7 +306,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffffff;
   border: none;
@@ -314,7 +314,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c1:hover {
@@ -342,7 +342,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #f1f2f6;
   border: none;
@@ -350,7 +350,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c2:hover {
@@ -378,7 +378,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -386,7 +386,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c3:hover {
@@ -414,7 +414,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #0fbcf9;
   border: none;
@@ -422,7 +422,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c4:hover {
@@ -450,7 +450,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #ff3f34;
   border: none;
@@ -458,7 +458,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c5:hover {
@@ -486,7 +486,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #05c46b;
   border: none;
@@ -494,7 +494,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c6:hover {
@@ -522,7 +522,7 @@ exports[`Button with color 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #ffa801;
   border: none;
@@ -530,7 +530,7 @@ exports[`Button with color 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
 }
 
 .c7:hover {
@@ -595,7 +595,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -603,8 +603,8 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
-  margin: 0.375rem;
+  padding: 8px 16px;
+  margin: 8px;
 }
 
 .c0:hover {
@@ -632,7 +632,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -640,7 +640,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin: 32px;
 }
 
@@ -669,7 +669,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -677,7 +677,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin: 5%;
 }
 
@@ -706,7 +706,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -714,8 +714,8 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
-  margin-top: 0.375rem;
+  padding: 8px 16px;
+  margin-top: 8px;
 }
 
 .c3:hover {
@@ -743,7 +743,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -751,7 +751,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-top: 32px;
 }
 
@@ -780,7 +780,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -788,7 +788,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-top: 5%;
 }
 
@@ -817,7 +817,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -825,8 +825,8 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
-  margin-left: 0.375rem;
+  padding: 8px 16px;
+  margin-left: 8px;
 }
 
 .c6:hover {
@@ -854,7 +854,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -862,7 +862,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-left: 32px;
 }
 
@@ -891,7 +891,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -899,7 +899,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-left: 5%;
 }
 
@@ -928,7 +928,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -936,8 +936,8 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
-  margin-bottom: 0.375rem;
+  padding: 8px 16px;
+  margin-bottom: 8px;
 }
 
 .c9:hover {
@@ -965,7 +965,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -973,7 +973,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-bottom: 32px;
 }
 
@@ -1002,7 +1002,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -1010,7 +1010,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-bottom: 5%;
 }
 
@@ -1039,7 +1039,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -1047,8 +1047,8 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
-  margin-right: 0.375rem;
+  padding: 8px 16px;
+  margin-right: 8px;
 }
 
 .c12:hover {
@@ -1076,7 +1076,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -1084,7 +1084,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-right: 32px;
 }
 
@@ -1113,7 +1113,7 @@ exports[`Button with margin 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #1e272e;
   background-color: #ffdd59;
   border: none;
@@ -1121,7 +1121,7 @@ exports[`Button with margin 1`] = `
   box-shadow: none;
   text-align: center;
   vertical-align: middle;
-  padding: .375em .75em;
+  padding: 8px 16px;
   margin-right: 5%;
 }
 

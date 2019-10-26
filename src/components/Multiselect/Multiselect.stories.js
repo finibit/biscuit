@@ -36,7 +36,7 @@ storiesOf('Multiselect', module)
       items={[
         'Apples',
         'Bananas',
-        'Oranges',
+        'Oranges'
       ]}
     />
   ))

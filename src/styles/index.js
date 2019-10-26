@@ -1,5 +1,4 @@
 import { css } from 'styled-components'
-import themeGet from '@styled-system/theme-get'
 
 import {
   system,
@@ -15,24 +14,23 @@ import {
   typography,
   border,
   shadow,
-  background,
+  background
 } from 'styled-system'
 
-
 const textAlignStyles = system({
-  textAlign: true,
+  textAlign: true
 })
 
 const textDecorationStyles = system({
-  textDecoration: true,
+  textDecoration: true
 })
 
 const textTransformStyles = system({
-  textTransform: true,
+  textTransform: true
 })
 
 const objectFitStyles = system({
-  objectFit: true,
+  objectFit: true
 })
 
 const nowrapStyles = css`
@@ -58,7 +56,7 @@ const styles = {
   background: background,
   objectFit: objectFitStyles,
   size: size,
-  css: props => props.css,
+  css: props => props.css
 }
 
 export default styles

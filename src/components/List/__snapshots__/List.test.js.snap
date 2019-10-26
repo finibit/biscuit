@@ -14,6 +14,7 @@ exports[`List empty 1`] = `
   border: 1px solid #D9DADD;
   border-radius: 4px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 1.5;
 }
 
 <div>
@@ -26,7 +27,7 @@ exports[`List empty 1`] = `
 exports[`List with items 1`] = `
 .c1 {
   margin: 0;
-  padding: .75em 1.25em;
+  padding: 8px 16px;
   border-left: none;
   border-top: none;
   border-right: none;
@@ -52,6 +53,7 @@ exports[`List with items 1`] = `
   border: 1px solid #D9DADD;
   border-radius: 4px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height: 1.5;
 }
 
 <div>

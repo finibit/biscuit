@@ -13,7 +13,7 @@ const SelectWithState = (props) => {
       isOpen={isOpen}
       onOpen={() => { setIsOpen(true) }}
       onClose={() => { setIsOpen(false) }}
-      onSelect={(event, item, index) => { setSelectedIndex(index)}}
+      onSelect={(event, item, index) => { setSelectedIndex(index) }}
       selectedIndex={selectedIndex}
       {...props}
     />
@@ -32,7 +32,7 @@ storiesOf('Select', module)
       items={[
         'Apples',
         'Bananas',
-        'Oranges',
+        'Oranges'
       ]}
     />
   ))

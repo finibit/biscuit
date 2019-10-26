@@ -8,59 +8,59 @@ import types from '../../types'
 import ListItem from './parts/ListItem'
 
 const ListStyled = styled.div`
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	color: ${themeGet.color('black')};
-	border: ${themeGet.border('light')};
-	border-radius: ${themeGet.borderRadius('md')};
-	font-family: ${themeGet.fontFamily('secondary')};
-	line-height: ${themeGet.lineHeight('lg')};
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  color: ${themeGet.color('black')};
+  border: ${themeGet.border('light')};
+  border-radius: ${themeGet.borderRadius('md')};
+  font-family: ${themeGet.fontFamily('secondary')};
+  line-height: ${themeGet.lineHeight('lg')};
 
-	${styles.compose(
-		styles.margin,
-	)};
+  ${styles.compose(
+    styles.margin
+  )};
 `
 
 const List = (props) => {
-	const {
-		items,
-		renderItem,
-		size,
-		...rest
-	} = props
+  const {
+    items,
+    renderItem,
+    size,
+    ...rest
+  } = props
 
-	return (
-		<ListStyled
-			{...rest}
-		>
-			{items.map(item => {
-				const elem = renderItem ? renderItem(item) : (
-					<ListItem>
-						{item}
-					</ListItem>
-				)
+  return (
+    <ListStyled
+      {...rest}
+    >
+      {items.map(item => {
+        const elem = renderItem ? renderItem(item) : (
+          <ListItem>
+            {item}
+          </ListItem>
+        )
 
-				if (elem.key != null) {
-					return elem
-				}
+        if (elem.key != null) {
+          return elem
+        }
 
-				return React.cloneElement(elem, { key: shortid() })
-			})}
-		</ListStyled>
-	)
+        return React.cloneElement(elem, { key: shortid() })
+      })}
+    </ListStyled>
+  )
 }
 
 List.Item = ListItem
 
 List.propTypes = {
-	items: PropTypes.any,
-	renderItem: PropTypes.func,
-	...types.margin,
+  items: PropTypes.any,
+  renderItem: PropTypes.func,
+  ...types.margin
 }
 
 List.defaultProps = {
-	items: [],
+  items: []
 }
 
 export default List

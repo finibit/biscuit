@@ -5,7 +5,7 @@ const useOutsideClick = (ref, callback) => {
     if (!ref.current || ref.current.contains(e.target)) {
       return
     }
-    
+
     callback()
   }
 

@@ -24,62 +24,62 @@ storiesOf('Popover', module)
   .add('with placement', () => (
     <>
       <PopoverStateful
-        placement="top-left"
+        placement='top-left'
         trigger={<Text mr={3}>Top left</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="top"
+        placement='top'
         trigger={<Text mr={3}>Top</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="top-right"
+        placement='top-right'
         trigger={<Text mr={3}>Top right</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="right-top"
+        placement='right-top'
         trigger={<Text mr={3}>Right top</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="right"
+        placement='right'
         trigger={<Text mr={3}>Right</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="right-bottom"
+        placement='right-bottom'
         trigger={<Text mr={3}>Right bottom</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="bottom-right"
+        placement='bottom-right'
         trigger={<Text mr={3}>Bottom right</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="bottom"
+        placement='bottom'
         trigger={<Text mr={3}>Bottom</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="bottom-left"
+        placement='bottom-left'
         trigger={<Text mr={3}>Bottom left</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="left-bottom"
+        placement='left-bottom'
         trigger={<Text mr={3}>Left bottom</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="left"
+        placement='left'
         trigger={<Text mr={3}>Left</Text>}
         content={content}
       />
       <PopoverStateful
-        placement="left-top"
+        placement='left-top'
         trigger={<Text mr={3}>Left top</Text>}
         content={content}
       />
