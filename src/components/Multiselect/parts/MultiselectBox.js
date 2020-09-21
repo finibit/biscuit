@@ -40,12 +40,14 @@ const MultiselectBoxStyled = styled.div`
 `
 
 const PlaceholderStyled = styled.span`
+	margin-top: .3em;
   box-sizing: border-box;
   color: ${themeGet.colorText('white', 0.7)};
   ${nowrapStyles};
 `
 
 const SelectedItemStyled = styled.span`
+	margin-top: .3em;
   box-sizing: border-box;
   color: ${themeGet.colorText('white')};
   ${nowrapStyles};

@@ -27,6 +27,7 @@ const MultiselectListItemStyled = styled.div`
 `
 
 const MultiselectListItemTitleStyled = styled.span`
+	margin-top: .3em;
   ${nowrapStyles};
 `
 

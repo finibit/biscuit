@@ -41,6 +41,7 @@ const PlaceholderStyled = styled.div`
   box-sizing: border-box;
   color: ${themeGet.colorText('white', 0.7)};
   text-align: center;
+  margin-top: .3em;
   padding: ${props => themeGet.padding(1)} ${props => themeGet.padding(2)};
   ${nowrapStyles};
 `
