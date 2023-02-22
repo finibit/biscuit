@@ -2,7 +2,7 @@
   "name": "@finibit/biscuit",
   "version": "0.2.3",
   "description": "A library of themeable and responsive UI components for React.",
-  "main": "lib/index.js",
+  "main": "lib/biscuit.js",
   "scripts": {
     "test": "jest",
     "build": "webpack --mode=production",
