@@ -27,33 +27,33 @@
   },
   "homepage": "https://github.com/finibit/biscuit#readme",
   "peerDependencies": {
-    "react": "^16.8.3",
-    "prop-types": "^15.7.2",
-    "styled-components": "^4.1.3"
+    "react": "^16.14.0",
+    "prop-types": "^15.8.1",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.3.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "@tulipjs/eslint-config": "^1.1.1",
-    "babel-loader": "^8.0.1",
+    "babel-loader": "^8.3.0",
     "clean-webpack-plugin": "^1.0.1",
-    "jest": "^24.1.0",
-    "jest-styled-components": "^6.3.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-styleguidist": "^9.0.2",
-    "react-test-renderer": "^16.8.3",
-    "styled-components": "^4.1.3",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.4",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-styleguidist": "^9.2.0",
+    "react-test-renderer": "^16.14.0",
+    "styled-components": "^4.4.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "check-types": "^8.0.1",
-    "deepmerge": "^3.1.0",
-    "polished": "^3.0.3",
-    "shortid": "^2.2.14"
+    "check-types": "^8.0.3",
+    "deepmerge": "^3.3.0",
+    "polished": "^3.7.2",
+    "shortid": "^2.2.16"
   }
 }

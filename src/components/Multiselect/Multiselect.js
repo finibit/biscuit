@@ -18,7 +18,7 @@ const MultiselectStyled = styled.div`
 
 /** Multiple options select box. */
 class Multiselect extends React.PureComponent {
-	componentWillMount() {
+	UNSAFE_componentWillMount() {
 		window.addEventListener('click', this.onClickOutside, false)
 	}
 

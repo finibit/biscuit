@@ -18,7 +18,7 @@ const SelectStyled = styled.div`
 
 /** Single option select box. */
 class Select extends React.PureComponent {
-	componentWillMount() {
+	UNSAFE_componentWillMount() {
 		window.addEventListener('click', this.onClickOutside, false)
 	}
 
