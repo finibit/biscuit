@@ -2,25 +2,25 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const TableRow = (props) => {
-	const {
-		children,
-		...rest
-	} = props
+  const {
+    children,
+    ...rest
+  } = props
 
-	return (
-		<tr {...rest}>
-			{children}
-		</tr>
-	)
+  return (
+    <tr {...rest}>
+      {children}
+    </tr>
+  )
 }
 
 TableRow.propTypes = {
-	/** Any number of renderable nodes. */
-	children: PropTypes.node,
+  /** Any number of renderable nodes. */
+  children: PropTypes.node
 }
 
 TableRow.defaultProps = {
-	children: null,
+  children: null
 }
 
 export default TableRow

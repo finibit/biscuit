@@ -4,56 +4,56 @@ import styled from 'styled-components'
 import styles from '../../themes'
 
 const TabsItemStyled = styled.div`
-	${styles.spacing};
-	box-sizing: border-box;
+  ${styles.spacing};
+  box-sizing: border-box;
 `
 
 const TabsItem = (props) => {
-	const {
-		title,
-		padding,
-		disabled,
-		hidden,
-		...rest
-	} = props
+  const {
+    title,
+    padding,
+    disabled,
+    hidden,
+    ...rest
+  } = props
 
-	return (
-		<TabsItemStyled
-			$element="Tabs"
-			$margin="none"
-			$padding={padding}
-			{...rest}
-		/>
-	)
+  return (
+    <TabsItemStyled
+      $element='Tabs'
+      $margin='none'
+      $padding={padding}
+      {...rest}
+    />
+  )
 }
 
 TabsItem.propTypes = {
-	/** Any number of renderable nodes. */
-	children: PropTypes.node,
+  /** Any number of renderable nodes. */
+  children: PropTypes.node,
 
-	/** The title of the tab. */
-	title: PropTypes.string.isRequired,
+  /** The title of the tab. */
+  title: PropTypes.string.isRequired,
 
-	/** Is this tab disabled? */
-	disabled: PropTypes.bool,
+  /** Is this tab disabled? */
+  disabled: PropTypes.bool,
 
-	/** Should the tab be hidden? */
-	hidden: PropTypes.bool,
+  /** Should the tab be hidden? */
+  hidden: PropTypes.bool,
 
-	/** The amount of padding around the tab content. */
-	padding: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
+  /** The amount of padding around the tab content. */
+  padding: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.array
+  ])
 }
 
 TabsItem.defaultProps = {
-	children: null,
-	disabled: false,
-	hidden: false,
-	padding: { horizontal: 'none', vertical: 2 },
+  children: null,
+  disabled: false,
+  hidden: false,
+  padding: { horizontal: 'none', vertical: 2 }
 }
 
 export default TabsItem

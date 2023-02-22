@@ -4,42 +4,42 @@ import styled from 'styled-components'
 import styles from '../../../themes'
 
 const ListItemStyled = styled.div`
-	${styles.padding}
-	${styles.border}
+  ${styles.padding}
+  ${styles.border}
 
-	margin: 0;
-	border-left: none;
-	border-top: none;
-	border-right: none;
+  margin: 0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
 
-	&:last-child {
-		border-bottom: none;
-	}
+  &:last-child {
+    border-bottom: none;
+  }
 `
 
 /** A single list item. */
 const ListItem = (props) => {
-	const {
-		themeElement,
-		...rest
-	} = props
+  const {
+    themeElement,
+    ...rest
+  } = props
 
-	return (
-		<ListItemStyled
-			$element={themeElement}
-			$padding={{ vertical: 1, horizontal: 3 }}
-			$border={0}
-			{...rest}
-		/>
-	)
+  return (
+    <ListItemStyled
+      $element={themeElement}
+      $padding={{ vertical: 1, horizontal: 3 }}
+      $border={0}
+      {...rest}
+    />
+  )
 }
 
 ListItem.propTypes = {
-	themeElement: PropTypes.string,
+  themeElement: PropTypes.string
 }
 
 ListItem.defaultProps = {
-	themeElement: 'List',
+  themeElement: 'List'
 }
 
 export default ListItem

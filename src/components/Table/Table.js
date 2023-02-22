@@ -10,81 +10,83 @@ import TableRow from './TableRow'
 import styles from '../../themes'
 
 const CaptionStyled = styled.caption`
-	${styles.fontFamily}
-	font-weight: normal;
-	text-align: left;
+  ${styles.fontFamily}
+  font-weight: normal;
+  text-align: left;
 `
 
 const TableStyled = styled.table`
-	${styles.margin}
+  ${styles.margin}
 
-	table-layout: fixed;
-	border-collapse: collapse;
-	border: none;
-	font-family: ${(props) => props.theme.fontFamily};
-	font-weight: normal;
-	width: ${(props) => props.$width};
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  font-family: ${(props) => props.theme.fontFamily};
+  font-weight: normal;
+  width: ${(props) => props.$width};
 
-	padding: 0;
+  padding: 0;
 
-	${(props) => props.$css}
+  ${(props) => props.$css}
 `
 
 /** A table of data. */
 const Table = (props) => {
-	const {
-		caption,
-		width,
-		margin,
-		css,
-		children,
-		...rest
-	} = props
+  const {
+    caption,
+    width,
+    margin,
+    css,
+    children,
+    ...rest
+  } = props
 
-	return (
-		<TableStyled
-			$element="Table"
-			$width={width}
-			$margin={margin}
-			$css={css}
-			{...rest}
-		>
-			{caption ? (
-				<CaptionStyled>{caption}</CaptionStyled>
-			) : null}
-			{children}
-		</TableStyled>
-	)
+  return (
+    <TableStyled
+      $element='Table'
+      $width={width}
+      $margin={margin}
+      $css={css}
+      {...rest}
+    >
+      {caption
+        ? (
+          <CaptionStyled>{caption}</CaptionStyled>
+          )
+        : null}
+      {children}
+    </TableStyled>
+  )
 }
 
 Table.propTypes = {
-	/** Any number of renderable nodes. */
-	children: PropTypes.node,
+  /** Any number of renderable nodes. */
+  children: PropTypes.node,
 
-	/** Description of the table. */
-	caption: PropTypes.string,
+  /** Description of the table. */
+  caption: PropTypes.string,
 
-	/** Fixed width of the table. */
-	width: PropTypes.string,
+  /** Fixed width of the table. */
+  width: PropTypes.string,
 
-	/** The amount of margin around the table. */
-	margin: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
+  /** The amount of margin around the table. */
+  margin: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.array
+  ]),
 
-	/** Custom styles passed to styled-components. */
-	css: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object]),
+  /** Custom styles passed to styled-components. */
+  css: PropTypes.oneOfType([PropTypes.string, PropTypes.array, PropTypes.object])
 }
 
 Table.defaultProps = {
-	children: null,
-	caption: '',
-	width: 'initial',
-	margin: 'none',
-	css: null,
+  children: null,
+  caption: '',
+  width: 'initial',
+  margin: 'none',
+  css: null
 }
 
 Table.Body = TableBody

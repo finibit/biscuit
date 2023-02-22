@@ -6,74 +6,74 @@ import styles from '../../themes'
 import ListItem from './parts/ListItem'
 
 const ListStyled = styled.div`
-	${styles.margin}
-	${styles.border}
+  ${styles.margin}
+  ${styles.border}
 
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-left-radius: ${(props) => props.theme.global.borders[0].radius};
-	border-bottom-right-radius: ${(props) => props.theme.global.borders[0].radius};
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
+  border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
+  border-bottom-left-radius: ${(props) => props.theme.global.borders[0].radius};
+  border-bottom-right-radius: ${(props) => props.theme.global.borders[0].radius};
 `
 
 /** A list of items. */
 const List = (props) => {
-	const {
-		items,
-		renderItem,
-		margin,
-		themeElement,
-		...rest
-	} = props
+  const {
+    items,
+    renderItem,
+    margin,
+    themeElement,
+    ...rest
+  } = props
 
-	return (
-		<ListStyled
-			$element={themeElement}
-			$margin={margin}
-			$border={0}
-			{...rest}
-		>
-			{items.map((item) => {
-				const elem = renderItem(item)
+  return (
+    <ListStyled
+      $element={themeElement}
+      $margin={margin}
+      $border={0}
+      {...rest}
+    >
+      {items.map((item) => {
+        const elem = renderItem(item)
 
-				if (elem.key != null) {
-					return elem
-				}
+        if (elem.key != null) {
+          return elem
+        }
 
-				return React.cloneElement(elem, { key: shortid() })
-			})}
-		</ListStyled>
-	)
+        return React.cloneElement(elem, { key: shortid() })
+      })}
+    </ListStyled>
+  )
 }
 
 List.propTypes = {
-	/** Array of items. */
-	items: PropTypes.arrayOf(PropTypes.any),
+  /** Array of items. */
+  items: PropTypes.arrayOf(PropTypes.any),
 
-	/** Item renderer. */
-	renderItem: PropTypes.func,
+  /** Item renderer. */
+  renderItem: PropTypes.func,
 
-	/** The amount of margin around the list. */
-	margin: PropTypes.oneOfType([
-		PropTypes.number,
-		PropTypes.string,
-		PropTypes.object,
-		PropTypes.array,
-	]),
+  /** The amount of margin around the list. */
+  margin: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string,
+    PropTypes.object,
+    PropTypes.array
+  ]),
 
-	/** Theme element. */
-	themeElement: PropTypes.string,
+  /** Theme element. */
+  themeElement: PropTypes.string
 }
 
 List.Item = ListItem
 
 List.defaultProps = {
-	items: [],
-	renderItem: (item) => (<List.Item>{item}</List.Item>),
-	margin: 'none',
-	themeElement: 'List',
+  items: [],
+  renderItem: (item) => (<List.Item>{item}</List.Item>),
+  margin: 'none',
+  themeElement: 'List'
 }
 
 export default List

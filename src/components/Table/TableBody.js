@@ -2,18 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const TableBody = (props) => (
-	<tbody props={props}>
-		{props.children}
-	</tbody>
+  <tbody props={props}>
+    {props.children}
+  </tbody>
 )
 
 TableBody.propTypes = {
-	/** Any number of renderable nodes. */
-	children: PropTypes.node,
+  /** Any number of renderable nodes. */
+  children: PropTypes.node
 }
 
 TableBody.defaultProps = {
-	children: null,
+  children: null
 }
 
 export default TableBody
