@@ -27,11 +27,13 @@ const PlaceholderStyled = styled.span`
   ${styles.margin}
   ${styles.color}
   ${styles.noWrap}
+  margin-top: 0.2rem;
 `
 
 const SelectedItemStyled = styled.span`
   ${styles.margin}
   ${styles.noWrap}
+  margin-top: 0.2rem;
 `
 
 const MultiselectBox = (props) => {
@@ -100,7 +102,7 @@ const MultiselectBox = (props) => {
       <Icon
         type={isOpen ? 'arrow-up' : 'arrow-down'}
         color='boxPlaceholder'
-        margin={{ left: 0, right: 1 }}
+        margin={{ left: 0, right: 1, top: '0.2' }}
         themeElement={themeElement}
       />
     </MultiselectBoxStyled>

@@ -27,11 +27,13 @@ const PlaceholderStyled = styled.span`
   ${styles.margin}
   ${styles.color}
   ${styles.noWrap}
+  margin-top: 0.2rem;
 `
 
 const SelectedItemStyled = styled.span`
   ${styles.margin}
   ${styles.noWrap}
+  margin-top: 0.2rem;
 `
 
 const SelectBox = (props) => {
