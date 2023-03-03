@@ -14,10 +14,10 @@ exports[`Button renders type 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c0:hover {
@@ -49,10 +49,10 @@ exports[`Button renders type 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c1:hover {
@@ -84,10 +84,10 @@ exports[`Button renders type 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c2:hover {
@@ -119,10 +119,10 @@ exports[`Button renders type 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c3:hover {
@@ -154,10 +154,10 @@ exports[`Button renders type 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c4:hover {
@@ -189,10 +189,10 @@ exports[`Button renders type 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c5:hover {
@@ -264,10 +264,10 @@ exports[`Button renders with css 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -301,10 +301,10 @@ exports[`Button renders with css 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
   -webkit-transition: all 2s;
   transition: all 2s;
 }
@@ -349,10 +349,10 @@ exports[`Button renders with margin 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c0:hover {
@@ -384,10 +384,10 @@ exports[`Button renders with margin 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c1:hover {
@@ -430,10 +430,10 @@ exports[`Button renders with padding 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c0:hover {
@@ -465,10 +465,10 @@ exports[`Button renders with padding 1`] = `
   font-weight: normal;
   display: inline-block;
   cursor: pointer;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 .c1:hover {

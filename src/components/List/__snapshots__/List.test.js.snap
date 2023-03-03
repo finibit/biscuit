@@ -4,8 +4,6 @@ exports[`List renders empty 1`] = `
 .c0 {
   margin: 0;
   border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
   padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -14,10 +12,10 @@ exports[`List renders empty 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 <div>
@@ -44,8 +42,6 @@ exports[`List renders items custom 1`] = `
 .c0 {
   margin: 0;
   border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
   padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -54,10 +50,10 @@ exports[`List renders items custom 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 <div>
@@ -100,8 +96,6 @@ exports[`List renders items default 1`] = `
 .c0 {
   margin: 0;
   border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
   padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -110,10 +104,10 @@ exports[`List renders items default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 <div>
@@ -143,8 +137,6 @@ exports[`List renders with custom margin 1`] = `
 .c0 {
   margin: 1.440rem;
   border: 1px solid #d8d8d8;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.2em;
   padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -153,10 +145,10 @@ exports[`List renders with custom margin 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-top-left-radius: 0.4018775720164609rem;
-  border-top-right-radius: 0.4018775720164609rem;
-  border-bottom-left-radius: 0.4018775720164609rem;
-  border-bottom-right-radius: 0.4018775720164609rem;
+  border-top-left-radius: 0.40187757201646096rem;
+  border-top-right-radius: 0.40187757201646096rem;
+  border-bottom-left-radius: 0.40187757201646096rem;
+  border-bottom-right-radius: 0.40187757201646096rem;
 }
 
 <div>
