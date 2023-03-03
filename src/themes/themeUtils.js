@@ -409,5 +409,7 @@ export const utils = {
 export default styles
 
 export const mergeTheme = (theme1, theme2) => (
-  merge(theme1, theme2)
+  merge(theme1, theme2, {
+    arrayMerge: (dst, src) => src
+  })
 )
