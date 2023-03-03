@@ -9,12 +9,15 @@ const borderStyles = css`
   border-top-right-radius: 0;
   border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
   border-bottom-right-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
-  border-top: none !important;
+
+  border-top: none;
+  border-left: 1px solid ${({ theme }) => theme.global.colors[4]};
+  border-right: 1px solid ${({ theme }) => theme.global.colors[4]};
+  border-bottom: 1px solid ${({ theme }) => theme.global.colors[4]};
 `
 
 const MultiselectListStyled = styled.div`
   ${styles.elevation}
-  ${styles.border}
   ${styles.bgColor}
   ${borderStyles}
   box-sizing: border-box;

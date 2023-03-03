@@ -12,8 +12,6 @@ const TabsStyled = styled.div`
 `
 
 const TabsNavStyled = styled.ul`
-  ${styles.border}
-
   margin: 0;
   padding: 0;
   width: 100%;
@@ -21,8 +19,9 @@ const TabsNavStyled = styled.ul`
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flext-start;
+  justify-content: flex-start;
   box-sizing: border-box;
+  border-bottom: 1px solid ${({ theme }) => theme.global.colors[4]};
 `
 
 const TabsNavItemStyled = styled.li`
@@ -33,21 +32,22 @@ const TabsNavItemStyled = styled.li`
 `
 
 const inactiveStyles = css`
-  ${styles.border}
-
   &:hover, &:active {
-    background-color: ${(props) => utils.resolveColor(props.theme, props.$element, 'hoverTabBg')};
-    border-bottom: 1px solid ${(props) => utils.resolveColor(props.theme, props.$element, 'activeTabBorder')};
+    color: ${({ theme }) => theme.global.colors[2]};
+    background-color: ${({ theme }) => theme.global.colors[3]};
+    border-bottom: 1px solid ${({ theme }) => theme.global.colors[3]};
   }
 `
 
 const activeStyles = css`
-  ${styles.border}
   cursor: default;
+  border-top: 1px solid ${({ theme }) => theme.global.colors[4]};
+  border-left: 1px solid ${({ theme }) => theme.global.colors[4]};
+  border-bottom: 1px solid ${({ theme }) => theme.global.colors[1]};
+  border-right: 1px solid ${({ theme }) => theme.global.colors[4]};
 `
 
 const disabledStyles = css`
-  ${styles.border}
   color: ${(props) => utils.resolveColor(props.theme, props.$element, 'disabledTabTitle')} !important;
   cursor: default;
 `
@@ -60,7 +60,7 @@ const TabsButtonStyled = styled.a`
   border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
   border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
 
-  color: ${(props) => props.theme.global.colors['dark-0']};
+  color: ${({ theme }) => theme.global.colors[0]};
   display: inline-block;
   cursor: pointer;
   font-size: 1rem;
@@ -96,25 +96,11 @@ const TabsButton = (props) => {
     ...rest
   } = props
 
-  const border = {}
-
-  if (active) {
-    border.top = 0
-    border.right = 0
-    border.bottom = 1
-    border.left = 0
-  } else if (!disabled) {
-    border.top = 1
-    border.right = 1
-    border.left = 1
-  }
-
   return (
     <TabsButtonStyled
       $element='Tabs'
       $active={active}
       $disabled={disabled}
-      $border={border}
       $padding={padding}
       {...rest}
       onClick={(event) => {

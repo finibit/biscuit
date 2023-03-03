@@ -5,6 +5,7 @@ import Icon from '../../Icon'
 import styles from '../../../themes'
 
 const borderStyles = css`
+  border: 1px solid ${({ theme }) => theme.global.colors[4]};
   border-top-left-radius: ${(props) => props.theme.global.borders[0].radius};
   border-top-right-radius: ${(props) => props.theme.global.borders[0].radius};
   border-bottom-left-radius: ${(props) => props.$isOpen ? '0' : props.theme.global.borders[0].radius};
@@ -12,8 +13,6 @@ const borderStyles = css`
 `
 
 const MultiselectBoxStyled = styled.div`
-  ${styles.border}
-  ${styles.bgColor}
   ${borderStyles}
   display: flex;
   flex-direction: row;
@@ -21,19 +20,21 @@ const MultiselectBoxStyled = styled.div`
   align-items: center;
   position: relative;
   cursor: default;
+  background-color: ${({ theme }) => theme.global.colors[1]};
 `
 
 const PlaceholderStyled = styled.span`
   ${styles.margin}
-  ${styles.color}
   ${styles.noWrap}
   margin-top: 0.2rem;
+  color: ${({ theme }) => theme.global.colors[0]};
 `
 
 const SelectedItemStyled = styled.span`
   ${styles.margin}
   ${styles.noWrap}
   margin-top: 0.2rem;
+  color: ${({ theme }) => theme.global.colors[0]};
 `
 
 const MultiselectBox = (props) => {
@@ -52,7 +53,6 @@ const MultiselectBox = (props) => {
   return (
     <MultiselectBoxStyled
       $element={themeElement}
-      $bgColor='boxBackground'
       $border={0}
       $width={width}
       $isOpen={isOpen}
@@ -69,7 +69,6 @@ const MultiselectBox = (props) => {
         ? (
           <PlaceholderStyled
             $element={themeElement}
-            $color='boxPlaceholder'
             $margin={{ left: 1 }}
           >
             {(display === 'selected-count')
@@ -101,9 +100,8 @@ const MultiselectBox = (props) => {
           )}
       <Icon
         type={isOpen ? 'arrow-up' : 'arrow-down'}
-        color='boxPlaceholder'
+        color={5}
         margin={{ left: 0, right: 1, top: '0.2' }}
-        themeElement={themeElement}
       />
     </MultiselectBoxStyled>
   )
